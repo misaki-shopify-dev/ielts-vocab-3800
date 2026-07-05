@@ -266,7 +266,11 @@ html {
 
 .select-wrapper {
   position: relative;
-  flex-grow: 1;
+  flex: 1;
+}
+
+.word-select-wrapper {
+  flex: 1.8;
 }
 
 .select-wrapper::after {

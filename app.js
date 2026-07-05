@@ -22,6 +22,7 @@ const flashcard = document.getElementById('flashcard');
 const searchInput = document.getElementById('search-input');
 const searchSuggestions = document.getElementById('search-suggestions');
 const levelFilter = document.getElementById('level-filter');
+const wordSelect = document.getElementById('word-select');
 const weakFilterBtn = document.getElementById('weak-filter-btn');
 const progressIndex = document.getElementById('current-index');
 const progressTotal = document.getElementById('total-count');
@@ -107,6 +108,7 @@ async function loadWordsFromSources() {
       cardWord.textContent = "Error loading words";
     }
   }
+  populateWordSelect();
 }
 
 // Initialization
@@ -186,6 +188,15 @@ function setupEventListeners() {
   });
   levelFilter.addEventListener('change', () => {
     applyFilters();
+  });
+  wordSelect.addEventListener('change', () => {
+    const val = wordSelect.value;
+    if (val) {
+      const targetWord = allWords.find(w => w.No.toString() === val.toString());
+      if (targetWord) {
+        jumpToWord(targetWord);
+      }
+    }
   });
   weakFilterBtn.addEventListener('click', () => {
     const isPressed = weakFilterBtn.getAttribute('aria-pressed') === 'true';
@@ -409,6 +420,9 @@ function displayCurrentWord() {
   const percentage = ((currentIndex + 1) / filteredWords.length) * 100;
   progressBar.style.width = `${percentage}%`;
   
+  // Update word select dropdown to match current word
+  wordSelect.value = wordData.No;
+
   updateActiveStates();
 }
 
@@ -721,4 +735,20 @@ function jumpToWord(word) {
       displayCurrentWord();
     }
   }
+}
+
+function populateWordSelect() {
+  if (!wordSelect) return;
+  
+  wordSelect.innerHTML = '<option value="">単語を選択してジャンプ...</option>';
+  
+  // Sort allWords by No to ensure they appear in order
+  const sortedWords = [...allWords].sort((a, b) => parseInt(a.No) - parseInt(b.No));
+  
+  sortedWords.forEach(word => {
+    const option = document.createElement('option');
+    option.value = word.No;
+    option.textContent = `No.${word.No} - ${word.Word}`;
+    wordSelect.appendChild(option);
+  });
 }
