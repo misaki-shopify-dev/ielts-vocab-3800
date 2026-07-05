@@ -527,6 +527,7 @@ function applyFilters() {
   }
   
   displayCurrentWord();
+  populateWordSelect(filteredWords);
 }
 
 function toggleShuffle() {
@@ -737,13 +738,14 @@ function jumpToWord(word) {
   }
 }
 
-function populateWordSelect() {
+function populateWordSelect(wordsToShow = allWords) {
   if (!wordSelect) return;
   
+  const currentVal = wordSelect.value;
   wordSelect.innerHTML = '<option value="">単語を選択してジャンプ...</option>';
   
-  // Sort allWords by No to ensure they appear in order
-  const sortedWords = [...allWords].sort((a, b) => parseInt(a.No) - parseInt(b.No));
+  // Sort by No to ensure they appear in order
+  const sortedWords = [...wordsToShow].sort((a, b) => parseInt(a.No) - parseInt(b.No));
   
   sortedWords.forEach(word => {
     const option = document.createElement('option');
@@ -751,4 +753,8 @@ function populateWordSelect() {
     option.textContent = `No.${word.No} - ${word.Word}`;
     wordSelect.appendChild(option);
   });
+  
+  if (currentVal && wordsToShow.some(w => w.No.toString() === currentVal.toString())) {
+    wordSelect.value = currentVal;
+  }
 }
