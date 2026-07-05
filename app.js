@@ -565,7 +565,9 @@ function shuffleArray(array) {
 // Web Speech Synthesis (TTS Audio)
 function speakWord() {
   if (filteredWords.length === 0) return;
-  const word = filteredWords[currentIndex].Word;
+  const wordData = filteredWords[currentIndex];
+  const word = wordData.Word;
+  const example = wordData.Example_EN;
   
   if (!window.speechSynthesis) {
     alert("Speech Synthesis is not supported in this browser.");
@@ -575,33 +577,57 @@ function speakWord() {
   // Cancel current speaking
   window.speechSynthesis.cancel();
   
-  const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = 'en-US';
+  const wordUtterance = new SpeechSynthesisUtterance(word);
+  wordUtterance.lang = 'en-US';
   
   // Load selected custom voice if configured
+  let selectedVoice = null;
   if (selectedVoiceName !== 'default') {
     const voices = window.speechSynthesis.getVoices();
-    const voice = voices.find(v => v.name === selectedVoiceName);
-    if (voice) utterance.voice = voice;
+    selectedVoice = voices.find(v => v.name === selectedVoiceName);
+    if (selectedVoice) wordUtterance.voice = selectedVoice;
   }
 
   // Visual wave animation toggle
-  utterance.onstart = () => {
+  wordUtterance.onstart = () => {
     ttsWave.classList.add('active');
     ttsBtn.classList.add('speaking');
   };
   
-  utterance.onend = () => {
+  if (example && example !== 'No English example sentence available.' && example !== 'Please wait while the vocabulary loads.') {
+    wordUtterance.onend = () => {
+      // Small pause before speaking the example
+      setTimeout(() => {
+        const exampleUtterance = new SpeechSynthesisUtterance(example);
+        exampleUtterance.lang = 'en-US';
+        if (selectedVoice) exampleUtterance.voice = selectedVoice;
+        
+        exampleUtterance.onend = () => {
+          ttsWave.classList.remove('active');
+          ttsBtn.classList.remove('speaking');
+        };
+        
+        exampleUtterance.onerror = () => {
+          ttsWave.classList.remove('active');
+          ttsBtn.classList.remove('speaking');
+        };
+        
+        window.speechSynthesis.speak(exampleUtterance);
+      }, 700);
+    };
+  } else {
+    wordUtterance.onend = () => {
+      ttsWave.classList.remove('active');
+      ttsBtn.classList.remove('speaking');
+    };
+  }
+
+  wordUtterance.onerror = () => {
     ttsWave.classList.remove('active');
     ttsBtn.classList.remove('speaking');
   };
 
-  utterance.onerror = () => {
-    ttsWave.classList.remove('active');
-    ttsBtn.classList.remove('speaking');
-  };
-
-  window.speechSynthesis.speak(utterance);
+  window.speechSynthesis.speak(wordUtterance);
 }
 
 // Audio Voices Loading
