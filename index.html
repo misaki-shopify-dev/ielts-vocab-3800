@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>IELTS Vocab 3800 - Personal Wordbook</title>
+  
+  <!-- SEO & Crawler Block -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Personal IELTS vocabulary learning application with Google Spreadsheet syncing.">
+  
+  <!-- PWA Settings -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0d0e15">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="IELTS Vocab">
+  <link rel="apple-touch-icon" href="icon.jpg">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+  <div class="bg-glow glow-3"></div>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-main">
+        <h1>IELTS <span class="text-gradient">Vocab 3800</span></h1>
+        <button id="settings-toggle-btn" class="icon-btn" aria-label="設定を開く">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+        </button>
+      </div>
+      
+      <!-- Filters bar -->
+      <div class="filters-container">
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="search-input" placeholder="英単語や意味を検索..." aria-label="検索">
+        </div>
+        
+        <div class="filter-controls">
+          <div class="select-wrapper">
+            <select id="level-filter" aria-label="レベル選択">
+              <option value="all">すべてのレベル</option>
+              <option value="基本単語">基本単語</option>
+              <option value="コア単語 レベル1">コア単語 レベル1</option>
+              <option value="コア単語 レベル2">コア単語 レベル2</option>
+              <option value="コア単語 レベル3">コア単語 レベル3</option>
+              <option value="コア単語 レベル4">コア単語 レベル4</option>
+              <option value="分野別単語">分野別単語</option>
+            </select>
+          </div>
+          
+          <button id="weak-filter-btn" class="toggle-btn" aria-pressed="false">
+            <svg class="star-icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            <span>苦手のみ</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="app-main">
+      <!-- Progress Indicator -->
+      <div class="progress-section">
+        <div class="progress-text">
+          <span id="current-index">0</span> / <span id="total-count">0</span>
+        </div>
+        <div class="progress-bar-container">
+          <div id="progress-bar" class="progress-bar"></div>
+        </div>
+      </div>
+
+      <!-- Card Scene -->
+      <div class="card-scene">
+        <div class="flashcard" id="flashcard" role="button" tabindex="0" aria-label="単語カード。タップして裏返します。">
+          <!-- Card Front -->
+          <div class="card-face card-front">
+            <div class="card-header-info">
+              <span class="word-no" id="card-no-front">0000</span>
+              <span class="word-badge" id="card-level-front">Basic</span>
+            </div>
+            
+            <div class="card-body">
+              <div class="word-display" id="card-word">Loading...</div>
+              <div class="pos-display" id="card-pos">---</div>
+              
+              <div class="example-box">
+                <div class="example-label">EXAMPLE</div>
+                <div class="example-text" id="card-example-en">Please wait while the vocabulary loads.</div>
+              </div>
+            </div>
+            
+            <div class="card-hint">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+              タップして意味を表示
+            </div>
+          </div>
+          
+          <!-- Card Back -->
+          <div class="card-face card-face-back card-back">
+            <div class="card-header-info">
+              <span class="word-no" id="card-no-back">0000</span>
+              <span class="word-badge" id="card-level-back">Basic</span>
+            </div>
+            
+            <div class="card-body">
+              <div class="meaning-display" id="card-meaning">読み込み中...</div>
+              
+              <div class="synonym-section" id="card-synonym-container">
+                <div class="synonym-label">SYNONYM</div>
+                <div class="synonym-text" id="card-synonym">---</div>
+              </div>
+              
+              <div class="example-box example-box-back">
+                <div class="example-label">JAPANESE</div>
+                <div class="example-text" id="card-example-ja">データを準備しています。</div>
+              </div>
+            </div>
+            
+            <div class="card-hint">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+              タップして単語を表示
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="controls-section">
+        <button id="prev-btn" class="action-btn circle-btn" aria-label="前の単語">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+
+        <button id="tts-btn" class="action-btn play-btn" aria-label="音声を読み上げ">
+          <div class="tts-wave" id="tts-wave">
+            <span></span><span></span><span></span>
+          </div>
+          <svg class="play-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+        </button>
+
+        <button id="weak-toggle-btn" class="action-btn star-btn" aria-label="苦手登録/解除">
+          <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+        </button>
+
+        <button id="shuffle-btn" class="action-btn shuffle-btn" aria-label="シャッフル切替">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 3 21 3 21 8"></polyline><line x1="4" y1="20" x2="21" y2="3"></line><polyline points="21 16 21 21 16 21"></polyline><line x1="15" y1="15" x2="21" y2="21"></line><line x1="4" y1="4" x2="9" y2="9"></line></svg>
+        </button>
+
+        <button id="next-btn" class="action-btn circle-btn" aria-label="次の単語">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+      </div>
+    </main>
+  </div>
+
+  <!-- Settings Overlay Modal -->
+  <div id="settings-modal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2>アプリ設定</h2>
+        <button id="settings-close-btn" class="close-btn" aria-label="設定を閉じる">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="settings-group">
+          <label for="gas-url-input">Google Apps Script Web App URL</label>
+          <input type="url" id="gas-url-input" placeholder="https://script.google.com/macros/s/.../exec" autocomplete="off">
+          <p class="settings-help">Googleスプレッドシート上のGASをデプロイしたWebアプリのURLを入力してください。苦手単語がリアルタイムで同期されます。</p>
+        </div>
+        
+        <div class="settings-group">
+          <label>同期ステータス</label>
+          <div class="status-indicator">
+            <span id="sync-status-dot" class="status-dot offline"></span>
+            <span id="sync-status-text">未接続（ローカル動作中）</span>
+          </div>
+        </div>
+
+        <div class="settings-group">
+          <label for="tts-voice-select">音声設定 (英語読み上げ)</label>
+          <div class="select-wrapper">
+            <select id="tts-voice-select" aria-label="音声選択">
+              <option value="default">ブラウザ標準音声</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="settings-group">
+          <label>PWA / ホーム画面追加</label>
+          <p class="settings-help">スマホのブラウザ設定（Safariは「ホーム画面に追加」、Chromeは「アプリをインストール」）からホーム画面に登録すると、フルスクリーンで起動しオフラインでも単語帳が使えます。</p>
+        </div>
+
+        <button id="save-settings-btn" class="primary-btn">設定を保存</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
