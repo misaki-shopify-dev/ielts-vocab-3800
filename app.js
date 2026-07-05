@@ -20,6 +20,7 @@ let touchEndX = 0;
 // DOM Elements
 const flashcard = document.getElementById('flashcard');
 const searchInput = document.getElementById('search-input');
+const searchSuggestions = document.getElementById('search-suggestions');
 const levelFilter = document.getElementById('level-filter');
 const weakFilterBtn = document.getElementById('weak-filter-btn');
 const progressIndex = document.getElementById('current-index');
@@ -178,6 +179,10 @@ function setupEventListeners() {
   // Filters inputs
   searchInput.addEventListener('input', () => {
     applyFilters();
+    updateSuggestions();
+  });
+  searchInput.addEventListener('focus', () => {
+    updateSuggestions();
   });
   levelFilter.addEventListener('change', () => {
     applyFilters();
@@ -186,6 +191,13 @@ function setupEventListeners() {
     const isPressed = weakFilterBtn.getAttribute('aria-pressed') === 'true';
     weakFilterBtn.setAttribute('aria-pressed', !isPressed ? 'true' : 'false');
     applyFilters();
+  });
+
+  // Close suggestions when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!searchInput.contains(e.target) && !searchSuggestions.contains(e.target)) {
+      searchSuggestions.classList.add('hidden');
+    }
   });
 
   // Settings Panel Actions
@@ -618,4 +630,95 @@ function saveSettings() {
   localStorage.setItem('ielts_selected_voice', selectedVoice);
   
   closeSettings();
+}
+
+// Search Suggestions & Direct Jump logic
+function updateSuggestions() {
+  const query = searchInput.value.toLowerCase().trim();
+  if (!query) {
+    searchSuggestions.innerHTML = '';
+    searchSuggestions.classList.add('hidden');
+    return;
+  }
+
+  // Filter suggestions from allWords (so we can find any word regardless of current filter)
+  const matches = allWords.filter(word => {
+    const matchWord = word.Word.toLowerCase().includes(query);
+    const matchMeaning = word.Meaning.toLowerCase().includes(query);
+    const matchNo = word.No && word.No.toString().includes(query);
+    return matchWord || matchMeaning || matchNo;
+  }).slice(0, 15);
+
+  if (matches.length === 0) {
+    searchSuggestions.innerHTML = '<div class="search-suggestion-item" style="cursor: default; color: var(--text-muted);">一致する単語がありません</div>';
+    searchSuggestions.classList.remove('hidden');
+    return;
+  }
+
+  searchSuggestions.innerHTML = '';
+  matches.forEach(word => {
+    const item = document.createElement('div');
+    item.className = 'search-suggestion-item';
+    
+    const wordSpan = document.createElement('span');
+    wordSpan.className = 'search-suggestion-word';
+    wordSpan.textContent = word.Word;
+
+    const meaningSpan = document.createElement('span');
+    meaningSpan.className = 'search-suggestion-meaning';
+    meaningSpan.textContent = word.Meaning;
+
+    const noSpan = document.createElement('span');
+    noSpan.className = 'search-suggestion-no';
+    noSpan.textContent = `No.${word.No}`;
+
+    item.appendChild(wordSpan);
+    item.appendChild(meaningSpan);
+    item.appendChild(noSpan);
+
+    item.addEventListener('click', (e) => {
+      e.stopPropagation();
+      jumpToWord(word);
+    });
+
+    searchSuggestions.appendChild(item);
+  });
+  searchSuggestions.classList.remove('hidden');
+}
+
+function jumpToWord(word) {
+  // Clear search input value
+  searchInput.value = '';
+  searchSuggestions.classList.add('hidden');
+  searchSuggestions.innerHTML = '';
+
+  // Check if this word is in the current filters (e.g. level, weak-only).
+  // If not, reset the filters to ensure the word will be visible.
+  let selectedLevel = levelFilter.value;
+  if (selectedLevel !== 'all' && word.Level !== selectedLevel) {
+    levelFilter.value = 'all';
+  }
+
+  const isWeakOnly = weakFilterBtn.getAttribute('aria-pressed') === 'true';
+  if (isWeakOnly && !weakWords.has(word.No)) {
+    weakFilterBtn.setAttribute('aria-pressed', 'false');
+  }
+
+  // Re-run applyFilters to rebuild filteredWords (since search input is now empty)
+  applyFilters();
+
+  // Find index in the newly filtered list
+  const targetIdx = filteredWords.findIndex(w => w.No === word.No);
+  if (targetIdx !== -1) {
+    if (isFlipped) {
+      toggleCardFlip();
+      setTimeout(() => {
+        currentIndex = targetIdx;
+        displayCurrentWord();
+      }, 200);
+    } else {
+      currentIndex = targetIdx;
+      displayCurrentWord();
+    }
+  }
 }
