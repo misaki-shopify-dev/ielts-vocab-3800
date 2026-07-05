@@ -142,6 +142,17 @@ window.addEventListener('DOMContentLoaded', async () => {
 
   // Initial Filter & Render
   applyFilters();
+  
+  // Restore last studied word position
+  const lastWordNo = localStorage.getItem('ielts_last_word_no');
+  if (lastWordNo) {
+    const lastIdx = filteredWords.findIndex(w => w.No.toString() === lastWordNo.toString());
+    if (lastIdx !== -1) {
+      currentIndex = lastIdx;
+      displayCurrentWord();
+    }
+  }
+  
   setupEventListeners();
 });
 
@@ -422,6 +433,9 @@ function displayCurrentWord() {
   
   // Update word select dropdown to match current word
   wordSelect.value = wordData.No;
+
+  // Save current word No to localStorage for resuming later
+  localStorage.setItem('ielts_last_word_no', wordData.No);
 
   updateActiveStates();
 }
