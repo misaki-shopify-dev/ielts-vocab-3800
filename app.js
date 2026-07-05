@@ -58,6 +58,12 @@ const syncStatusText = document.getElementById('sync-status-text');
 const ttsVoiceSelect = document.getElementById('tts-voice-select');
 const saveSettingsBtn = document.getElementById('save-settings-btn');
 
+// Lock Screen Elements
+const lockScreen = document.getElementById('lock-screen');
+const lockInput = document.getElementById('lock-input');
+const lockSubmitBtn = document.getElementById('lock-submit-btn');
+const lockErrorMsg = document.getElementById('lock-error-msg');
+
 // Load words master data from Google Sheet, LocalStorage Cache, or local JSON file
 async function loadWordsFromSources() {
   let wordsLoaded = false;
@@ -112,7 +118,7 @@ async function loadWordsFromSources() {
 }
 
 // Initialization
-window.addEventListener('DOMContentLoaded', async () => {
+window.addEventListener('DOMContentLoaded', () => {
   // Load local weak words cache first
   loadLocalWeakWords();
   
@@ -123,6 +129,54 @@ window.addEventListener('DOMContentLoaded', async () => {
       .catch((err) => console.log('Service Worker failed to register', err));
   }
 
+  checkLockState();
+});
+
+// Lock Screen Handling
+function checkLockState() {
+  const isUnlocked = localStorage.getItem('ielts_unlocked') === 'true';
+  if (isUnlocked) {
+    lockScreen.classList.add('hidden');
+    initApp();
+  } else {
+    lockScreen.classList.remove('hidden');
+    
+    // Set up lock screen event listeners
+    lockSubmitBtn.addEventListener('click', handleUnlock);
+    lockInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') handleUnlock();
+    });
+    
+    // Focus input
+    setTimeout(() => lockInput.focus(), 100);
+  }
+}
+
+async function handleUnlock() {
+  const password = lockInput.value;
+  if (!password) return;
+
+  const hash = await sha256(password);
+  // Hash of 'ielts3800'
+  const correctHash = '7717681831e758766b69bf3f496420546062bcca113e729b880b3a85a358aa6c';
+
+  if (hash === correctHash) {
+    localStorage.setItem('ielts_unlocked', 'true');
+    lockScreen.classList.add('hidden');
+    initApp();
+  } else {
+    // Show error with shake animation
+    lockErrorMsg.classList.remove('hidden');
+    const card = document.querySelector('.lock-card');
+    card.classList.remove('shake');
+    void card.offsetWidth; // Trigger reflow to restart animation
+    card.classList.add('shake');
+    lockInput.value = '';
+    lockInput.focus();
+  }
+}
+
+async function initApp() {
   // Load words master data from best source
   await loadWordsFromSources();
 
@@ -154,7 +208,16 @@ window.addEventListener('DOMContentLoaded', async () => {
   }
   
   setupEventListeners();
-});
+}
+
+// SHA-256 Hashing helper
+async function sha256(message) {
+  const msgBuffer = new TextEncoder().encode(message);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+  return hashHex;
+}
 
 // Event Listeners Configuration
 function setupEventListeners() {

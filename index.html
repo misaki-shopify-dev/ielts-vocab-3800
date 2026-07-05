@@ -213,6 +213,24 @@
     </div>
   </div>
 
+  <!-- Lock Screen Overlay -->
+  <div id="lock-screen" class="lock-overlay">
+    <div class="lock-card">
+      <div class="lock-header">
+        <div class="lock-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+        </div>
+        <h2>Passcode Required</h2>
+        <p>この単語帳は保護されています。パスワードを入力してください。</p>
+      </div>
+      <div class="lock-body">
+        <input type="password" id="lock-input" placeholder="パスワードを入力..." autocomplete="current-password">
+        <button id="lock-submit-btn" class="primary-btn">ロック解除</button>
+        <p id="lock-error-msg" class="error-text hidden">パスワードが違います</p>
+      </div>
+    </div>
+  </div>
+
   <!-- JS Logic -->
   <script src="app.js"></script>
 </body>
