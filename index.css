@@ -1039,3 +1039,88 @@ select {
   20%, 60% { transform: translateX(-8px); }
   40%, 80% { transform: translateX(8px); }
 }
+
+/* Release Notes Styles */
+.release-notes-body {
+  max-height: 55vh;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+/* Custom Scrollbar for Release Notes */
+.release-notes-body::-webkit-scrollbar {
+  width: 5px;
+}
+.release-notes-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+.release-notes-body::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+.release-notes-body::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.release-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 18px 0;
+}
+
+.release-item:first-child {
+  padding-top: 4px;
+}
+
+.release-item:last-child {
+  border-bottom: none;
+  padding-bottom: 4px;
+}
+
+.release-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.release-version {
+  font-family: var(--font-title);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.release-date {
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.release-details {
+  list-style: none;
+  padding-left: 0;
+}
+
+.release-details li {
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+.release-details li::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 8px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--secondary);
+}

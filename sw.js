@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ielts-vocab-v1';
+const CACHE_NAME = 'ielts-vocab-v2';
 const ASSETS = [
   './',
   './index.html',

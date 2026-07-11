@@ -58,6 +58,11 @@ const syncStatusText = document.getElementById('sync-status-text');
 const ttsVoiceSelect = document.getElementById('tts-voice-select');
 const saveSettingsBtn = document.getElementById('save-settings-btn');
 
+// Release Notes Elements
+const releaseNotesToggleBtn = document.getElementById('release-notes-toggle-btn');
+const releaseNotesModal = document.getElementById('release-notes-modal');
+const releaseNotesCloseBtn = document.getElementById('release-notes-close-btn');
+
 // Lock Screen Elements
 const lockScreen = document.getElementById('lock-screen');
 const lockInput = document.getElementById('lock-input');
@@ -293,6 +298,25 @@ function setupEventListeners() {
     if (e.target === settingsModal) closeSettings();
   });
   saveSettingsBtn.addEventListener('click', saveSettings);
+
+  // Release Notes Actions
+  if (releaseNotesToggleBtn) {
+    releaseNotesToggleBtn.addEventListener('click', () => {
+      releaseNotesModal.classList.remove('hidden');
+    });
+  }
+  if (releaseNotesCloseBtn) {
+    releaseNotesCloseBtn.addEventListener('click', () => {
+      releaseNotesModal.classList.add('hidden');
+    });
+  }
+  if (releaseNotesModal) {
+    releaseNotesModal.addEventListener('click', (e) => {
+      if (e.target === releaseNotesModal) {
+        releaseNotesModal.classList.add('hidden');
+      }
+    });
+  }
 
   // Keyboard navigation support
   document.addEventListener('keydown', (e) => {
