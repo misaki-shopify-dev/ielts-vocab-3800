@@ -130,7 +130,18 @@ window.addEventListener('DOMContentLoaded', () => {
   // Register Service Worker for offline use
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js')
-      .then(() => console.log('Service Worker Registered'))
+      .then((registration) => {
+        console.log('Service Worker Registered');
+        
+        // Listen for updates and automatically reload the page to apply the new assets
+        let refreshing = false;
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (!refreshing) {
+            refreshing = true;
+            window.location.reload();
+          }
+        });
+      })
       .catch((err) => console.log('Service Worker failed to register', err));
   }
 
