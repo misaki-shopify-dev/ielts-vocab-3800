@@ -194,11 +194,12 @@ async function initApp() {
     syncWithSpreadsheet();
   }
 
+  // Restore last studied word position (retrieve before applyFilters overwrites it)
+  const lastWordNo = localStorage.getItem('ielts_last_word_no');
+
   // Initial Filter & Render
   applyFilters();
   
-  // Restore last studied word position
-  const lastWordNo = localStorage.getItem('ielts_last_word_no');
   if (lastWordNo) {
     const lastIdx = filteredWords.findIndex(w => w.No.toString() === lastWordNo.toString());
     if (lastIdx !== -1) {
