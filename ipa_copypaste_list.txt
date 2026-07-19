@@ -1,0 +1,3801 @@
+Word	Phonetic
+last	/ˈɫæs/, /ˈɫæst/
+material	/məˈtɪɹiəɫ/
+form	/ˈfɔɹm/
+given	/ˈɡɪvən/, /ˈɡɪvɪn/
+individual	/ˌɪndəˈvɪdʒəwəɫ/
+available	/əˈveɪɫəbəɫ/
+land	/ˈɫænd/
+method	/ˈmɛθəd/
+factor	/ˈfæktɝ/
+benefit	/ˈbɛnəfɪt/
+per	/ˈpɝ/
+evidence	/ˈɛvədəns/
+ancient	/ˈeɪnʃənt/, /ˈeɪntʃənt/
+approach	/əˈpɹoʊtʃ/
+experiment	/ɪkˈspɛɹəmənt/
+feature	/ˈfitʃɝ/
+including	/ˌɪnˈkɫudɪŋ/
+current	/ˈkɑɹənt/, /ˈkɝənt/, /ˈkɝnt/
+huge	/ˈhjudʒ/, /ˈjudʒ/
+further	/ˈfɝðɝ/
+involve	/ˌɪnˈvɑɫv/
+organisation	/ˌɔɹɡənɪˈzeɪʃən/
+public	/ˈpəbɫɪk/
+advantage	/ædˈvæntɪdʒ/
+equipment	/ɪˈkwɪpmənt/
+sort	/ˈsɔɹt/
+demand	/dɪˈmænd/
+until	/ənˈtɪɫ/
+intelligence	/ˌɪnˈtɛɫədʒəns/
+aspect	/ˈæsˌpɛkt/
+exactly	/ɪɡˈzæktɫi/
+affect	/əˈfɛkt/
+rather	/ˈɹæðɝ/, /ˈɹəðɝ/
+term	/ˈtɝm/
+function	/ˈfəŋkʃən/
+measure	/ˈmɛʒɝ/
+ensure	/ɛnˈʃʊɹ/, /ɪnˈʃʊɹ/
+concern	/kənˈsɝn/
+plenty	/ˈpɫɛni/, /ˈpɫɛnti/
+addition	/əˈdɪʃən/
+contain	/kənˈteɪn/
+decade	/ˈdɛkeɪd/, /dɛˈkeɪd/
+present	/ˈpɹɛzənt/, /pɝˈzɛnt/, /pɹiˈzɛnt/
+advance	/ədˈvæns/
+complex	/ˈkɑmpɫɛks/, /kəmˈpɫɛks/
+useful	/ˈjusfəɫ/
+range	/ˈɹeɪndʒ/
+suggest	/səˈdʒɛst/
+due	/ˈdju/, /ˈdu/
+challenge	/ˈtʃæɫəndʒ/
+characteristic	/ˌkɛɹəktɝˈɪstɪk/
+suppose	/səˈpoʊz/
+suitable	/ˈsutəbəɫ/
+leading	/ˈɫidɪŋ/
+encourage	/ɛnˈkɝɪdʒ/, /ɪnˈkɝədʒ/
+aim	/ˈeɪm/
+claim	/ˈkɫeɪm/
+commercial	/kəˈmɝʃəɫ/
+concept	/ˈkɑnsɛpt/
+attempt	/əˈtɛmpt/
+accommodation	/əˌkɑməˈdeɪʃən/
+flat	/ˈfɫæt/
+article	/ˈɑɹtəkəɫ/, /ˈɑɹtɪkəɫ/
+native	/ˈneɪtɪv/
+achieve	/əˈtʃiv/
+aware	/əˈwɛɹ/
+decline	/dɪˈkɫaɪn/
+display	/dɪsˈpɫeɪ/
+reference	/ˈɹɛfɝəns/, /ˈɹɛfɹəns/
+tutorial	/tuˈtɔɹiəɫ/
+atmosphere	/ˈætməsˌfɪɹ/
+alternative	/ɔɫˈtɝnətɪv/
+effective	/ˈifɛktɪv/, /ɪˈfɛktɪv/
+application	/ˌæpɫəˈkeɪʃən/
+description	/dɪsˈkɹɪpʃən/
+occur	/əˈkɝ/
+board	/ˈbɔɹd/
+patient	/ˈpeɪʃənt/
+essential	/ɛˈsɛnʃəɫ/, /iˈsɛnʃəɫ/
+bilingual	/baɪˈɫɪŋɡwəɫ/
+operation	/ˌɑpɝˈeɪʃən/
+efficient	/ɪˈfɪʃənt/
+indicate	/ˈɪndəˌkeɪt/
+social	/ˈsoʊʃəɫ/
+instrument	/ˈɪnstɹəmənt/
+limit	/ˈɫɪmət/
+charge	/ˈtʃɑɹdʒ/
+existence	/ɛɡˈzɪstəns/, /ɪɡˈzɪstəns/
+institute	/ˈɪnstəˌtut/
+accurate	/ˈækjɝət/
+apply	/əˈpɫaɪ/
+increasingly	/ɪnˈkɹisɪŋɡɫi/, /ɪnˈkɹisɪŋɫi/
+landscape	/ˈɫænˌskeɪp/, /ˈɫændˌskeɪp/
+Arctic	/ˈɑɹktɪk/, /ˈɑɹtɪk/
+conflict	/ˈkɑnfɫɪkt/, /kənˈfɫɪkt/
+ancestor	/ˈænˌsɛstɝ/
+predator	/ˈpɹɛdətɝ/
+fuel	/ˈfjuəɫ/, /ˈfjuɫ/
+ideal	/aɪˈdiɫ/
+argue	/ˈɑɹɡju/
+origin	/ˈɔɹədʒən/
+quality	/ˈkwɑɫəti/
+entire	/ɪnˈtaɪɝ/
+standard	/ˈstændɝd/
+reserve	/ɹiˈzɝv/, /ɹɪˈzɝv/
+capital	/ˈkæpətəɫ/, /ˈkæpɪtəɫ/
+draw	/ˈdɹɔ/
+perform	/pɝˈfɔɹm/
+reduce	/ɹəˈdus/, /ɹiˈdus/, /ɹɪˈdus/
+enable	/ɛˈneɪbəɫ/, /ɪˈneɪbəɫ/
+definition	/ˌdɛfəˈnɪʃən/
+contribute	/kənˈtɹɪbjut/
+device	/dɪˈvaɪs/
+extent	/ɪkˈstɛnt/
+indeed	/ˌɪnˈdid/
+float	/ˈfɫoʊt/
+polar	/ˈpoʊɫɝ/
+timber	/ˈtɪmbɝ/
+appropriate	/əˈpɹoʊpɹiˌeɪt/, /əˈpɹoʊpɹiət/
+degree	/dɪˈɡɹi/
+arrange	/ɝˈeɪndʒ/
+feed	/ˈfid/
+similar	/ˈsɪməɫɝ/
+neighbouring	/ˈneɪbɝɪŋ/
+capacity	/kəˈpæsəti/, /kəˈpæsɪti/
+attend	/əˈtɛnd/
+throughout	/θɹuˈaʊt/
+overcome	/ˈoʊvɝˌkəm/
+extreme	/ɛkˈstɹim/
+surface	/ˈsɝfəs/
+tend	/ˈtɛnd/
+latest	/ˈɫeɪtəst/
+possibility	/ˌpɑsəˈbɪɫəˌti/
+definitely	/ˈdɛfənətɫi/
+store	/ˈstɔɹ/
+apart	/əˈpɑɹt/
+creative	/kɹiˈeɪtɪv/
+predict	/pɹiˈdɪkt/, /pɹɪˈdɪkt/
+hire	/ˈhaɪɝ/, /ˈhaɪɹ/
+annual	/ˈænjuəɫ/
+flow	/ˈfɫoʊ/
+region	/ˈɹidʒən/
+attract	/əˈtɹækt/
+manufacture	/ˌmænjəˈfæktʃɝ/
+maximum	/ˈmæksəməm/
+establish	/ɪˈstæbɫɪʃ/
+intensive	/ˌɪnˈtɛnsɪv/
+content	/ˈkɑntɛnt/, /kənˈtɛnt/
+recommend	/ˌɹɛkəˈmɛnd/
+gain	/ˈɡeɪn/
+diversity	/daɪˈvɝsɪti/, /dɪˈvɝsɪti/
+layer	/ˈɫeɪɝ/
+initial	/ˌɪˈnɪʃəɫ/
+critical	/ˈkɹɪtɪkəɫ/
+closely	/ˈkɫoʊsɫi/
+beside	/ˌbiˈsaɪd/, /bɪˈsaɪd/
+artificial	/ˌɑɹtəˈfɪʃəɫ/
+civilisation	/ˌsɪv.ɪ.laɪˈzeɪ.ʃən/
+marine	/mɝˈin/
+equal	/ˈikwəɫ/
+fundamental	/ˌfəndəˈmɛnəɫ/, /ˌfəndəˈmɛntəɫ/
+concentrate	/ˈkɑnsənˌtɹeɪt/
+conclusion	/kənˈkɫuʒən/
+insight	/ˈɪnˌsaɪt/
+operate	/ˈɑpɝˌeɪt/, /ˈɔpɝˌeɪt/
+monument	/ˈmɑnjəmənt/, /ˈmɑnjumənt/
+wisdom	/ˈwɪzdəm/
+worth	/ˈwɝθ/
+confidence	/ˈkɑnfədəns/
+require	/ˌɹiˈkwaɪɝ/, /ɹiˈkwaɪɹ/, /ɹɪˈkwaɪɝ/
+analyse	
+constant	/ˈkɑnstənt/
+phase	/ˈfeɪz/
+cope with	
+considerable	/kənˈsɪdɝəbəɫ/
+instruction	/ˌɪnˈstɹəkʃən/
+majority	/məˈdʒɔɹəti/
+scale	/ˈskeɪɫ/
+domestic	/dəˈmɛstɪk/
+height	/ˈhaɪt/
+corridor	/ˈkɔɹədɝ/, /ˈkɔɹɪdɝ/
+investigation	/ˌɪnˌvɛstəˈɡeɪʃən/
+demonstrate	/ˈdɛmənˌstɹeɪt/
+approximately	/əˈpɹɑksəmətɫi/
+identity	/aɪˈdɛntɪˌti/
+adapt	/əˈdæpt/
+complicated	/ˈkɑmpɫəˌkeɪtəd/
+notion	/ˈnoʊʃən/
+structure	/ˈstɹəktʃɝ/
+significant	/səɡˈnɪfɪkənt/, /sɪɡˈnɪfɪkənt/
+fee	/ˈfi/
+separate	/ˈsɛpɝˌeɪt/, /ˈsɛpɝɪt/, /ˈsɛpɹət/
+taste	/ˈteɪst/
+capable	/ˈkeɪpəbəɫ/
+pupil	/ˈpjupəɫ/
+resident	/ˈɹɛzɪdənt/
+household	/ˈhaʊsˌhoʊɫd/
+foundation	/faʊnˈdeɪʃən/
+abstract	/ˈæbˌstɹækt/, /æbˈstɹækt/
+altogether	/ˌɔɫtəˈɡɛðɝ/
+dozen	/ˈdəzən/
+outline	/ˈaʊtˌɫaɪn/
+appeal	/əˈpiɫ/
+independent	/ˌɪndɪˈpɛndənt/
+lift	/ˈɫɪft/
+impression	/ˌɪmˈpɹɛʃən/
+flexible	/ˈfɫɛksəbəɫ/
+formal	/ˈfɔɹməɫ/
+pedestrian	/pəˈdɛstɹiən/
+neither	/ˈnaɪðɝ/, /ˈniðɝ/
+extend	/ɪkˈstɛnd/
+capture	/ˈkæptʃɝ/
+edge	/ˈɛdʒ/
+arise	/ɝˈaɪz/
+hardly	/ˈhɑɹdɫi/
+proposal	/pɹəˈpoʊzəɫ/
+gradually	/ˈɡɹædʒuəɫi/, /ˈɡɹædʒuɫi/
+livestock	/ˈɫaɪvˌstɑk/
+predictable	/pɹiˈdɪktəbəɫ/, /pɹɪˈdɪktəbəɫ/
+context	/ˈkɑntɛkst/
+narrow	/ˈnæɹoʊ/, /ˈnɛɹoʊ/
+frequency	/ˈfɹikwənsi/
+combination	/ˌkɑmbəˈneɪʃən/
+assume	/əˈsum/
+contemporary	/kənˈtɛmpɝˌɛɹi/
+practical	/ˈpɹæktəkəɫ/, /ˈpɹæktɪkəɫ/
+phrase	/ˈfɹeɪz/
+medium	/ˈmidiəm/
+credit	/ˈkɹɛdət/, /ˈkɹɛdɪt/
+track	/ˈtɹæk/
+introduce	/ˌɪntɹəˈdus/, /ˌɪntɹoʊˈdus/
+occupation	/ˌɑkjəˈpeɪʃən/
+bronze	/ˈbɹɑnz/
+bay	/ˈbeɪ/
+lay	/ˈɫeɪ/
+pain	/ˈpeɪn/
+former	/ˈfɔɹmɝ/
+circumstance	/ˈsɝkəmˌstæns/
+observe	/əbˈzɝv/
+determine	/dəˈtɝmən/, /dɪˈtɝmən/
+desire	/dɪˈzaɪɝ/
+afford	/əˈfɔɹd/
+minimum	/ˈmɪnəməm/
+barrier	/ˈbæɹiɝ/, /ˈbɛɹiɝ/
+construct	/ˈkɑnstɹəkt/, /kənˈstɹəkt/
+organic	/ɔɹˈɡænɪk/
+institution	/ˌɪnstɪˈtuʃən/
+destruction	/dɪˈstɹəkʃən/
+frequent	/ˈfɹiˌkwɛnt/, /ˈfɹikwənt/
+committee	/kəˈmɪti/
+solution	/səˈɫuʃən/
+explore	/ɪksˈpɫɔɹ/
+mechanical	/məˈkænɪkəɫ/
+brochure	/bɹoʊˈʃʊɹ/
+forward	/ˈfɔɹwɝd/
+correct	/kɝˈɛkt/
+plain	/ˈpɫeɪn/
+potential	/pəˈtɛnʃəɫ/
+administration	/ædˌmɪnɪˈstɹeɪʃən/
+machinery	/məˈʃinɝi/, /məˈʃinɹi/
+voluntary	/ˈvɑɫəntɛɹi/
+theme	/ˈθim/
+setting	/ˈsɛtɪŋ/
+minor	/ˈmaɪnɝ/
+meanwhile	/ˈminˌwaɪɫ/
+inner	/ˈɪnɝ/
+agent	/ˈeɪdʒənt/
+missing	/ˈmɪsɪŋ/
+load	/ˈɫoʊd/
+appreciate	/əˈpɹiʃiˌeɪt/
+loud	/ˈɫaʊd/
+vessel	/ˈvɛsəɫ/
+authority	/əˈθɔɹəti/
+burst	/ˈbɝst/
+reasonable	/ˈɹizənəbəɫ/, /ˈɹiznəbəɫ/
+behave	/bɪˈheɪv/
+adopt	/əˈdɑpt/
+reception	/ɹiˈsɛpʃən/, /ɹɪˈsɛpʃən/
+stock	/ˈstɑk/
+diverse	/daɪˈvɝs/, /dɪˈvɝs/
+chief	/ˈtʃif/
+specific	/spəˈsɪfɪk/, /spɪˈsɪfɪk/
+spot	/ˈspɑt/
+extraordinary	/ˌɛkstɹəˈɔɹdəˌnɛɹi/, /ɪkˈstɹɔɹdəˌnɛɹi/
+semester	/səˈmɛstɝ/
+artistic	/ɑɹˈtɪstɪk/
+shore	/ˈʃɔɹ/
+prize	/ˈpɹaɪz/
+wonder	/ˈwəndɝ/
+tiny	/ˈtaɪni/
+ingredient	/ˌɪnˈɡɹidiənt/
+destination	/ˌdɛstəˈneɪʃən/, /ˌdɛstɪˈneɪʃən/
+guarantee	/ˌɡɛɹənˈti/
+rural	/ˈɹʊɹəɫ/
+refer	/ɹəˈfɝ/, /ɹɪˈfɝ/
+visual	/ˈvɪʒəwəɫ/
+delay	/dɪˈɫeɪ/
+wheel	/ˈhwiɫ/, /ˈwiɫ/
+outer	/ˈaʊtɝ/
+composition	/ˌkɑmpəˈzɪʃən/
+algorithm	/ˈæɫɡɝˌɪðəm/
+innovative	/ˈɪnəˌveɪtɪv/, /ˈɪnoʊˌveɪtɪv/
+deliver	/dɪˈɫɪvɝ/
+broad	/ˈbɹɔd/
+obtain	/əbˈteɪn/
+calculate	/ˈkæɫkjəˌɫeɪt/
+contract	/ˈkɑnˌtɹækt/, /kənˈtɹækt/
+differ	/ˈdɪfɝ/
+consistent	/kənˈsɪstənt/
+temporary	/ˈtɛmpɝˌɛɹi/
+harsh	/ˈhɑɹʃ/
+review	/ˌɹivˈju/
+column	/ˈkɑɫəm/
+realistic	/ˌɹiəˈɫɪstɪk/
+questionnaire	/ˌkwɛstʃəˈnɛɹ/
+eruption	/ˌiˈɹəpʃən/, /ˌɪˈɹəpʃən/
+specimen	/ˈspɛsəmən/
+contrast	/ˈkɑntɹæst/, /kənˈtɹæst/
+typical	/ˈtɪpəkəɫ/, /ˈtɪpɪkəɫ/
+distant	/ˈdɪstənt/
+export	/ˈɛkspɔɹt/
+expand	/ɪkˈspænd/
+shift	/ˈʃɪft/
+invest	/ˌɪnˈvɛst/
+proportion	/pɹəˈpɔɹʃən/
+exception	/ɪkˈsɛpʃən/
+perceive	/pɝˈsiv/
+enthusiasm	/ɪnˈθuziˌæzəm/
+apparent	/əˈpɛɹənt/
+assistance	/əˈsɪstəns/
+replace	/ˌɹiˈpɫeɪs/, /ɝˈpɫeɪs/
+disabled	/dɪˈseɪbəɫd/
+pack	/ˈpæk/
+back and forth	
+grammar	/ˈɡɹæmɝ/
+trash	/ˈtɹæʃ/
+atom	/ˈætəm/
+automobile	/ˈɔtəmoʊˌbiɫ/, /ˌɔtəmoʊˈbiɫ/
+classic	/ˈkɫæsɪk/
+theft	/ˈθɛft/
+warehouse	/ˈwɛɹˌhaʊs/
+upper	/ˈəpɝ/
+distinguish	/dɪˈstɪŋɡwɪʃ/
+absorb	/əbˈzɔɹb/
+flavour	
+blame	/ˈbɫeɪm/
+occasionally	/əˈkeɪʒənəɫi/, /əˈkeɪʒənɫi/, /əˈkeɪʒnəɫi/
+inspire	/ˌɪnˈspaɪɹ/
+emerge	/ˈimɝdʒ/, /ɪˈmɝdʒ/
+priority	/pɹaɪˈɔɹəti/
+breakthrough	/ˈbɹeɪkˌθɹu/
+gap	/ˈɡæp/
+instantly	/ˈɪnstəntɫi/
+associate	/əˈsoʊsiˌeɪt/, /əˈsoʊsiət/, /əˈsoʊʃiˌeɪt/, /əˈsoʊʃiət/
+density	/ˈdɛnsəti/, /ˈdɛnsɪti/
+acquire	/əˈkwaɪɝ/
+compete	/kəmˈpit/
+fame	/ˈfeɪm/
+deposit	/dəˈpɑzɪt/, /dɪˈpɑzət/
+raise	/ˈɹeɪz/
+unlike	/ənˈɫaɪk/
+mixture	/ˈmɪkstʃɝ/
+monitor	/ˈmɑnətɝ/
+brilliant	/ˈbɹɪɫjənt/
+freight	/ˈfɹeɪt/
+move	/ˈmuv/
+appearance	/əˈpɪɹəns/
+impressive	/ˌɪmˈpɹɛsɪv/
+massive	/ˈmæsɪv/
+spiral	/ˈspaɪɹəɫ/
+mostly	/ˈmoʊsɫi/, /ˈmoʊstɫi/
+convince	/kənˈvɪns/
+responsible	/ɹiˈspɑnsəbəɫ/
+blind	/ˈbɫaɪnd/
+intend	/ˌɪnˈtɛnd/
+occasion	/əˈkeɪʒən/
+participate	/pɑɹˈtɪsəˌpeɪt/
+locate	/ˈɫoʊˌkeɪt/
+obey	/oʊˈbeɪ/
+supply	/səˈpɫaɪ/
+import	/ˈɪmˌpɔɹt/, /ˌɪmˈpɔɹt/
+engage	/ɛnˈɡeɪdʒ/
+examine	/ɪɡˈzæmɪn/
+specialise	
+vehicle	/ˈvihɪkəɫ/, /ˈviɪkəɫ/
+aside	/əˈsaɪd/
+secure	/sɪkˈjʊɹ/
+stream	/ˈstɹim/
+abundant	/əˈbəndənt/
+therefore	/ˈðɛɹˌfɔɹ/
+fair	/ˈfɛɹ/
+handle	/ˈhændəɫ/
+migrate	/ˈmaɪˌɡɹeɪt/
+extensive	/ɪkˈstɛnsɪv/
+hospitality	/ˌhɑspəˈtæɫəti/
+military	/ˈmɪɫəˌtɛɹi/, /ˈmɪɫɪˌtɛɹi/
+partly	/ˈpɑɹtɫi/
+pole	/ˈpoʊɫ/
+scent	/ˈsɛnt/
+tendency	/ˈtɛndənsi/
+viewpoint	/ˈvjuˌpɔɪnt/
+supervisor	/ˈsupɝˌvaɪzɝ/
+thick	/ˈθɪk/
+courage	/ˈkɝədʒ/, /ˈkɝɪdʒ/
+divide	/dɪˈvaɪd/
+vision	/ˈvɪʒən/
+preserve	/pɹəˈzɝv/, /pɹiˈzɝv/, /pɹɪˈzɝv/
+recognise	/ˈɹɛkəɡˌnaɪz/
+motivate	/ˈmoʊtəˌveɪt/
+alike	/əˈɫaɪk/
+inform	/ˌɪnˈfɔɹm/
+persuade	/pɝˈsweɪd/
+profit	/ˈpɹɑfət/, /ˈpɹɑfɪt/
+struggle	/ˈstɹəɡəɫ/
+convey	/kənˈveɪ/
+facility	/fəˈsɪɫɪti/
+property	/ˈpɹɑpɝti/
+spare	/ˈspɛɹ/
+bet	/ˈbɛt/
+platform	/ˈpɫætˌfɔɹm/
+define	/dɪˈfaɪn/
+combine	/ˈkɑmbaɪn/, /kəmˈbaɪn/
+compromise	/ˈkɑmpɹəˌmaɪz/
+prime	/ˈpɹaɪm/
+popularity	/ˌpɑpjəˈɫɛɹəti/
+isolation	/ˌaɪsəˈɫeɪʃən/
+logic	/ˈɫɑdʒɪk/
+mere	/ˈmɪɹ/
+devastating	/ˈdɛvəˌsteɪtɪŋ/
+agreement	/əˈɡɹimənt/
+willing	/ˈwɪɫɪŋ/
+reflect	/ɹɪˈfɫɛkt/
+precise	/pɹiˈsaɪs/, /pɹɪˈsaɪs/
+essence	/ˈɛsəns/
+rob	/ˈɹɑb/
+horizontal	/ˌhɔɹəˈzɑntəɫ/
+fabric	/ˈfæbɹɪk/
+famine	/ˈfæmən/
+fluid	/ˈfɫuəd/, /ˈfɫuɪd/
+reservoir	/ˈɹɛzəvˌwɑɹ/, /ˈɹɛzɝvˌwɑɹ/
+threaten	/ˈθɹɛtən/
+respond	/ɹiˈspɑnd/, /ɹɪˈspɑnd/
+beat	/ˈbit/
+hang	/ˈhæŋ/
+latter	/ˈɫætɝ/
+confirm	/kənˈfɝm/
+departure	/dɪˈpɑɹtʃɝ/
+suburb	/ˈsəbɝb/
+rough	/ˈɹəf/
+consume	/kənˈsum/
+promote	/pɹəˈmoʊt/
+encounter	/ɪnˈkaʊnɝ/, /ɪnˈkaʊntɝ/
+interact	/ˌɪnɝˈækt/, /ˌɪntɝˈækt/
+launch	/ˈɫɔntʃ/
+incredible	/ˌɪnˈkɹɛdəbəɫ/
+grasp	/ˈɡɹæsp/
+storage	/ˈstɔɹədʒ/, /ˈstɔɹɪdʒ/
+donate	/ˈdoʊˌneɪt/
+foster	/ˈfɑstɝ/
+attribute	/ˈætɹəbˌjut/, /əˈtɹɪbˌjut/
+evident	/ˈɛvədənt/
+incident	/ˈɪnsədənt/
+inevitable	/ˌɪˈnɛvətəbəɫ/
+presence	/ˈpɹɛzəns/
+union	/ˈjunjən/
+legal	/ˈɫiɡəɫ/
+opposition	/ˌɑpəˈzɪʃən/
+proper	/ˈpɹɑpɝ/
+remote	/ɹiˈmoʊt/, /ɹɪˈmoʊt/
+regarding	/ɹɪˈɡɑɹdɪŋ/
+talent	/ˈtæɫənt/
+earn	/ˈɝn/
+clerk	/ˈkɫɝk/
+bend	/ˈbɛnd/
+dental	/ˈdɛnəɫ/, /ˈdɛntəɫ/
+arithmetic	/ˌɛɹɪθˈmɛtɪk/, /ɝˈɪθməˌtɪk/
+deforestation	/dɪˌfɔɹɪˈsteɪʃən/
+parasite	/ˈpɛɹəˌsaɪt/
+photographic	/ˌfoʊtəˈɡɹæfɪk/
+secretary	/ˈsɛkɹəˌtɛɹi/
+sledge	/ˈsɫɛdʒ/
+spear	/ˈspɪɹ/
+apprenticeship	/əˈpɹɛntəsˌʃɪp/
+odd	/ˈɑd/
+withstand	/wɪθˈstænd/
+voyage	/ˈvɔɪədʒ/, /ˈvɔɪɪdʒ/
+lie	/ˈɫaɪ/
+relative	/ˈɹɛɫətɪv/
+decorate	/ˈdɛkɝˌeɪt/
+breath	/ˈbɹɛθ/
+insist	/ˌɪnˈsɪst/
+dull	/ˈdəɫ/
+avenue	/ˈævəˌnu/
+miserable	/ˈmɪzɝəbəɫ/, /ˈmɪzɹəbəɫ/
+bother	/ˈbɑðɝ/
+routine	/ɹuˈtin/
+retail	/ˈɹiˌteɪɫ/
+spectator	/ˈspɛkteɪtɝ/
+educate	/ˈɛdʒəˌkeɪt/, /ˈɛdʒjuˌkeɪt/
+acknowledge	/ækˈnɑɫɪdʒ/
+vary	/ˈvɛɹi/
+evaluate	/iˈvæɫjuˌeɪt/, /ɪˈvæɫjuˌeɪt/
+collapse	/kəˈɫæps/
+delicate	/ˈdɛɫəkət/
+deserve	/dɪˈzɝv/
+schedule	/ˈskɛdʒuɫ/, /ˈskɛdʒʊɫ/
+manual	/ˈmænjuəɫ/
+strict	/ˈstɹɪkt/
+shame	/ˈʃeɪm/
+remind	/ɹiˈmaɪnd/
+cooker	/ˈkʊkɝ/
+acre	/ˈeɪkɝ/
+chaos	/ˈkeɪɑs/
+enrol	
+millennium	/məˈɫɛniəm/
+organise	
+originality	/ɝˌɪdʒəˈnæɫɪti/
+reveal	/ɹiˈviɫ/, /ɹɪˈviɫ/
+audio	/ˈɑdiˌoʊ/
+lifetime	/ˈɫaɪfˌtaɪm/
+unique	/juˈnik/
+border	/ˈbɔɹdɝ/
+conduct	/ˈkɑndəkt/, /kɑnˈdəkt/
+react	/ɹiˈækt/
+ceiling	/ˈsiɫɪŋ/
+sharp	/ˈʃɑɹp/
+prove	/ˈpɹuv/
+cooperation	/ˌkwɑpɝˈeɪʃən/, /ˌkwɔpɝˈeɪʃən/, /koʊˌɑpɝˈeɪʃən/
+connect	/kəˈnɛkt/
+severe	/səˈvɪɹ/
+crash	/ˈkɹæʃ/
+signal	/ˈsɪɡnəɫ/
+rapid	/ˈɹæpəd/, /ˈɹæpɪd/
+permit	/ˈpɝˌmɪt/, /pɝˈmɪt/
+restrict	/ɹiˈstɹɪkt/
+settle	/ˈsɛtəɫ/
+reward	/ɹiˈwɔɹd/, /ɹɪˈwɔɹd/
+warn	/ˈwɔɹn/
+suspect	/ˈsəsˌpɛkt/, /səˈspɛkt/
+discourage	/dɪˈskɝɪdʒ/
+inferior	/ˌɪnˈfɪɹiɝ/
+classify	/ˈkɫæsəˌfaɪ/
+accomplish	/əˈkɑmpɫɪʃ/
+fade	/ˈfeɪd/
+convert	/ˈkɑnvɝt/, /kənˈvɝt/
+neutral	/ˈnutɹəɫ/
+bold	/ˈboʊɫd/
+elaborate	/ɪˈɫæbɝˌeɪt/, /ɪˈɫæbɹət/
+somehow	/ˈsəmˌhaʊ/
+negotiate	/nəˈɡoʊʃiˌeɪt/, /nɪˈɡoʊʃiˌeɪt/
+worthwhile	/ˈwɝθˈwaɪɫ/
+release	/ɹiˈɫis/
+trial	/ˈtɹaɪəɫ/, /ˈtɹaɪɫ/
+publication	/ˌpəbɫɪˈkeɪʃən/
+fortune	/ˈfɔɹtʃən/, /ˈfɔɹtʃun/
+pile	/ˈpaɪɫ/
+nursery	/ˈnɝsɝi/
+chart	/ˈtʃɑɹt/
+patch	/ˈpætʃ/
+loyal	/ˈɫɔɪəɫ/
+portable	/ˈpɔɹtəbəɫ/
+statue	/ˈstæˌtʃu/
+farther	/ˈfɑɹðɝ/
+acceptable	/ækˈsɛptəbəɫ/, /əkˈsɛptəbəɫ/
+allergy	/ˈæɫɝdʒi/
+caution	/ˈkɑʃən/, /ˈkɔʃən/
+cosmetic	/kɑzˈmɛtɪk/
+spacecraft	/ˈspeɪsˌkɹæft/
+workforce	/ˈwɝkˌfɔɹs/
+realm	/ˈɹɛɫm/
+basement	/ˈbeɪsmənt/
+slope	/ˈsɫoʊp/
+absent	/ˈæbsənt/
+suffer	/ˈsəfɝ/
+cure	/ˈkjʊɹ/
+intersection	/ˌɪntɝˈsɛkʃən/
+fold	/ˈfoʊɫd/
+victim	/ˈvɪktəm/, /ˈvɪktɪm/
+defeat	/dɪˈfit/
+duty	/ˈdjuti/, /ˈduti/
+transfer	/ˈtɹænsfɝ/, /tɹænsˈfɝ/
+optional	/ˈɑpʃənəɫ/, /ˈɔpʃənəɫ/
+bow	/ˈbaʊ/, /ˈboʊ/
+owe	/ˈoʊ/
+declare	/dɪˈkɫɛɹ/
+forecast	/ˈfɔɹˌkæst/
+renew	/ɹɪˈnu/
+rarely	/ˈɹɛɹɫi/
+eliminate	/ɪˈɫɪməˌneɪt/
+favourable	/ˈfeɪv(ə)ɹəbəl/
+anticipate	/ænˈtɪsəˌpeɪt/
+profession	/pɹəˈfɛʃən/
+comfort	/ˈkəmfɝt/
+commit	/kəˈmɪt/
+derive	/dɝˈaɪv/
+defend	/dɪˈfɛnd/
+occupy	/ˈɑkjəˌpaɪ/
+distribute	/dɪˈstɹɪbjut/
+accompany	/əˈkəmpəni/
+reputation	/ˌɹɛpjəˈteɪʃən/
+relief	/ɹiˈɫif/, /ɹɪˈɫif/
+urgent	/ˈɝdʒənt/
+ripe	/ˈɹaɪp/
+tale	/ˈteɪɫ/
+visible	/ˈvɪzəbəɫ/
+companion	/kəmˈpænjən/
+stable	/ˈsteɪbəɫ/
+hostile	/ˈhɑstəɫ/, /hɑˈstaɪɫ/
+fortunate	/ˈfɔɹtʃənət/, /ˈfɔɹtʃunət/
+prospect	/ˈpɹɑspɛkt/
+remarkable	/ɹiˈmɑɹkəbəɫ/, /ɹɪˈmɑɹkəbəɫ/
+assign	/əˈsaɪn/
+vast	/ˈvæst/
+casual	/ˈkæʒəwəɫ/, /ˈkæʒwəɫ/
+search	/ˈsɝtʃ/
+row	/ˈɹoʊ/
+represent	/ˌɹɛpɹɪˈzɛnt/
+split	/ˈspɫɪt/
+affair	/əˈfɛɹ/
+loose	/ˈɫus/
+grateful	/ˈɡɹeɪtfəɫ/
+strip	/ˈstɹɪp/
+naked	/ˈneɪkəd/
+pity	/ˈpɪti/
+trap	/ˈtɹæp/
+celebrate	/ˈsɛɫəˌbɹeɪt/
+dig	/ˈdɪɡ/
+beg	/ˈbɛɡ/
+wander	/ˈwɑndɝ/
+jar	/ˈdʒɑɹ/
+caring	/ˈkɛɹɪŋ/
+dissatisfied	/dɪˈsætəsˌfaɪd/
+equator	/ɪˈkweɪtɝ/
+layout	/ˈɫeɪˌaʊt/
+mood	/ˈmud/
+ongoing	/ˈɑnˌɡoʊɪŋ/, /ˈɔnˌɡoʊɪŋ/
+pursue	/pɝˈsu/
+rubbish	/ˈɹəbɪʃ/
+string	/ˈstɹɪŋ/
+thin	/ˈθɪn/
+thread	/ˈθɹɛd/
+aerobic	/ɛˈɹoʊbɪk/
+genre	/ˈʒɑnɹə/
+hedge	/ˈhɛdʒ/
+brook	/ˈbɹʊk/
+currency	/ˈkɝənsi/
+hardship	/ˈhɑɹdʃɪp/
+peel	/ˈpiɫ/
+reply	/ɹiˈpɫaɪ/, /ɹɪˈpɫaɪ/
+stove	/ˈstoʊv/
+lean	/ˈɫin/
+grind	/ˈɡɹaɪnd/
+recover	/ɹɪˈkəvɝ/
+universal	/ˌjunəˈvɝsəɫ/
+tough	/ˈtəf/
+stretch	/ˈstɹɛtʃ/
+primitive	/ˈpɹɪmətɪv/, /ˈpɹɪmɪtɪv/
+mediator	/ˈmidiˌeɪtɝ/
+permanently	/ˈpɝmənəntɫi/
+grab	/ˈɡɹæb/
+superior	/suˈpɪɹiɝ/
+imitate	/ˈɪməˌteɪt/
+attach	/əˈtætʃ/
+surround	/sɝˈaʊnd/
+fluent	/ˈfɫuənt/
+transform	/ˈtɹænsfɔɹm/, /tɹænsˈfɔɹm/
+confusing	/kənˈfjuzɪŋ/
+aggressive	/əˈɡɹɛsɪv/
+alert	/əˈɫɝt/
+widespread	/ˈwaɪdsˈpɹɛd/
+admission	/ædˈmɪʃən/, /ədˈmɪʃən/
+uncertainty	/ənˈsɝtənti/
+strain	/ˈstɹeɪn/
+neglect	/nəˈɡɫɛkt/, /nɪˈɡɫɛkt/
+boast	/ˈboʊst/
+resolve	/ɹiˈzɑɫv/
+overall	/ˈoʊvɝˌɔɫ/
+endure	/ɛnˈdjʊɹ/, /ɪnˈdʊɹ/
+shortage	/ˈʃɔɹtədʒ/, /ˈʃɔɹtɪdʒ/
+reform	/ɹəˈfɔɹm/, /ɹɪˈfɔɹm/
+productive	/pɝˈdəktɪv/, /pɹəˈdəktɪv/, /pɹoʊˈdəktɪv/
+steep	/ˈstip/
+proverb	/ˈpɹɑvɝb/
+reluctant	/ɹiˈɫəktənt/, /ɹɪˈɫəktənt/
+irregular	/ˌɪˈɹɛɡjəɫɝ/
+tackle	/ˈtækəɫ/
+apt	/ˈæpt/
+burden	/ˈbɝdən/
+contrary	/ˈkɑntɹɛɹi/, /kənˈtɹɛɹi/
+somewhat	/ˈsəmˈwət/, /ˈsəmhˈwət/
+sum	/ˈsəm/
+admit	/ədˈmɪt/
+upset	/ˈəpˌsɛt/, /əpˈsɛt/
+honour	/ˈɑnɝ/
+silly	/ˈsɪɫi/
+pure	/ˈpjʊɹ/
+rush	/ˈɹəʃ/
+tube	/ˈtjub/, /ˈtub/
+promising	/ˈpɹɑməsɪŋ/
+nightmare	/ˈnaɪtˌmɛɹ/
+flash	/ˈfɫæʃ/
+ugly	/ˈəɡɫi/
+twist	/ˈtwɪst/
+fond	/ˈfɑnd/
+handy	/ˈhændi/
+boil	/ˈbɔɪɫ/
+oppose	/əˈpoʊz/
+imaginative	/ˌɪˈmædʒənətɪv/
+wipe	/ˈwaɪp/
+weigh	/ˈweɪ/
+brave	/ˈbɹeɪv/
+sightseeing	/ˈsaɪtˈsiɪŋ/
+admire	/ædˈmaɪɹ/
+freeze	/ˈfɹiz/
+stripe	/ˈstɹaɪp/
+talented	/ˈtæɫəntɪd/
+tease	/ˈtiz/
+thoughtful	/ˈθɔtfəɫ/
+trustworthy	/ˈtɹəstˌwɝði/
+amenity	/əˈmɛnəti/
+binocular	/bəˈnɑkjəɫɝ/
+consider	/kənˈsɪdɝ/
+marriage	/ˈmɛɹɪdʒ/
+takeaway	/ˈteɪkəˌweɪ/
+width	/ˈwɪdθ/
+tram	/ˈtɹæm/
+troop	/ˈtɹup/
+warrior	/ˈwɔɹiɝ/, /ˈwɔɹjɝ/
+discuss	/dɪˈskəs/
+explanation	/ˌɛkspɫəˈneɪʃən/
+cottage	/ˈkɑtədʒ/, /ˈkɑtɪdʒ/
+anxious	/ˈæŋkʃəs/, /ˈæŋʃəs/
+advise	/ædˈvaɪz/, /ədˈvaɪz/
+deny	/dɪˈnaɪ/
+heredity	/hɝˈɛdəti/
+ivory	/ˈaɪvɝi/, /ˈaɪvɹi/
+lorry	/ˈɫɔɹi/
+beast	/ˈbist/
+citizen	/ˈsɪtəzən/, /ˈsɪtɪzən/
+metaphor	/ˈmɛtəfɔɹ/
+orchard	/ˈɔɹtʃɝd/
+plumber	/ˈpɫəmɝ/
+tug	/ˈtəɡ/
+excessive	/ɪkˈsɛsɪv/
+tidy	/ˈtaɪdi/
+beverage	/ˈbɛvɝɪdʒ/, /ˈbɛvɹɪdʒ/
+empty	/ˈɛmpti/, /ˈɛmti/
+publish	/ˈpəbɫɪʃ/
+shave	/ˈʃeɪv/
+mild	/ˈmaɪɫd/
+swing	/ˈswɪŋ/
+stir	/ˈstɝ/
+forgive	/fɝˈɡɪv/, /fɔɹˈɡɪv/
+pretend	/pɹiˈtɛnd/
+quantity	/ˈkwɑntəti/
+invent	/ˌɪnˈvɛnt/
+prohibit	/pɹoʊˈhɪbət/
+ban	/ˈbæn/
+resist	/ɹiˈzɪst/, /ɹɪˈzɪst/
+assure	/əˈʃʊɹ/
+translate	/tɹænˈsɫeɪt/, /tɹænzˈɫeɪt/
+scary	/ˈskɛɹi/
+fasten	/ˈfæsən/
+polish	/ˈpɑɫɪʃ/, /ˈpoʊɫɪʃ/
+via	/ˈvaɪə/, /ˈviə/
+submit	/səbˈmɪt/
+worldwide	/ˈwɝɫdˈwaɪd/
+resemble	/ɹiˈzɛmbəɫ/, /ɹɪˈzɛmbəɫ/
+compel	/kəmˈpɛɫ/
+rid	/ˈɹɪd/
+trigger	/ˈtɹɪɡɝ/
+signature	/ˈsɪɡnətʃɝ/
+expose	/ɪkˈspoʊz/
+symptom	/ˈsɪmptəm/
+bind	/ˈbaɪnd/
+interrupt	/ˌɪntɝˈəpt/
+trace	/ˈtɹeɪs/
+usage	/ˈjusədʒ/, /ˈjusɪdʒ/
+frustrate	/ˈfɹəsˌtɹeɪt/
+astonish	/əˈstɑnɪʃ/
+persist	/pɝˈsɪst/
+spoil	/ˈspɔɪɫ/
+reverse	/ɹiˈvɝs/, /ɹɪˈvɝs/
+misleading	/mɪˈsɫidɪŋ/
+passive	/ˈpæsɪv/
+appetite	/ˈæpəˌtaɪt/
+eager	/ˈiɡɝ/
+illusion	/ˌɪˈɫuʒən/
+selfish	/ˈsɛɫfɪʃ/
+steady	/ˈstɛdi/
+slight	/ˈsɫaɪt/
+doubtful	/ˈdaʊtfəɫ/
+heal	/ˈhiɫ/
+seek	/ˈsik/
+raw	/ˈɹɑ/
+flesh	/ˈfɫɛʃ/
+pat	/ˈpæt/
+tap	/ˈtæp/
+unexpected	/ˌənɪkˈspɛktɪd/
+divorce	/dɪˈvɔɹs/
+fool	/ˈfuɫ/
+underneath	/ˌəndɝˈniθ/
+triumph	/ˈtɹaɪəmf/
+sensation	/sɛnˈseɪʃən/
+liberty	/ˈɫɪbɝˌti/
+charm	/ˈtʃɑɹm/
+neat	/ˈnit/
+messy	/ˈmɛsi/
+pour	/ˈpɔɹ/
+receipt	/ɹiˈsit/, /ɹɪˈsit/
+appoint	/əˈpɔɪnt/
+sweep	/ˈswip/
+aloud	/əˈɫaʊd/
+parcel	/ˈpɑɹsəɫ/
+sour	/ˈsaʊɝ/, /ˈsaʊɹ/
+spill	/ˈspɪɫ/
+crush	/ˈkɹəʃ/
+frighten	/ˈfɹaɪtən/
+flashy	/ˈfɫæʃi/
+symbolise	
+enthusiastic	/ɪnˌθuziˈæstɪk/
+thesis	/ˈθisəs/
+celebrity	/səˈɫɛbɹɪti/
+chimney	/ˈtʃɪmni/
+stationery	/ˈsteɪʃəˌnɛɹi/
+suspicious	/səˈspɪʃəs/
+infant	/ˈɪnfənt/
+meadow	/ˈmɛˌdoʊ/
+choir	/ˈkwaɪɝ/
+waste	/ˈweɪst/
+nod	/ˈnɑd/
+careless	/ˈkɛɹɫəs/
+precious	/ˈpɹɛʃəs/
+rub	/ˈɹəb/
+squeeze	/ˈskwiz/
+wrap	/ˈɹæp/
+wound	/ˈwaʊnd/, /ˈwund/
+sensitive	/ˈsɛnsətɪv/, /ˈsɛnsɪtɪv/
+praise	/ˈpɹeɪz/
+protest	/ˈpɹoʊˌtɛst/, /pɹəˈtɛst/
+embarrass	/ɪmˈbɛɹəs/
+previous	/ˈpɹiviəs/
+quarrel	/ˈkwɔɹəɫ/
+delightful	/dɪˈɫaɪtfəɫ/
+stare	/ˈstɛɹ/
+recall	/ˈɹiˌkɔɫ/, /ɹɪˈkɔɫ/
+mend	/ˈmɛnd/
+crosswalk	/ˈkɹɑˌswɑk/
+sidewalk	/ˈsaɪdˌwɔk/
+aisle seat	
+press	/ˈpɹɛs/
+obvious	/ˈɑbviəs/
+afterwards	/ˈæftɝwɝdz/
+scold	/ˈskoʊɫd/
+punish	/ˈpənɪʃ/
+unless	/ənˈɫɛs/
+progress	/ˈpɹɑˌɡɹɛs/, /pɹəˈɡɹɛs/, /pɹoʊˈɡɹɛs/
+relieve	/ɹiˈɫiv/, /ɹɪˈɫiv/
+fascinating	/ˈfæsəˌneɪtɪŋ/
+hesitate	/ˈhɛzəˌteɪt/
+unite	/ˈjuˌnaɪt/
+focus	/ˈfoʊkəs/, /ˈfoʊkɪs/
+cruel	/ˈkɹuəɫ/, /ˈkɹuɫ/
+explode	/ɪksˈpɫoʊd/
+delete	/dɪˈɫit/
+stress	/ˈstɹɛs/
+broadcast	/ˈbɹɔdˌkæst/
+guilty	/ˈɡɪɫti/
+reject	/ˈɹidʒɛkt/, /ɹɪˈdʒɛkt/
+curious	/ˈkjʊɹiəs/
+series	/ˈsɪɹiz/
+means	/ˈminz/
+seldom	/ˈsɛɫdəm/
+scarcely	/ˈskɛɹsɫi/
+propose	/pɹəˈpoʊz/
+welfare	/ˈwɛɫˌfɛɹ/
+wage	/ˈweɪdʒ/
+compose	/kəmˈpoʊz/
+discrimination	/dɪsˌkɹɪməˈneɪʃən/
+crisis	/ˈkɹaɪsəs/
+elect	/ɪˈɫɛkt/
+oblige	/əˈbɫaɪdʒ/
+amuse	/əmˈjuz/
+bond	/ˈbɑnd/
+healthful	/ˈhɛɫθfəɫ/
+valueless	/ˈvæɫjuɫəs/
+approve	/əˈpɹuv/
+useless	/ˈjusɫəs/
+assess	/əˈsɛs/
+priceless	/ˈpɹaɪsɫəs/
+worthless	/ˈwɝθɫəs/
+congratulate	/kənˈɡɹætʃəˌɫeɪt/
+proof	/ˈpɹuf/
+remedy	/ˈɹɛmədi/
+accuse	/əkˈjuz/
+inherit	/ˌɪnˈhɛɹət/
+ratio	/ˈɹeɪʃiˌoʊ/
+accustom	/əˈkəstəm/
+proceed	/pɝˈsid/, /pɹəˈsid/, /pɹoʊˈsid/
+stimulate	/ˈstɪmjəˌɫeɪt/
+genius	/ˈdʒinjəs/
+ambitious	/æmˈbɪʃəs/
+diligent	/ˈdɪɫɪdʒənt/
+hypothesis	/haɪˈpɑθəsəs/
+privilege	/ˈpɹɪvɪɫədʒ/, /ˈpɹɪvɪɫɪdʒ/, /ˈpɹɪvɫədʒ/, /ˈpɹɪvɫɪdʒ/
+accord	/əˈkɔɹd/
+pastime	/ˈpæsˌtaɪm/
+sympathy	/ˈsɪmpəθi/
+generous	/ˈdʒɛnɝəs/
+stubborn	/ˈstəbɝn/
+vain	/ˈveɪn/
+acquaintance	/əˈkweɪntəns/
+affection	/əˈfɛkʃən/
+moderate	/ˈmɑdɝˌeɪt/, /ˈmɑdɝət/
+temper	/ˈtɛmpɝ/
+urge	/ˈɝdʒ/
+conscious	/ˈkɑnʃəs/
+blush	/ˈbɫəʃ/
+fate	/ˈfeɪt/
+probable	/ˈpɹɑbəbəɫ/
+defect	/ˈdifɛkt/, /dɪˈfɛkt/
+basis	/ˈbeɪsəs/, /ˈbeɪsɪs/
+analysis	/əˈnæɫəsəs/, /əˈnæɫɪsɪs/
+access	/ˈækˌsɛs/
+detail	/ˈditeɪɫ/, /dɪˈteɪɫ/
+address	/ˈæˌdɹɛs/, /əˈdɹɛs/
+principal	/ˈpɹɪnsəpəɫ/
+enormous	/iˈnɔɹməs/, /iˈnɔɹmɪs/, /ɪˈnɔɹməs/, /ɪˈnɔɹmɪs/
+besides	/ˌbiˈsaɪdz/, /bɪˈsaɪdz/
+funeral	/ˈfjunɝəɫ/
+dare	/ˈdɛɹ/
+memorial	/məˈmɔɹiəɫ/
+trick	/ˈtɹɪk/
+tear	/ˈtɛɹ/, /ˈtɪɹ/
+bride	/ˈbɹaɪd/
+cheerful	/ˈtʃɪɹfəɫ/
+sigh	/ˈsaɪ/
+vertical	/ˈvɝtɪkəɫ/
+scream	/ˈskɹim/
+jealous	/ˈdʒɛɫəs/
+slave	/ˈsɫeɪv/
+sore	/ˈsɔɹ/
+swear	/ˈswɛɹ/
+whistle	/ˈhwɪsəɫ/, /ˈwɪsəɫ/
+imaginary	/ˌɪˈmædʒəˌnɛɹi/
+substantial	/səbˈstænʃəɫ/
+greet	/ˈɡɹit/
+vase	/ˈvɑz/, /ˈveɪs/
+drown	/ˈdɹaʊn/
+weep	/ˈwip/
+refrigerator	/ɹəˈfɹɪdʒɝˌeɪtɝ/, /ɹɪˈfɹɪdʒɝˌeɪtɝ/
+carve	/ˈkɑɹv/
+yell	/ˈjɛɫ/
+literature	/ˈɫɪtɝətʃɝ/
+literary	/ˈɫɪtɝˌɛɹi/
+spirit	/ˈspɪɹət/, /ˈspɪɹɪt/
+cave	/ˈkeɪv/
+mud	/ˈməd/
+otherwise	/ˈəðɝˌwaɪz/
+coal	/ˈkoʊɫ/
+disaster	/dɪˈzæstɝ/
+telescope	/ˈtɛɫəˌskoʊp/
+nuclear	/ˈnukɫiɝ/
+ecology	/iˈkɑɫədʒi/, /ɪˈkɑɫədʒi/
+historical	/hɪˈstɔɹɪkəɫ/
+heritage	/ˈhɛɹətədʒ/, /ˈhɛɹɪtɪdʒ/
+legend	/ˈɫɛdʒənd/
+substance	/ˈsəbstəns/
+draft	/ˈdɹæft/
+journal	/ˈdʒɝnəɫ/
+ethnic	/ˈɛθnɪk/
+federation	/ˌfɛdɝˈeɪʃən/
+summit	/ˈsəmət/, /ˈsəmɪt/
+candidate	/ˈkændədeɪt/, /ˈkænədɪt/
+financial	/ˌfaɪˈnænʃəɫ/, /fəˈnænʃəɫ/, /fɪˈnænʃəɫ/
+fund	/ˈfənd/
+budget	/ˈbədʒɪt/
+debt	/ˈdɛt/
+bury	/ˈbɛɹi/
+urban	/ˈɝbən/
+totally	/ˈtoʊtəɫi/
+poetry	/ˈpoʊətɹi/
+holy	/ˈhoʊɫi/
+weed	/ˈwid/
+wheat	/ˈhwit/, /ˈwit/
+civil	/ˈsɪvəɫ/
+fossil	/ˈfɑsəɫ/
+drought	/ˈdɹaʊt/
+conservation	/ˌkɑnsɝˈveɪʃən/
+enterprise	/ˈɛnɝˌpɹaɪz/, /ˈɛntɝˌpɹaɪz/
+philosophy	/fəˈɫɑsəfi/
+pension	/ˈpɛnʃən/
+insurance	/ˌɪnˈʃʊɹəns/
+historic	/hɪˈstɔɹɪk/
+mine	/ˈmaɪn/
+carbon	/ˈkɑɹbən/
+canal	/kəˈnæɫ/
+emperor	/ˈɛmpɝɝ/
+creature	/ˈkɹitʃɝ/
+detective	/dɪˈtɛktɪv/
+identify	/aɪˈdɛntəˌfaɪ/
+literacy	/ˈɫɪtɝəsi/
+keen	/ˈkin/
+strike	/ˈstɹaɪk/
+relevant	/ˈɹɛɫəvənt/
+odour	/ˈoʊdɝ/
+statement	/ˈsteɪtmənt/
+prey	/ˈpɹeɪ/
+sequence	/ˈsikwəns/
+faculty	/ˈfækəɫti/
+craft	/ˈkɹæft/
+intervention	/ˌɪntɝˈvɛnʃən/
+strategy	/ˈstɹætədʒi/
+hot spot	
+overlook	/ˈoʊvɝˌɫʊk/
+estate	/ɪˈsteɪt/
+auditory	/ˈɔdɪˌtɔɹi/
+luxury	/ˈɫəɡʒɝi/
+beneficial	/ˌbɛnəˈfɪʃəɫ/
+distinct	/dɪˈstɪŋkt/
+harvest	/ˈhɑɹvəst/
+monolingual	/ˌmɑnəˈɫɪŋɡwəɫ/
+peer	/ˈpɪɹ/
+spectacular	/spɛkˈtækjəɫɝ/
+refreshment	/ɹəˈfɹɛʃmənt/
+retain	/ɹiˈteɪn/, /ɹɪˈteɪn/
+interpret	/ˌɪnˈtɝpɹət/
+drift	/ˈdɹɪft/
+internal	/ˌɪnˈtɝnəɫ/
+procedure	/pɹəˈsidʒɝ/, /pɹoʊˈsidʒɝ/
+clue	/ˈkɫu/
+dye	/ˈdaɪ/
+substantial	/səbˈstænʃəɫ/
+boost	/ˈbust/
+necessarily	/ˌnɛsəˈsɛɹəɫi/
+equip	/ɪˈkwɪp/
+desirable	/dɪˈzaɪɝəbəɫ/, /dɪˈzaɪɹəbəɫ/
+dynamic	/daɪˈnæmɪk/
+probe	/ˈpɹoʊb/
+striking	/ˈstɹaɪkɪŋ/
+principle	/ˈpɹɪnsəpəɫ/
+regard	/ɹɪˈɡɑɹd/
+generate	/ˈdʒɛnɝˌeɪt/
+grant	/ˈɡɹænt/
+appealing	/əˈpiɫɪŋ/
+expedition	/ˌɛkspəˈdɪʃən/
+magnificent	/mæɡˈnɪfəsənt/, /mæɡˈnɪfɪsənt/
+plot	/ˈpɫɑt/
+preference	/ˈpɹɛfɝəns/, /ˈpɹɛfɹəns/
+profitable	/ˈpɹɑfətəbəɫ/
+relatively	/ˈɹɛɫətɪvɫi/
+processed	/ˈpɹɑsɛst/
+illustrate	/ˈɪɫəˌstɹeɪt/
+detect	/dɪˈtɛkt/
+primary	/ˈpɹaɪˌmɛɹi/
+mature	/məˈtʃʊɹ/, /mətˈjʊɹ/
+cluster	/ˈkɫəstɝ/
+descendant	/dɪˈsɛndənt/
+exposure	/ɪkˈspoʊʒɝ/
+extract	/ˈɛkˌstɹækt/, /ɪkˈstɹækt/
+hardy	/ˈhɑɹdi/
+optimistic	/ˌɑptəˈmɪstɪk/
+pillar	/ˈpɪɫɝ/
+ward	/ˈwɔɹd/
+external	/ɪkˈstɝnəɫ/
+interfere	/ˌɪnɝˈfɪɹ/, /ˌɪntɝˈfɪɹ/
+sufficient	/səˈfɪʃənt/
+shed	/ˈʃɛd/
+profile	/ˈpɹoʊˌfaɪɫ/
+consist of	
+fleet	/ˈfɫit/
+migration	/maɪˈɡɹeɪʃən/
+onwards	/ˈɑnwɝdz/
+personnel	/ˌpɝsəˈnɛɫ/
+trail	/ˈtɹeɪɫ/
+correspond	/ˌkɔɹəˈspɑnd/
+subtle	/ˈsətəɫ/
+pose	/ˈpoʊz/
+earnings	/ˈɝnɪŋz/
+accessible	/ækˈsɛsəbəɫ/
+cite	/ˈsaɪt/
+dense	/ˈdɛns/
+discharge	/ˈdɪsˌtʃɑɹdʒ/, /dɪsˈtʃɑɹdʒ/
+excursion	/ɪkˈskɝʒən/
+fraction	/ˈfɹækʃən/
+fragment	/ˈfɹæɡmənt/
+insufficient	/ˌɪnsəˈfɪʃənt/
+lively	/ˈɫaɪvɫi/
+marvellous	/ˈmɑɹvəɫəs/
+outstanding	/ˌaʊtˈstændɪŋ/
+readily	/ˈɹɛdəɫi/
+scarce	/ˈskɛɹs/
+tremendous	/tɹəˈmɛndəs/, /tɹɪˈmɛndəs/
+ruin	/ˈɹuən/, /ˈɹuɪn/
+restore	/ɹɪˈstɔɹ/
+descend	/dɪˈsɛnd/
+fulfil	/fʊɫˈfɪɫ/
+instinct	/ˈɪnstɪŋkt/
+transmit	/tɹænzˈmɪt/
+confront	/kənˈfɹənt/
+prevail	/pɹiˈveɪɫ/, /pɹɪˈveɪɫ/
+manuscript	/ˈmænjəsˌkɹɪpt/
+controversial	/ˌkɑntɹəˈvɝʃəɫ/
+self-esteem	/ˌsɛlf.ə.ˈstiːm/
+amongst	/əˈməŋst/
+comparable	/ˈkɑmpɝəbəɫ/, /kəmˈpɛɹəbəɫ/, /kəmpɹəbəɫ/
+costly	/ˈkɑstɫi/, /ˈkɔstɫi/
+damp	/ˈdæmp/
+emphasise	
+globe	/ˈɡɫoʊb/
+immense	/ˌɪˈmɛns/
+interior	/ˌɪnˈtɪɹiɝ/
+invasion	/ˌɪnˈveɪʒən/
+label	/ˈɫeɪbəɫ/
+narrative	/ˈnæɹətɪv/, /ˈnɛɹətɪv/
+stimulus	/ˈstɪmjəɫəs/
+systematic	/ˌsɪstəˈmætɪk/
+fellow	/ˈfɛɫoʊ/
+wealthy	/ˈwɛɫθi/
+comprehend	/ˌkɑmpɹiˈhɛnd/
+outcome	/ˈaʊtˌkəm/
+undertake	/ˈəndɝˌteɪk/
+impose	/ˌɪmˈpoʊz/
+expense	/ɪkˈspɛns/
+originate	/ɝˈɪdʒəˌneɪt/
+component	/kəmˈpoʊnənt/
+portion	/ˈpɔɹʃən/
+substitute	/ˈsəbstəˌtut/
+ultimate	/ˈəɫtəmət/
+consequently	/ˈkɑnsəˌkwɛntɫi/, /ˈkɑnsəkwəntɫi/
+concerning	/kənˈsɝnɪŋ/
+confine	/kənˈfaɪn/
+conservative	/kənˈsɝvətɪv/
+critic	/ˈkɹɪtɪk/
+economical	/ˌɛkəˈnɑmɪkəɫ/, /ˌikəˈnɑmɪkəɫ/
+entitle	/ɛnˈtaɪtəɫ/, /ɪnˈtaɪtəɫ/
+flourish	/ˈfɫɝɪʃ/
+gifted	/ˈɡɪftəd/, /ˈɡɪftɪd/
+halt	/ˈhɔɫt/
+interval	/ˈɪntɝvəɫ/
+motive	/ˈmoʊtɪv/
+namely	/ˈneɪmɫi/
+offspring	/ˈɔfsˌpɹɪŋ/
+patent	/ˈpætənt/
+profound	/pɹoʊˈfaʊnd/
+queue	/ˈkju/
+scope	/ˈskoʊp/
+seemingly	/ˈsimɪŋɫi/
+sew	/ˈsoʊ/
+sole	/ˈsoʊɫ/
+spark	/ˈspɑɹk/
+strengthen	/ˈstɹɛŋθən/
+transaction	/tɹænˈzækʃən/
+trivial	/ˈtɹɪviəɫ/
+upright	/ˈəˌpɹaɪt/, /əˈpɹaɪt/
+venture	/ˈvɛntʃɝ/
+vice	/ˈvaɪs/
+advert	/ˈædvɝt/
+certificate	/sɝˈtɪfɪkət/
+registration	/ˌɹɛdʒɪˈstɹeɪʃən/
+passionate	/ˈpæʃənət/
+dimension	/dɪˈmɛnʃən/
+commission	/kəˈmɪʃən/
+fatigue	/fəˈtiɡ/
+furnish	/ˈfɝnɪʃ/
+lower	/ˈɫoʊɝ/
+devote	/dɪˈvoʊt/
+adequate	/ˈædəˌkweɪt/, /ˈædəkwət/
+withdraw	/wɪðˈdɹɔ/, /wɪθˈdɹɔ/
+revenue	/ˈɹɛvəˌnu/, /ˈɹɛvənˌju/
+transition	/tɹænˈzɪʃən/
+accommodate	/əˈkɑməˌdeɪt/
+barely	/ˈbɛɹɫi/
+cemetery	/ˈsɛməˌtɛɹi/, /ˈsɛmɪˌtɛɹi/
+controversy	/ˈkɑntɹəˌvɝsi/
+desperate	/ˈdɛspɝɪt/, /ˈdɛspɹɪt/
+downward	/ˈdaʊnwɝd/
+erect	/ɪˈɹɛkt/
+exclusive	/ɪkˈskɫusɪv/
+faint	/ˈfeɪnt/
+legislation	/ˌɫɛdʒəˈsɫeɪʃən/
+managerial	/ˌmænɪˈdʒɪɹiəɫ/
+noticeable	/ˈnoʊtəsəbəɫ/
+outward	/ˈaʊtwɝd/
+prominent	/ˈpɹɑmənənt/
+province	/ˈpɹɑvəns/, /ˈpɹɑvɪns/
+publicity	/pəˈbɫɪsəti/, /pəˈbɫɪsɪti/
+soar	/ˈsɔɹ/
+in spite of	
+steer	/ˈstɪɹ/
+sway	/ˈsweɪ/
+thorough	/ˈθɝoʊ/, /ˈθɔɹoʊ/
+consultation	/ˌkɑnsəɫˈteɪʃən/
+diagram	/ˈdaɪəˌɡɹæm/
+measurement	/ˈmɛʒɝmənt/
+pavement	/ˈpeɪvmənt/
+virtually	/ˈvɝtʃuəɫi/, /ˈvɝtʃuɫi/
+sustainable	/səˈsteɪnəbəɫ/
+workout	/ˈwɝˌkaʊt/
+rational	/ˈɹæʃənəɫ/, /ˈɹæʃnəɫ/
+consult	/kənˈsəɫt/
+sensible	/ˈsɛnsəbəɫ/
+perspective	/pɝˈspɛktɪv/
+assemble	/əˈsɛmbəɫ/
+vivid	/ˈvɪvəd/, /ˈvɪvɪd/
+modify	/ˈmɑdəˌfaɪ/
+utilise	
+modest	/ˈmɑdəst/
+vague	/ˈveɪɡ/
+exceed	/ɪkˈsid/
+mess	/ˈmɛs/
+blueprint	/ˈbɫuˌpɹɪnt/
+competent	/ˈkɑmpətɪnt/
+conception	/kənˈsɛpʃən/
+consensus	/kənˈsɛnsəs/
+coordinate	/koʊˈɔɹdəˌneɪt/, /koʊˈɔɹdənət/
+coverage	/ˈkəvɝədʒ/, /ˈkəvɝɪdʒ/, /ˈkəvɹɪdʒ/
+destructive	/dɪˈstɹəktɪv/
+digest	/ˈdaɪdʒɛst/, /daɪˈdʒɛst/
+encyclopaedia	/ɪnˌsaɪkɫəˈpidiə/, /ɪnˌsaɪkɫoʊˈpidiə/
+evolve	/iˈvɑɫv/, /ɪˈvɑɫv/
+federal	/ˈfɛdɝəɫ/, /ˈfɛdɹəɫ/
+graze	/ˈɡɹeɪz/
+hail	/ˈheɪɫ/
+harden	/ˈhɑɹdən/
+insert	/ˈɪnˌsɝt/, /ˌɪnˈsɝt/
+intent	/ˌɪnˈtɛnt/
+leap	/ˈɫip/
+mill	/ˈmɪɫ/
+oral	/ˈɔɹəɫ/
+peasant	/ˈpɛzənt/
+penetrate	/ˈpɛnəˌtɹeɪt/
+pessimistic	/ˌpɛsəˈmɪstɪk/
+portray	/pɔɹˈtɹeɪ/
+publicise	/ˈpʌblɪˌsaɪz/
+reckless	/ˈɹɛkɫəs/
+refine	/ɹəˈfaɪn/, /ɹɪˈfaɪn/
+refuge	/ˈɹɛfjudʒ/
+retreat	/ɹiˈtɹit/
+rust	/ˈɹəst/
+sceptic	/ˈskɛptɪk/
+shallow	/ˈʃæɫoʊ/
+stack	/ˈstæk/
+vigorous	/ˈvɪɡɝəs/
+weave	/ˈwiv/
+youngster	/ˈjəŋstɝ/
+acquisition	/ˌækwəˈzɪʃən/
+cautious	/ˈkɔʃəs/
+continuous	/kənˈtɪnjuəs/
+insignificant	/ˌɪnsɪɡˈnjɪfɪkənt/
+souvenir	/ˌsuvəˈnɪɹ/
+possession	/pəˈzɛʃən/
+staircase	/ˈstɛɹˌkeɪs/
+overwhelm	/ˌoʊvɝˈwɛɫm/, /ˌoʊvɝhˈwɛɫm/
+estimate	/ˈɛstəˌmeɪt/, /ˈɛstəmət/
+obstacle	/ˈɑbstəkəɫ/
+outbreak	/ˈaʊtˌbɹeɪk/
+successive	/səkˈsɛsɪv/
+evolution	/ˌɛvəˈɫuʃən/, /ˌɛvoʊˈɫuʃən/, /ˌivəˈɫuʃən/, /ˌivoʊˈɫuʃən/
+inhabitant	/ɪnˈhæbətənt/, /ɪnˈhæbɪtənt/
+qualify	/ˈkwɑɫəˌfaɪ/
+dominate	/ˈdɑməˌneɪt/
+conquer	/ˈkɑŋkɝ/
+exploit	/ˈɛksˌpɫɔɪt/, /ˌɛksˈpɫɔɪt/
+abandon	/əˈbændən/
+omit	/oʊˈmɪt/
+attain	/əˈteɪn/
+intense	/ˌɪnˈtɛns/
+crucial	/ˈkɹuʃəɫ/
+genuine	/ˈdʒɛnˈjuˌwaɪn/, /ˈdʒɛnjəwən/
+comparison	/kəmˈpɛɹəsən/
+constructive	/kənˈstɹəktɪv/
+abrupt	/əˈbɹəpt/
+likewise	/ˈɫaɪˌkwaɪz/
+marvel	/ˈmɑɹvəɫ/
+ascent	/əˈsɛnt/
+assert	/əˈsɝt/
+await	/əˈweɪt/
+blaze	/ˈbɫeɪz/
+elegant	/ˈɛɫəɡənt/
+embarrassing	/ɪmˈbɛɹəsɪŋ/
+comparative	/kəmˈpɛɹətɪv/
+congested	/kənˈdʒɛstəd/, /kənˈdʒɛstɪd/
+tension	/ˈtɛnʃən/
+terrify	/ˈtɛɹəˌfaɪ/
+creep	/ˈkɹip/
+servant	/ˈsɝvənt/
+shatter	/ˈʃætɝ/
+shorten	/ˈʃɔɹtən/
+deliberate	/dɪˈɫɪbɝˌeɪt/, /dɪˈɫɪbɝət/, /dɪˈɫɪbɹət/
+disclose	/dɪˈskɫoʊz/
+habitual	/həˈbɪtʃuəɫ/
+initiate	/ˌɪˈnɪʃiˌeɪt/
+dispose of	
+pronounce	/pɹəˈnaʊns/
+revise	/ɹiˈvaɪz/, /ɹɪˈvaɪz/
+automation	/ɔtəˈmeɪʃən/
+dumb	/ˈdəm/
+collaborate	/kəˈɫæbɝˌeɪt/
+edit	/ˈɛdət/
+capability	/ˌkeɪpəˈbɪɫəti/
+commence	/kəˈmɛns/
+enclosure	/ɛnˈkɫoʊʒɝ/, /ɪnˈkɫoʊʒɝ/
+stagger	/ˈstæɡɝ/
+execute	/ˈɛksəkˌjut/
+feast	/ˈfist/
+frightening	/ˈfɹaɪtənɪŋ/, /ˈfɹaɪtnɪŋ/
+disguise	/dɪsˈɡaɪz/
+dishonest	/dɪˈsɑnəst/
+inspect	/ˌɪnˈspɛkt/
+suppress	/səˈpɹɛs/
+irony	/ˈaɪɹəni/
+leakage	/ˈɫikədʒ/, /ˈɫikɪdʒ/
+accumulate	/əkˈjumjəˌɫeɪt/
+allowance	/əˈɫaʊəns/
+memorise	
+multitude	/ˈməɫtəˌtud/, /ˈməɫtətˌjud/
+offensive	/əˈfɛnsɪv/
+partially	/ˈpɑɹʃəɫi/, /ˈpɑɹʃɫi/
+precaution	/pɹiˈkɔʃən/
+distress	/dɪˈstɹɛs/
+disturb	/dɪˈstɝb/
+rigid	/ˈɹɪdʒəd/, /ˈɹɪdʒɪd/
+shrink	/ˈʃɹɪŋk/
+envy	/ˈɛnvi/
+startling	/ˈstɑɹtɫɪŋ/
+starve	/ˈstɑɹv/
+intimate	/ˈɪnəmət/, /ˈɪntəˌmeɪt/, /ˈɪntəmət/
+suspend	/səˈspɛnd/
+tick off	
+repetition	/ˌɹɛpəˈtɪʃən/
+wit	/ˈwɪt/
+adjust	/əˈdʒəst/
+drain	/ˈdɹeɪn/
+concrete	/ˈkɑnkɹit/, /kənˈkɹit/
+dwell	/ˈdwɛɫ/
+intermediate	/ˌɪnɝˈmidiɪt/, /ˌɪntɝˈmidiɪt/
+invisible	/ˌɪnˈvɪzəbəɫ/
+mock	/ˈmɑk/
+obligation	/ˌɑbɫəˈɡeɪʃən/
+pray	/ˈpɹeɪ/
+warrant	/ˈwɔɹənt/
+respiration	/ˌɹɛspɝˈeɪʃən/
+summarise	
+pollute	/pəˈɫut/
+pointless	/ˈpɔɪntɫəs/
+terminal	/ˈtɝmənəɫ/
+devise	/dɪˈvaɪs/, /dɪˈvaɪz/
+resent	/ɹiˈzɛnt/, /ɹɪˈzɛnt/
+vital	/ˈvaɪtəɫ/
+utility	/juˈtɪɫəti/
+imply	/ˌɪmˈpɫaɪ/
+deprive	/dɪˈpɹaɪv/
+overtake	/ˈoʊvɝˌteɪk/
+statistics	/stəˈtɪstɪks/
+gaze	/ˈɡeɪz/
+glimpse	/ˈɡɫɪmps/
+conceal	/kənˈsiɫ/
+exclude	/ɪkˈskɫud/
+abuse	/əbˈjus/, /əbˈjuz/
+disorder	/dɪˈsɔɹdɝ/
+affordable	/əˈfɔɹdəbəɫ/
+obscure	/əbˈskjʊɹ/
+vacant	/ˈveɪkənt/
+prompt	/ˈpɹɑmpt/
+peculiar	/pəkˈjuɫjɝ/, /pɪkˈjuɫjɝ/
+dim	/ˈdɪm/
+mutual	/ˈmjutʃuəɫ/
+worthy	/ˈwɝði/
+strive	/ˈstɹaɪv/
+perception	/pɝˈsɛpʃən/
+alliance	/əˈɫaɪəns/
+defensive	/dɪˈfɛnsɪv/
+attentive	/əˈtɛntɪv/
+authorise	
+knot	/ˈnɑt/
+margin	/ˈmɑɹdʒən/
+bounce	/ˈbaʊns/
+breeze	/ˈbɹiz/
+monetary	/ˈmɑnəˌtɛɹi/
+naval	/ˈneɪvəɫ/
+nobility	/noʊˈbɪɫəti/
+compliment	/ˈkɑmpɫəmɛnt/
+condense	/kənˈdɛns/
+pierce	/ˈpɪɹs/
+curse	/ˈkɝs/
+daring	/ˈdɛɹɪŋ/
+groan	/ˈɡɹoʊn/
+apparatus	/ˌæpɝˈætəs/
+descent	/dɪˈsɛnt/
+resume	/ˈɹɛzəˌmeɪ/, /ɹiˈzum/, /ɹɪˈzum/
+revolve	/ɹiˈvɑɫv/
+distrust	/dɪˈstɹəst/
+divine	/dɪˈvaɪn/
+dizzy	/ˈdɪzi/
+sincerely	/sɪnˈsɪɹɫi/
+slippery	/ˈsɫɪpɝi/, /ˈsɫɪpɹi/
+eternal	/iˈtɝnəɫ/, /ɪˈtɝnəɫ/
+soak	/ˈsoʊk/
+exaggerate	/ɪɡˈzædʒɝˌeɪt/
+faraway	/ˈfɑɹəˈweɪ/
+subtitle	/ˈsəbˌtaɪtəɫ/
+suck	/ˈsək/
+flatter	/ˈfɫætɝ/
+fuzzy	/ˈfəzi/
+graceful	/ˈɡɹeɪsfəɫ/
+dedicate	/ˈdɛdəˌkeɪt/
+haunt	/ˈhɔnt/
+standpoint	/ˈstændˌpɔɪnt/
+sting	/ˈstɪŋ/
+impatient	/ˌɪmˈpeɪʃənt/
+proclaim	/pɹoʊˈkɫeɪm/
+prose	/ˈpɹoʊz/
+intellectual	/ˌɪnəˈɫɛktʃuəɫ/, /ˌɪntəˈɫɛktʃuəɫ/
+inward	/ˈɪnwɝd/
+justify	/ˈdʒəstəˌfaɪ/
+awe	/ˈɑ/, /ˈɔ/
+blast	/ˈbɫæst/
+mechanism	/ˈmɛkəˌnɪzəm/
+bulk	/ˈbəɫk/
+choke	/ˈtʃoʊk/
+coarse	/ˈkɔɹs/
+nuisance	/ˈnusəns/
+perish	/ˈpɛɹɪʃ/
+crawl	/ˈkɹɔɫ/
+plunge	/ˈpɫəndʒ/
+incline	/ˈɪnkɫaɪn/, /ˌɪnˈkɫaɪn/
+inheritance	/ˌɪnˈhɛɹətəns/
+provoke	/pɹəˈvoʊk/
+surrender	/sɝˈɛndɝ/
+resign	/ɹiˈsaɪn/, /ɹiˈzaɪn/, /ɹɪˈzaɪn/
+destiny	/ˈdɛstəni/
+disgusting	/dɪsˈɡəstɪŋ/
+scrape	/ˈskɹeɪp/
+sect	/ˈsɛkt/
+cue	/ˈkju/
+cutoff	/ˈkəˌtɔf/
+decay	/dɪˈkeɪ/
+signify	/ˈsɪɡnəˌfaɪ/
+dump	/ˈdəmp/
+enquiry	/ɪnˈkwaɪˌɹi/
+smash	/ˈsmæʃ/
+ethnicity	/ɛθˈnɪsɪti/
+sober	/ˈsoʊbɝ/
+stain	/ˈsteɪn/
+hesitation	/ˌhɛzəˈteɪʃən/
+humble	/ˈhəmbəɫ/
+stumble	/ˈstəmbəɫ/
+feeble	/ˈfibəɫ/
+fibre	/ˈfaɪbɝ/
+supervision	/ˌsupɝˈvɪʒən/
+remainder	/ɹiˈmeɪndɝ/, /ɹɪˈmeɪndɝ/
+suspicion	/səˈspɪʃən/
+tempt	/ˈtɛmpt/
+tender	/ˈtɛndɝ/
+countless	/ˈkaʊntɫəs/
+crack	/ˈkɹæk/
+thrust	/ˈθɹəst/
+trim	/ˈtɹɪm/
+vocal	/ˈvoʊkəɫ/
+autograph	/ˈɔtəˌɡɹæf/
+breakdown	/ˈbɹeɪkˌdaʊn/
+fatal	/ˈfeɪtəɫ/
+fuss	/ˈfəs/
+gratitude	/ˈɡɹætəˌtud/
+heir	/ˈɛɹ/
+procession	/pɹəˈsɛʃən/, /pɹoʊˈsɛʃən/
+reassure	/ˌɹiəˈʃʊɹ/
+needy	/ˈnidi/
+objection	/əbˈdʒɛkʃən/
+pledge	/ˈpɫɛdʒ/
+hollow	/ˈhɑɫoʊ/
+leak	/ˈɫik/
+replacement	/ɹɪˈpɫeɪsmənt/
+reside	/ɹiˈzaɪd/, /ɹɪˈzaɪd/
+sob	/ˈsɑb/
+sow	/ˈsaʊ/, /ˈsoʊ/
+recess	/ˈɹisɛs/, /ɹɪˈsɛs/
+frankly	/ˈfɹæŋkɫi/
+seize	/ˈsiz/
+yield	/ˈjiɫd/
+abolish	/əˈbɑɫɪʃ/
+insult	/ˈɪnˌsəɫt/, /ˌɪnˈsəɫt/
+despise	/dɪˈspaɪz/
+offend	/əˈfɛnd/
+betray	/bɪˈtɹeɪ/
+glance	/ˈɡɫæns/
+cease	/ˈsis/
+earnest	/ˈɝnɪst/
+seasonal	/ˈsizənəɫ/
+dawn	/ˈdɔn/
+exhausted	/ɪɡˈzɔstɪd/
+equivalent	/ɪˈkwɪvəɫənt/
+dignity	/ˈdɪɡnəti/
+remark	/ɹiˈmɑɹk/, /ɹɪˈmɑɹk/
+sorrow	/ˈsɑɹoʊ/
+tragedy	/ˈtɹædʒədi/
+nerve	/ˈnɝv/
+prejudice	/ˈpɹɛdʒədɪs/
+absurd	/əbˈsɝd/
+multiple	/ˈməɫtəpəɫ/
+supreme	/səˈpɹim/, /sɝˈpɹim/
+donation	/doʊˈneɪʃən/
+fetch	/ˈfɛtʃ/
+leisurely	/ˈɫizɝɫi/
+unavoidable	/ˌənəˈvɔɪdəbəɫ/
+prosperity	/pɹɑˈspɛɹəti/
+humanity	/hjuˈmænɪti/, /juˈmænɪti/
+deceive	/dɪˈsiv/
+dismiss	/dɪsˈmɪs/
+splendid	/ˈspɫɛndɪd/
+envious	/ˈɛnviəs/
+mischief	/ˈmɪstʃəf/
+despair	/dɪˈspɛɹ/
+grief	/ˈɡɹif/
+misery	/ˈmɪzɝi/
+coward	/ˈkaʊɝd/
+idle	/ˈaɪdəɫ/
+indifferent	/ˌɪnˈdɪfɝənt/, /ˌɪnˈdɪfɹənt/
+punctual	/ˈpəŋktʃuəɫ/
+consent	/kənˈsɛnt/
+conscience	/ˈkɑnʃəns/
+numerous	/ˈnumɝəs/
+deficit	/ˈdɛfəsət/
+blowup	/ˈbɫoʊˌəp/
+dreadful	/ˈdɹɛdfəɫ/
+grin	/ˈɡɹɪn/
+sacrifice	/ˈsækɹəˌfaɪs/
+well-being	/ˌwɛɫˈbiɪŋ/
+put forward	
+date back to	
+take 〜 for granted	
+give rise to	
+explosive	/ɪksˈpɫoʊsɪv/
+instrumental	/ˌɪnstɹəˈmɛnəɫ/, /ˌɪnstɹəˈmɛntəɫ/
+skyscraper	/ˈskaɪsˌkɹeɪpɝ/
+contentment	/kənˈtɛntmənt/
+taxation	/tækˈseɪʃən/
+paperwork	/ˈpeɪpɝˌwɝk/
+guidance	/ˈɡaɪdəns/
+naive	/ˌnaɪˈiv/
+hypocritical	/ˌhɪpəˈkɹɪtɪkəɫ/
+topical	/ˈtɑpəkəɫ/, /ˈtɑpɪkəɫ/
+countermeasure	/ˈkaʊntɝˌmɛʒɝ/
+dependable	/dɪˈpɛndəbəɫ/
+time-consuming	
+at the expense of	
+in pursuit of	
+a case in point	
+disposable	/dɪˈspoʊzəbəɫ/
+session	/ˈsɛʃən/
+novel	/ˈnɑvəɫ/
+objective	/əbˈdʒɛktɪv/
+implicit	/ˌɪmˈpɫɪsət/
+marked	/ˈmɑɹkt/
+lengthy	/ˈɫɛŋθi/
+discipline	/ˈdɪsəpɫən/
+maze	/ˈmeɪz/
+expertise	/ˌɛkspɝˈtiz/
+mortality	/mɔɹˈtæɫəti/
+output	/ˈaʊtˌpʊt/
+explicit	/ɪksˈpɫɪsət/
+implication	/ˌɪmpɫəˈkeɪʃən/
+mobile	/ˈmoʊbəɫ/
+fragile	/ˈfɹædʒəɫ/
+mobility	/moʊˈbɪɫəti/, /moʊˈbɪɫɪti/
+altitude	/ˈæɫtəˌtud/
+valid	/ˈvæɫɪd/
+drawback	/ˈdɹɔˌbæk/
+excavation	/ˌɛkskəˈveɪʃən/
+likelihood	/ˈɫaɪkɫiˌhʊd/
+overview	/ˈoʊvɝvˌju/
+vulnerable	/ˈvəɫnɝəbəɫ/
+feat	/ˈfit/
+criterion	/kɹaɪˈtɪɹiən/
+presume	/pɹɪˈzum/
+edible	/ˈɛdəbəɫ/
+incentive	/ˌɪnˈsɛnɪv/, /ˌɪnˈsɛntɪv/
+straightforward	/ˈstɹeɪtˈfɔɹwɝd/
+strand	/ˈstɹænd/
+allocate	/ˈæɫəˌkeɪt/
+complexity	/kəmˈpɫɛksəti/, /kəmˈpɫɛksɪti/
+autonomy	/əˈtɑnəmi/, /ɔˈtɑnəmi/
+domesticate	/dəˈmɛstəˌkeɪt/
+functional	/ˈfəŋkʃənəɫ/
+prior	/ˈpɹaɪɝ/
+reinforce	/ˌɹiɪnˈfɔɹs/
+rotate	/ˈɹoʊˌteɪt/
+underlying	/ˌəndɝˈɫaɪɪŋ/
+rewarding	/ɹiˈwɔɹdɪŋ/, /ɹɪˈwɔɹdɪŋ/
+resistant	/ɹiˈzɪstənt/, /ɹɪˈzɪstənt/
+comprise	/kəmˈpɹaɪz/
+domain	/doʊˈmeɪn/
+intricate	/ˈɪntɹəkət/
+minimise	
+thrive	/ˈθɹaɪv/
+toxic	/ˈtɑksɪk/
+variable	/ˈvɛɹiəbəɫ/
+enhance	/ɛnˈhæns/
+for the sake of	
+demanding	/dɪˈmændɪŋ/
+a bunch of	
+champion	/ˈtʃæmpiən/
+array	/ɝˈeɪ/
+compensate	/ˈkɑmpənˌseɪt/
+rear	/ˈɹɪɹ/
+compulsory	/kəmˈpəɫsɝi/
+factual	/ˈfæktʃuəɫ/
+asset	/ˈæˌsɛt/
+found	/ˈfaʊnd/
+imbalance	/ɪmˈbæɫəns/
+reckon	/ˈɹɛkən/
+spontaneous	/spɑnˈteɪniəs/
+wreck	/ˈɹɛk/
+premier	/pɹɛˈmɪɹ/, /pɹiˈmɪɹ/
+redundant	/ɹɪˈdəndənt/
+advocate	/ˈædvəˌkeɪt/, /ˈædvəkət/
+vanish	/ˈvænɪʃ/
+alter	/ˈɔɫtɝ/
+ease	/ˈiz/
+accelerate	/ækˈsɛɫɝˌeɪt/
+collision	/kəˈɫɪʒən/
+duration	/ˈdʊˈɹeɪʃən/
+exotic	/ɪɡˈzɑtɪk/
+facilitate	/fəˈsɪɫəˌteɪt/
+incorporate	/ˌɪnˈkɔɹpɝˌeɪt/
+contend	/kənˈtɛnd/
+distort	/dɪˈstɔɹt/
+ingenious	/ˌɪnˈdʒinjəs/
+manoeuvre	/məˈnuːvɚ/
+skyline	/ˈskaɪˌɫaɪn/
+swift	/ˈswɪft/
+tow	/ˈtoʊ/
+socialise	
+static	/ˈstætɪk/
+innate	/ˌɪˈneɪt/
+steadily	/ˈstɛdəɫi/
+subsequent	/ˈsəbsəkwənt/
+underestimate	/ˈəndɝˈɛstəˌmeɪt/, /ˈəndɝˈɛstəmət/
+uphill	/ˈəpˈhɪɫ/
+sanitation	/ˌsænəˈteɪʃən/, /ˌsænɪˈteɪʃən/
+literate	/ˈɫɪtɝət/
+accordingly	/əˈkɔɹdɪŋɫi/
+noble	/ˈnoʊbəɫ/
+virtue	/ˈvɝtʃu/
+integrate	/ˈɪnəˌɡɹeɪt/, /ˈɪntəˌɡɹeɪt/
+mount	/ˈmaʊnt/
+by-product	
+clarity	/ˈkɫɛɹəti/, /ˈkɫɛɹɪti/
+dominance	/ˈdɑmənəns/
+toddler	/ˈtɑdɫɝ/
+decidedly	/ˌdɪˈsaɪdədɫi/
+authentic	/əˈθɛnɪk/, /əˈθɛntɪk/, /ɔˈθɛnɪk/, /ɔˈθɛntɪk/
+grave	/ˈɡɹeɪv/
+dose	/ˈdoʊs/
+scanty	/ˈskænti/
+durable	/ˈdʊɹəbəɫ/
+crisp	/ˈkɹɪsp/
+inactive	/ˌɪˈnæktɪv/
+conceive	/kənˈsiv/
+inhibit	/ˌɪnˈhɪbət/
+spacious	/ˈspeɪʃəs/
+intake	/ˈɪnˌteɪk/
+knowledgeable	/ˈnɑɫədʒəbəɫ/
+lessen	/ˈɫɛsən/
+archaic	/ɑɹˈkeɪɪk/
+menace	/ˈmɛnəs/, /ˈmɛnɪs/
+dictate	/ˈdɪkˌteɪt/, /dɪkˈteɪt/
+notable	/ˈnoʊtəbəɫ/
+prevalent	/ˈpɹɛvəɫənt/
+quantify	/ˈkwɑntɪˌfaɪ/
+monopoly	/məˈnɑpəɫi/
+relevance	/ˈɹɛɫəvəns/
+undergo	/ˌəndɝˈɡoʊ/
+preferable	/ˈpɹɛfɝəbəɫ/, /ˈpɹɛfɹəbəɫ/
+segment	/ˈsɛɡmənt/, /ˌsɛɡˈmɛnt/
+subjective	/səbˈdʒɛktɪv/
+disposal	/dɪˈspoʊzəɫ/
+introductory	/ˌɪntɹəˈdəktɝi/, /ˌɪntɹoʊˈdəktɝi/
+sophisticated	/səˈfɪstəˌkeɪtɪd/, /səˈfɪstɪˌkeɪtəd/
+tolerant	/ˈtɑɫɝənt/
+embrace	/ɛmˈbɹeɪs/, /ɪmˈbɹeɪs/
+theoretical	/ˌθiɝˈɛtɪkəɫ/
+whilst	/ˈwaɪɫst/
+quote	/ˈkwoʊt/
+pinpoint	/ˈpɪnˌpɔɪnt/
+apprentice	/əˈpɹɛntəs/, /əˈpɹɛntɪs/
+bound	/ˈbaʊnd/
+on the brink of	
+coincide with	
+evoke	/iˈvoʊk/, /ɪˈvoʊk/
+compatible	/kəmˈpætəbəɫ/
+adverse	/ˈædˌvɝs/, /ædˈvɝs/, /ədˈvɝs/
+decisive	/dɪˈsaɪsɪv/
+revolutionise	
+depict	/dɪˈpɪkt/
+comprehensive	/ˌkɑmpɹiˈhɛnsɪv/
+detach	/ˈdɪˌtætʃ/, /diˈtætʃ/
+disuse	/dɪsˈjus/
+texture	/ˈtɛkstʃɝ/
+transparent	/tɹænˈspɛɹənt/
+disrupt	/dɪsˈɹəpt/
+eventual	/əˈvɛntʃuəɫ/, /iˈvɛntʃuəɫ/
+expenditure	/ɪkˈspɛndətʃɝ/, /ɪkˈspɛndɪtʃɝ/
+forthcoming	/ˈfɔɹθˈkəmɪŋ/
+hierarchy	/ˈhaɪˌɹɑɹki/, /ˈhaɪɝˌɑɹki/
+humility	/hjuˈmɪɫɪti/
+impractical	/ˌɪmˈpɹæktəkəɫ/, /ˌɪmˈpɹæktɪkəɫ/
+inaccurate	/ˌɪˈnækjɝət/
+mainstream	/ˈmeɪnˌstɹim/
+dweller	/ˈdwɛɫɝ/
+emigrate	/ˈɛməˌɡɹeɪt/
+emit	/ɪˈmɪt/
+maximise	
+informative	/ˌɪnˈfɔɹmətɪv/
+municipal	/mjuˈnɪsəpəɫ/
+nourish	/ˈnɝɪʃ/
+work-oriented	
+quota	/ˈkwoʊtə/
+recollection	/ˌɹɛkəˈɫɛkʃən/
+spouse	/ˈspaʊs/
+inject	/ˌɪnˈdʒɛkt/
+monoculture	/ˈmɒnoʊˌkʌlt͡ʃə(ɹ)/
+staple	/ˈsteɪpəɫ/
+deplete	/dɪˈpɫit/
+steward	/ˈstuɝd/
+dip	/ˈdɪp/
+supposedly	/səˈpoʊzədɫi/
+disastrous	/dɪˈzæstɹəs/
+subscription	/səbsˈkɹɪpʃən/
+tedious	/ˈtidiəs/
+uneven	/əˈnivən/
+loyalty	/ˈɫɔɪəɫti/
+exert	/ɪɡˈzɝt/
+industrious	/ˌɪnˈdəstɹiəs/
+ambiguous	/æmˈbɪɡjuəs/
+fancy	/ˈfænsi/
+combat	/ˈkɑmbæt/, /kəmˈbæt/
+escalate	/ˈɛskəˌɫeɪt/
+safeguard	/ˈseɪfˌɡɑɹd/
+imposing	/ˌɪmˈpoʊzɪŋ/
+adolescent	/ˌædəˈɫɛsənt/, /ˌædoʊˈɫɛsənt/
+prospective	/pɹəˈspɛktɪv/
+amid	/əˈmɪd/
+analogy	/əˈnæɫədʒi/
+glory	/ˈɡɫɔɹi/
+aspire	/əˈspaɪɹ/
+brisk	/ˈbɹɪsk/
+coherent	/koʊˈhɪɹənt/
+coin	/ˈkɔɪn/
+stride	/ˈstɹaɪd/
+commonplace	/ˈkɑmənˌpɫeɪs/
+acute	/əkˈjut/
+status	/ˈstætəs/, /ˈsteɪtəs/
+discard	/dɪˈskɑɹd/
+comply with	
+designate 〜 as[to be] ...	
+curtail	/kɝˈteɪɫ/
+disregard	/ˌdɪsɹɪˈɡɑɹd/
+ditch	/ˈdɪtʃ/
+embark	/ɛmˈbɑɹk/, /ɪmˈbɑɹk/
+condemn	/kənˈdɛm/
+emotive	/ˈiˌmoʊtɪv/, /ɪˈmoʊtɪv/
+stab	/ˈstæb/
+enrich	/ɛnˈɹɪtʃ/, /ɪnˈɹɪtʃ/
+gauge	/ˈɡeɪdʒ/
+dispense	/dɪˈspɛns/
+halve	/ˈhæv/
+inefficient	/ˌɪnɪˈfɪʃənt/
+stimulating	/ˈstɪmjəˌɫeɪtɪŋ/
+lingering	/ˈɫɪŋɡɝɪŋ/, /ˈɫɪŋɡɹɪŋ/
+livelihood	/ˈɫaɪvɫiˌhʊd/
+majestic	/məˈdʒɛstɪk/
+inequity	/ˌɪˈnɛkwəti/
+merge	/ˈmɝdʒ/
+sip	/ˈsɪp/
+monarchy	/ˈmɑnɑɹki/
+obsessed	/əbˈsɛst/
+perpetual	/pɝˈpɛtʃuəɫ/
+skim	/ˈskɪm/
+speculate	/ˈspɛkjəˌɫeɪt/
+integral	/ˈɪnəɡɹəɫ/, /ˈɪntəɡɹəɫ/
+placement	/ˈpɫeɪsmənt/
+refrain	/ɹɪˈfɹeɪn/
+stationary	/ˈsteɪʃəˌnɛɹi/
+proactive	/ˌpɹoʊˈæktɪv/
+responsive	/ɹɪˈspɑnsɪv/
+royalty	/ˈɹɔɪəɫti/
+sermon	/ˈsɝmən/
+outskirts	/ˈaʊtˌskɝts/
+exhaustive	/ɪɡˈzɔstɪv/
+arbitrary	/ˈɑɹbəˌtɹɛɹi/, /ˈɑɹbɪˌtɹɛɹi/
+subconscious	/səbˈkɑnʃəs/
+relocate	/ˌɹiˈɫoʊkeɪt/
+brew	/ˈbɹu/
+conspicuous	/kənˈspɪkjuəs/
+existent	/ɛɡˈzɪstənt/
+foe	/ˈfoʊ/
+ignition	/ˌɪɡˈnɪʃən/
+shareholder	/ˈʃɛɹˌhoʊɫdɝ/
+simultaneous	/ˌsaɪməɫˈteɪniəs/
+squash	/ˈskwɑʃ/
+waterproof	/ˈwɔtɝˌpɹuf/
+stammer	/ˈstæmɝ/
+bleak	/ˈbɫik/
+clumsy	/ˈkɫəmzi/
+stroll	/ˈstɹoʊɫ/
+temperament	/ˈtɛmpɝmənt/, /ˈtɛmpɹəmənt/
+toll	/ˈtoʊɫ/
+tranquil	/ˈtɹæŋkwəɫ/, /ˈtɹæŋkwɪɫ/
+sprawl	/ˈspɹɔɫ/
+traverse	/ˈtɹævɝs/, /tɹəˈvɝs/
+underscore	/ˌəndɝˈskɔɹ/
+commentary	/ˈkɑmənˌtɛɹi/
+weird	/ˈwɪɹd/
+agenda	/əˈdʒɛndə/
+correlation	/ˌkɔɹəˈɫeɪʃən/
+delegate	/ˈdɛɫəˌɡeɪt/, /ˈdɛɫəɡət/
+command	/kəˈmænd/
+discretion	/dɪsˈkɹɛʃən/
+meaningful	/ˈminɪŋfəɫ/
+alarming	/əˈɫɑɹmɪŋ/
+mediate	/ˈmidiˌeɪt/
+periodical	/ˌpɪɹiˈɑdɪkəɫ/
+superb	/sʊˈpɝb/
+whereabouts	/ˈhwɛɹəˌbaʊts/, /ˈwɛɹəˌbaʊts/
+introvert	/ˈɪntɹoʊˌvɝt/
+solemn	/ˈsɑɫəm/
+liable	/ˈɫaɪəbəɫ/
+respectively	/ɹɪˈspɛktɪvɫi/
+invaluable	/ˌɪnˈvæɫjəbəɫ/
+contradict	/ˌkɑntɹəˈdɪkt/
+distract	/dɪˈstɹækt/
+drastic	/ˈdɹæstɪk/
+fierce	/ˈfɪɹs/
+superficial	/ˌsupɝˈfɪʃəɫ/
+tolerance	/ˈtɑɫɝəns/
+necessity	/nəˈsɛsəti/, /nəˈsɛsɪti/
+nasty	/ˈnæsti/
+in the meantime	
+feasible	/ˈfizəbəɫ/
+simplify	/ˈsɪmpɫəˌfaɪ/
+playful	/ˈpɫeɪfəɫ/
+persuasive	/pɝˈsweɪsɪv/
+abound	/əˈbaʊnd/
+astounding	/əˈstaʊndɪŋ/
+comrade	/ˈkɑmˌɹæd/
+audit	/ˈɔdɪt/
+axis	/ˈæksəs/
+bewilder	/bɪˈwɪɫdɝ/
+blink	/ˈbɫɪŋk/
+blur	/ˈbɫɝ/
+caption	/ˈkæpʃən/
+circulate	/ˈsɝkjəˌɫeɪt/
+clatter	/ˈkɫætɝ/
+flawless	/ˈfɫɔɫəs/
+cling	/ˈkɫɪŋ/
+accredited	/əˈkɹɛdɪtɪd/
+afflict	/əˈfɫɪkt/
+ascertain	/ˌæsɝˈteɪn/
+clutch	/ˈkɫətʃ/
+compile	/kəmˈpaɪɫ/
+exterminate	/ɪkˈstɝməˌneɪt/
+compress	/ˈkɑmpɹɛs/, /kəmˈpɹɛs/
+concise	/kənˈsaɪs/
+avail	/əˈveɪɫ/
+intercept	/ˌɪnɝˈsɛpt/, /ˌɪntɝˈsɛpt/
+avid	/ˈævəd/, /ˈævɪd/
+confer	/kənˈfɝ/
+cripple	/ˈkɹɪpəɫ/
+defective	/dɪˈfɛktɪv/
+graffiti	/ɡɹəˈfiti/
+desolate	/ˈdɛsəˌɫeɪt/, /ˈdɛsəɫət/, /ˈdɛzəɫət/
+devastate	/ˈdɛvəˌsteɪt/
+dismal	/ˈdɪzməɫ/
+agreeable	/əˈɡɹiəbəɫ/
+displace	/dɪsˈpɫeɪs/
+interchangeable	/ˌɪnɝˈtʃeɪndʒəbəɫ/, /ˌɪntɝˈtʃeɪndʒəbəɫ/
+divert	/daɪˈvɝt/, /dɪˈvɝt/
+elastic	/ɪˈɫæstɪk/
+deficiency	/dɪˈfɪʃənsi/
+eloquent	/ˈɛɫəkwənt/
+eminent	/ˈɛmənənt/
+encode	/ɛnˈkoʊd/
+wary	/ˈwɛɹi/
+endeavour	/ɪnˈdɛvɝ/
+engross	/ɪnˈɡɹoʊs/
+conspiracy	/kənˈspɪɹəsi/
+contrive	/kənˈtɹaɪv/
+credible	/ˈkɹɛdəbəɫ/
+entangle	/ɛnˈtæŋɡəɫ/
+expire	/ɪkˈspaɪɹ/
+doom	/ˈdum/
+duly	/ˈduɫi/
+fury	/ˈfjʊɹi/
+gigantic	/dʒaɪˈɡænɪk/, /dʒaɪˈɡæntɪk/
+glare	/ˈɡɫɛɹ/
+harmonise	
+hinder	/ˈhɪndɝ/
+hinge	/ˈhɪndʒ/
+idealistic	/aɪˌdiəˈɫɪstɪk/
+illuminate	/ˌɪˈɫumɪnɪt/
+immerse	/ˌɪˈmɝs/
+inherent	/ɪnˈhɛɹənt/, /ɪnˈhɪɹənt/
+devour	/dɪˈvaʊɝ/
+prestigious	/pɝˈstidʒəs/, /pɹɛˈstɪdʒəs/
+dignify	/ˈdɪɡnəˌfaɪ/
+exquisitely	/ˌɛksˈkwɪzɪtɫi/
+foresee	/fɔɹˈsi/
+discriminate	/dɪsˈkɹɪməˌneɪt/
+lament	/ɫəˈmɛnt/
+lapse	/ˈɫæps/
+leftover	/ˈɫɛfˌtoʊvɝ/
+linear	/ˈɫɪniɝ/
+magnify	/ˈmæɡnəˌfaɪ/
+knack	/ˈnæk/
+merchandise	/ˈmɝtʃənˌdaɪz/
+disdain	/dɪsˈdeɪn/
+integrity	/ˌɪnˈtɛɡɹəti/, /ɪnˈtɛɡɹɪti/
+misplace	/mɪsˈpɫeɪs/
+mobilise	
+polarise	
+negligible	/ˈnɛɡɫədʒəbəɫ/, /ˈnɛɡɫɪdʒəbəɫ/
+manifest	/ˈmænəˌfɛst/
+pragmatic	/pɹæɡˈmætɪk/
+precede	/pɹɪˈsid/
+memorable	/ˈmɛmɝəbəɫ/
+nostalgic	/nɔˈstæɫdʒɪk/
+outreach	/ˈaʊˌtɹitʃ/
+overlap	/ˈoʊvɝˌɫæp/
+pave the way for	
+perplexing	/pɝˈpɫɛksɪŋ/
+afloat	/əˈfɫoʊt/
+perseverance	/ˌpɝsəˈvɪɹəns/
+sterile	/ˈstɛɹəɫ/
+subdue	/səbˈdu/
+posture	/ˈpɑstʃɝ/
+notwithstanding	/ˌnɑtwɪθˈstændɪŋ/
+novice	/ˈnɑvəs/
+obstruct	/əbˈstɹəkt/
+proportional	/pɹəˈpɔɹʃənəɫ/
+recede	/ɹɪˈsid/
+plea	/ˈpɫi/
+recipient	/ɹəˈsɪpiənt/, /ɹɪˈsɪpiənt/
+inflict	/ˌɪnˈfɫɪkt/
+ridicule	/ˈɹɪdəkˌjuɫ/
+ripple	/ˈɹɪpəɫ/
+rotten	/ˈɹɑtən/
+surpass	/sɝˈpæs/
+wring	/ˈɹɪŋ/
+rudiment	/ˈɹudɪmənt/
+rumble	/ˈɹəmbəɫ/
+shove	/ˈʃəv/
+shrewd	/ˈʃɹud/
+relish	/ˈɹɛɫɪʃ/
+disprove	/dɪsˈpɹuv/
+editorial	/ˌɛdəˈtɔɹiəɫ/
+repel	/ɹɪˈpɛɫ/
+revitalise	
+shudder	/ˈʃədɝ/
+subsidiary	/səbˈsɪdiˌɛɹi/
+affluent	/ˈæfɫuənt/
+swallow	/ˈswɑɫoʊ/, /ˈswɔɫoʊ/
+tickle	/ˈtɪkəɫ/
+tilt	/ˈtɪɫt/
+tribute	/ˈtɹɪbjut/
+vent	/ˈvɛnt/
+worsen	/ˈwɝsən/
+suffice	/səˈfaɪs/
+summon	/ˈsəmən/
+yarn	/ˈjɑɹn/
+affirm	/əˈfɝm/
+discern	/dɪˈsɝn/
+airy	/ˈɛɹi/
+zeal	/ˈziɫ/
+anonymous	/əˈnɑnəməs/
+centenary	/ˈsɛntəˌnɛɹi/
+indulge	/ˌɪnˈdəɫdʒ/
+chatter	/ˈtʃætɝ/
+confidential	/ˌkɑnfəˈdɛnʃəɫ/
+aid	/ˈeɪd/
+mass	/ˈmæs/
+grit	/ˈɡɹɪt/
+conform to	
+dilemma	/dɪˈɫɛmə/
+console	/ˈkɑnsoʊɫ/, /kənˈsoʊɫ/
+bulky	/ˈbəɫki/
+crude	/ˈkɹud/
+disbelief	/ˌdɪsbɪˈɫif/
+endorse	/ɛnˈdɔɹs/
+neutralise	
+outfit	/ˈaʊtˌfɪt/
+paradoxical	/ˌpɛɹəˈdɑksɪkəɫ/
+explanatory	/ɪksˈpɫænəˌtɔɹi/
+incidentally	/ˌɪnsɪˈdɛntəɫi/, /ˌɪnsɪˈdɛntɫi/
+discredit	/dɪsˈkɹɛdət/
+charitable	/ˈtʃæɹətəbəɫ/, /ˈtʃɛɹətəbəɫ/
+voucher	/ˈvaʊtʃɝ/
+intrude	/ˌɪnˈtɹud/
+mighty	/ˈmaɪti/
+ornament	/ˈɔɹnəmənt/
+clack	/ˈkɫæk/
+concession	/kənˈsɛʃən/
+outgoing	/ˈaʊtˌɡoʊɪŋ/
+pressurise	
+rivalry	/ˈɹaɪvəɫɹi/
+cram	/ˈkɹæm/
+roundabout	/ˈɹaʊndəˌbaʊt/
+arouse	/ɝˈaʊz/
+beware	/bɪˈwɛɹ/
+shabby	/ˈʃæbi/
+literal	/ˈɫɪtɝəɫ/
+inclusive	/ˌɪnˈkɫusɪv/
+impulse	/ˈɪmpəɫs/, /ˌɪmˈpəɫs/
+trait	/ˈtɹeɪt/
+indispensable	/ˌɪndɪˈspɛnsəbəɫ/
+grace	/ˈɡɹeɪs/
+murmur	/ˈmɝmɝ/
+whirl	/ˈhwɝɫ/, /ˈwɝɫ/
+ample	/ˈæmpəɫ/
+induce	/ˌɪnˈdus/
+obedient	/oʊˈbidiənt/
+inclusion	/ˌɪnˈkɫuʒən/
+proofread	/ˈpɹuˌfɹid/
+revulsion	/ɹiˈvəɫʃən/, /ɹɪˈvəɫʃən/
+wane	/ˈweɪn/
+roam	/ˈɹoʊm/
+identical	/aɪˈdɛntɪkəɫ/
+upside	/ˈəpˈsaɪd/
+familiarise	
+hinge on	
+intolerable	/ˌɪnˈtɑɫɝəbəɫ/
+invariably	/ˌɪnˈvɛɹiəbɫi/
+furious	/ˈfjʊɹiəs/
+considerate	/kənˈsɪdɝət/
+oppression	/əˈpɹɛʃən/
+savage	/ˈsævədʒ/, /ˈsævɪdʒ/
+scorn	/ˈskɔɹn/
+decent	/ˈdisənt/
+plead	/ˈpɫid/
+synchronous	/ˈsɪŋkɹənəs/
+stray	/ˈstɹeɪ/
+tremble	/ˈtɹɛmbəɫ/
+exclaim	/ɪkˈskɫeɪm/
+deadlock	/ˈdɛdˌɫɑk/
+delicacy	/ˈdɛɫəkəsi/, /ˈdɛɫɪkəsi/
+pinnacle	/ˈpɪnəkəɫ/
+calamity	/kəˈɫæməti/, /kəˈɫæmɪti/
+offset	/ˈɔfˌsɛt/, /ɔfˈsɛt/
+run counter to	
+bring to life	
+shoot up	
+abort	/əˈbɔɹt/
+dispatch	/dɪˈspætʃ/
+spur	/ˈspɝ/
+stabilise	
+forsake	/fɔɹˈseɪk/
+consolidate	/kənˈsɑɫɪˌdeɪt/
+uphold	/əpˈhoʊɫd/
+recount	/ˌɹiˈkaʊnt/, /ɹɪˈkaʊnt/
+applicable	/ˈæpɫəkəbəɫ/
+like-minded	
+state-of-the-art	/ˌsteɪtəvðɪˈɑɹt/
+flavoursome	
+formidable	/ˈfɔɹmədəbəɫ/, /ˌfɔɹˈmɪdəbəɫ/
+categorical	/ˌkætəˈɡɑɹɪkəɫ/, /ˌkætəˈɡɔɹɪkəɫ/
+picturesque	/ˈpɪktʃɝəsk/
+hands-on	/ˌhænˈzɔn/
+philanthropic	/ˌfɪɫənˈθɹɑpɪk/
+unanimous	/juˈnænəməs/
+wholesome	/ˈhoʊɫsəm/
+inseparable	/ˌɪnˈsɛpɝəbəɫ/
+in practice	
+all the rage	
+double-edged sword	
+rule out	
+keep track of	
+from scratch	
+remains	/ɹiˈmeɪnz/, /ɹɪˈmeɪnz/
+chore	/ˈtʃɔɹ/
+enlightening	/ˌɛnˈɫaɪtənɪŋ/, /ɛnˈɫaɪtnɪŋ/
+spike	/ˈspaɪk/
+petition	/pəˈtɪʃən/
+clarify	/ˈkɫɛɹəˌfaɪ/
+recite	/ɹəˈsaɪt/
+subside	/səbˈsaɪd/
+wither	/ˈwɪðɝ/
+knock down	
+make a name for oneself	
+embark on	
+track down	
+stick to	
+fall through	
+skyrocket	/ˈskaɪˌɹɑkət/
+nosedive	/ˈnoʊzˌdaɪv/
+make a difference	
+disadvantaged	/ˌdɪsədˈvænɪdʒd/, /dɪsədˈvæntɪdʒd/
+adaptable	/əˈdæptəbəɫ/
+convincing	/kənˈvɪnsɪŋ/
+to name a few	
+cognitive	/ˈkɑɡnɪtɪv/
+molten	/ˈmoʊɫtən/
+primarily	/pɹaɪˈmɛɹəɫi/
+mould	/ˈmoʊɫd/
+acoustic	/əˈkustɪk/
+norm	/ˈnɔɹm/
+sanctuary	/ˈsæŋktʃuˌɛɹi/
+minimal	/ˈmɪnəməɫ/
+submissive	/səbˈmɪsɪv/
+variant	/ˈvɛɹiənt/
+viable	/ˈvaɪəbəɫ/
+implement	/ˈɪmpɫəmənt/
+flaw	/ˈfɫɔ/
+methodology	/ˌmɛθəˈdɑɫədʒi/
+engrave	/ɪnˈɡɹeɪv/
+bizarre	/bəˈzɑɹ/, /bɪˈzɑɹ/
+empirical	/ˌɛmˈpɪɹɪkəɫ/
+meditation	/ˌmɛdəˈteɪʃən/
+plausible	/ˈpɫɔzəbəɫ/
+hence	/ˈhɛns/
+premise	/ˈpɹɛmɪs/
+prone	/ˈpɹoʊn/
+sheer	/ˈʃɪɹ/
+collective	/kəˈɫɛktɪv/
+advent	/ˈædˌvɛnt/
+bottleneck	/ˈbɑtəɫˌnɛk/
+constitute	/ˈkɑnstəˌtut/
+expectancy	/ɪkˈspɛktənsi/
+manipulate	/məˈnɪpjəˌɫeɪt/
+monumental	/ˌmɑnjəˈmɛnəɫ/, /ˌmɑnjəˈmɛntəɫ/, /ˌmɑnjuˈmɛntəɫ/
+peripheral	/pɝˈɪfɝəɫ/, /pɝˈɪfɹəɫ/
+renowned	/ɹɪˈnaʊnd/
+robust	/ɹoʊˈbəst/
+surge	/ˈsɝdʒ/
+unprecedented	/ənˈpɹɛsɪˌdɛntɪd/
+intriguing	/ˌɪnˈtɹiɡɪŋ/
+intrinsic	/ˌɪnˈtɹɪnsɪk/
+intuitive	/ˌɪnˈtuətɪv/
+niche	/ˈnɪtʃ/
+opt for	
+prototype	/ˈpɹoʊtəˌtaɪp/
+regenerate	/ɹiˈdʒɛnɝˌeɪt/
+remuneration	/ɹɪmˌjunɝˈeɪʃən/
+revert to	
+scrutiny	/ˈskɹutəni/
+versatile	/ˈvɝsətəɫ/, /vɝsəˈtaɪɫ/
+volatile	/ˈvɑɫətəɫ/
+stunning	/ˈstənɪŋ/
+notorious	/noʊˈtɔɹiəs/
+predecessor	/ˈpɹɛdəˌsɛsɝ/
+winding	/ˈwaɪndɪŋ/
+aptitude	/ˈæptəˌtud/
+outright	/ˈaʊˈtɹaɪt/
+potent	/ˈpoʊtənt/
+cumulative	/ˈkjumjəɫətɪv/
+elusive	/ɪˈɫusɪv/
+haul	/ˈhɔɫ/
+embed	/ɪmˈbɛd/
+communal	/kəmˈjunəɫ/
+embody	/ɪmˈbɑdi/
+foul	/ˈfaʊɫ/
+gadget	/ˈɡædʒət/
+mediocre	/ˌmidiˈoʊkɝ/
+rigorous	/ˈɹɪɡɝəs/
+siege	/ˈsidʒ/
+vastly	/ˈvæstɫi/
+eligible	/ˈɛɫədʒəbəɫ/, /ˈɛɫɪdʒəbəɫ/
+hike	/ˈhaɪk/
+misguided	/mɪsˈɡaɪdɪd/
+appraisal	/əˈpɹeɪzəɫ/
+articulate	/ɑɹˈtɪkjəˌɫeɪt/, /ɑɹˈtɪkjəɫət/
+colossal	/kəˈɫɑsəɫ/
+complementary	/ˌkɑmpɫəˈmɛntɹi/, /ˌkɑmpɫəˈmɛntʃi/
+proponent	/pɹəˈpoʊnənt/
+retention	/ɹiˈtɛnʃən/
+scatter	/ˈskætɝ/
+be devoid of	
+showcase	/ˈʃoʊˌkeɪs/
+dub	/ˈdəb/
+eccentric	/ˌɛkˈsɛntɹɪk/, /ɪkˈsɛntɹɪk/
+eradicate	/ɪˈɹædəˌkeɪt/
+exemplify	/ɪɡˈzɛmpɫəˌfaɪ/
+expansive	/ɪkˈspænsɪv/
+fume	/ˈfjum/
+guesswork	/ˈɡɛsˌwɝk/
+harness	/ˈhɑɹnəs/, /ˈhɑɹnɪs/
+intact	/ˌɪnˈtækt/
+juvenile	/ˈdʒuvəˌnaɪɫ/, /ˈdʒuvənəɫ/
+longevity	/ɫɔnˈdʒɛvəti/
+maternal	/məˈtɝnəɫ/
+mimic	/ˈmɪmɪk/
+observatory	/əbˈzɝvəˌtɔɹi/
+predominantly	/ˌpɹɪˈdɑmənəntˌɫi/
+conjunction	/kənˈdʒəŋkʃən/
+cuisine	/kwɪˈzin/
+deteriorate	/dɪˈtɪɹiɝˌeɪt/
+shortcoming	/ˈʃɔɹtˌkəmɪŋ/
+diminish	/dɪˈmɪnɪʃ/
+surveillance	/sɝˈveɪɫəns/
+pardon	/ˈpɑɹdən/
+tailor	/ˈteɪɫɝ/
+abide by	
+erratic	/ɪˈɹætɪk/
+impartial	/ˌɪmˈpɑɹʃəɫ/
+culminate	/ˈkəɫmɪˌneɪt/
+dazzling	/ˈdæzəɫɪŋ/, /ˈdæzɫɪŋ/
+periodic	/ˌpɪɹiˈɑdɪk/
+degrade	/dɪˈɡɹeɪd/
+banal	/bəˈnɑɫ/
+cavity	/ˈkævəti/
+fragrant	/ˈfɹeɪɡɹənt/
+impair	/ˌɪmˈpɛɹ/
+synchronise	
+converse	/ˈkɑnvɝs/, /kənˈvɝs/
+adherent	/ədˈhɪɹənt/
+albeit	/ɔɫˈbiɪt/
+definitive	/dɪˈfɪnɪtɪv/
+backfire	/ˈbækˌfaɪɹ/
+deter	/dɪˈtɝ/
+discrepancy	/dɪsˈkɹɛpənsi/
+peril	/ˈpɛɹəɫ/
+disrepair	/ˌdɪsɹɪˈpɛɹ/
+experiential	/ɛkˌspɛɹiˈɛnʃəɫ/
+downturn	/ˈdaʊnˌtɝn/
+presuppose	/ˌpɹisəˈpoʊz/
+empathy	/ˈɛmpəθi/
+prolonged	/pɹəˈɫɔŋd/
+entail	/ɛnˈteɪɫ/
+acclaim	/əˈkɫeɪm/
+downstream	/ˈdaʊnˈstɹim/
+extrinsic	/ɛkˈstɹɪnsɪk/
+chic	/ˈʃik/
+coexistence	/ˌkoʊɪɡˈzɪstəns/
+adept	/əˈdɛpt/
+recur	/ɹiˈkɝ/, /ɹɪˈkɝ/
+impurity	/ˌɪmˈpjʊɹəti/
+treatise	/ˈtɹitəs/
+untangle	/ənˈtæŋɡəɫ/
+ingenuity	/ˌɪndʒəˈnuəˌti/
+remnant	/ˈɹɛmnənt/
+simulate	/ˈsɪmjəˌɫeɪt/, /ˈsɪmjəɫət/
+intermediary	/ˌɪnɝˈmidiɛɹi/, /ˌɪntɝˈmidiɛɹi/
+stakeholder	/ˈsteɪkˌhoʊɫdɝ/
+stifle	/ˈstaɪfəɫ/
+lexical	/ˈɫɛksɪkəɫ/
+necessitate	/nəˈsɛsəˌteɪt/
+tentative	/ˈtɛnətɪv/, /ˈtɛntətɪv/
+transcribe	/tɹænsˈkɹaɪb/
+oversee	/ˈoʊvɝˌsi/
+dismantle	/dɪsˈmænəɫ/, /dɪsˈmæntəɫ/
+amplify	/ˈæmpɫəˌfaɪ/
+plateau	/pɫæˈtoʊ/
+dubious	/ˈdubiəs/
+dwindle	/ˈdwɪndəɫ/
+encompass	/ɛnˈkəmpəs/
+proxy	/ˈpɹɑksi/
+qualitative	/ˈkwɑɫəˌteɪtɪv/
+quantitative	/ˈkwɑntɪˌteɪtɪv/
+rectify	/ˈɹɛktəˌfaɪ/
+imperative	/ˌɪmˈpɛɹətɪv/
+relentless	/ɹɪˈɫɛntɫɪs/
+fortnight	/ˈfɔɹtˌnaɪt/
+instantaneous	/ˌɪnstənˈtæniəs/
+sprout	/ˈspɹaʊt/
+invoke	/ˌɪnˈvoʊk/
+lethal	/ˈɫiθəɫ/
+studious	/ˈstudiəs/
+consecutive	/kənˈsɛkjətɪv/
+tangible	/ˈtændʒəbəɫ/
+noteworthy	/ˈnoʊtˌwɝði/
+outlandish	/aʊtˈɫændɪʃ/
+transient	/ˈtɹænʒənt/
+inaugurate	/ɪˈnɔɡjɝeɪt/, /ɪˈnɔɡjɝɪt/
+incur	/ˌɪnˈkɝ/
+utilitarian	/juˌtɪɫəˈtɛɹiən/
+onset	/ˈɑnˌsɛt/, /ˈɔnˌsɛt/
+whim	/ˈhwɪm/, /ˈwɪm/
+appalling	/əˈpɔɫɪŋ/
+congestion	/kənˈdʒɛstʃən/
+dietary	/ˈdaɪəˌtɛɹi/
+jot down	
+overdue	/ˈoʊvɝˈdu/
+predominant	/pɹɪˈdɑmənənt/
+respondent	/ɹɪˈspɑndənt/
+setback	/ˈsɛtˌbæk/
+assertive	/əˈsɝtɪv/
+vocational	/voʊˈkeɪʃənəɫ/
+hygiene	/ˈhaɪˌdʒin/
+undermine	/ˈəndɝˌmaɪn/
+arguably	/ˈɑɹɡjuəbɫi/
+regression	/ɹəˈɡɹɛʃən/
+pertinent	/ˈpɝtɪnɪnt/
+render	/ˈɹɛndɝ/
+consolation	/ˌkɑnsəˈɫeɪʃən/
+maternity	/məˈtɝnɪti/
+dissonant	/ˈdɪsənənt/
+constrain	/kənˈstɹeɪn/
+adjacent	/əˈdʒeɪsənt/
+bolster	/ˈboʊɫstɝ/
+downsize	/ˈdaʊnˌsaɪz/
+elicit	/ɪˈɫɪsɪt/
+bygone	/ˈbaɪˌɡɔn/
+captivate	/ˈkæptɪˌveɪt/
+receptive	/ɹiˈsɛptɪv/, /ɹɪˈsɛptɪv/
+combustible	/kəmˈbʌstɪbəl/
+parch	/ˈpɑɹtʃ/
+defiance	/dɪˈfaɪəns/
+paternal	/pəˈtɝnəɫ/
+conjecture	/kənˈdʒɛkʃɝ/, /kənˈdʒɛktʃɝ/
+entwine	/ɛntˈwaɪn/
+circuitous	/sɝkˈjuɪtəs/
+meagre	/ˈmiːɡɚ/
+curb	/ˈkɝb/
+damning	/ˈdæmɪŋ/
+precarious	/pɹiˈkɛɹiəs/
+liaison	/ˈɫeɪˌzɑn/, /ɫiˈeɪˌzɑn/
+clamour	/ˈkɫæmɝ/
+ravage	/ˈɹævɪdʒ/
+dangle	/ˈdæŋɡəɫ/
+retaliate	/ɹiˈtæɫiˌeɪt/, /ɹɪˈtæɫiˌeɪt/
+deceased	/dɪˈsist/
+meticulous	/məˈtɪkjəɫəs/
+ornate	/ɔɹˈneɪt/
+deceptive	/dɪˈsɛptɪv/
+causal	/ˈkɔzəɫ/
+mundane	/mənˈdeɪn/
+occupant	/ˈɑkjəpənt/
+pervasive	/pɝˈveɪsɪv/
+concur	/kənˈkɝ/
+evade	/iˈveɪd/, /ɪˈveɪd/
+refute	/ɹɪfˈjut/
+coax	/ˈkoʊks/
+exempt	/ɪɡˈzɛmpt/
+fidelity	/ˌfaɪˈdɛɫəti/, /fəˈdɛɫəti/
+demise	/dɪˈmaɪz/
+attest	/əˈtɛst/
+benevolent	/bəˈnɛvəɫənt/
+extravagance	/ɛkˈstɹævəɡəns/
+fabricate	/ˈfæbɹəˌkeɪt/
+denounce	/dɪˈnaʊns/
+besiege	/bɪˈsidʒ/
+manifold	/ˈmænəˌfoʊɫd/, /ˈmænɪˌfoʊɫd/
+centralise	
+deduce	/dɪˈdus/
+martial	/ˈmɑɹʃəɫ/
+distend	/dɪˈstɛnd/
+enact	/ɪˈnækt/
+constituent	/kənˈstɪtʃuənt/
+entity	/ˈɛntəti/, /ˈɛntɪti/
+devout	/dɪˈvaʊt/
+flare	/ˈfɫɛɹ/
+affiliation	/əˌfɪɫiˈeɪʃən/
+intertwine	/ˌɪntɝtˈwaɪn/
+affix	/ˈæfɪks/, /əˈfɪks/
+dilapidated	/dəˈɫæpəˌdeɪtɪd/
+evacuate	/iˈvækjəˌeɪt/, /ɪˈvækjəˌeɪt/
+anecodte	
+focal point	
+amass	/əˈmæs/
+docile	/ˈdɑsəɫ/
+frugal	/ˈfɹuɡəɫ/
+glitch	/ˈɡɫɪtʃ/
+foremost	/ˈfɔɹˌmoʊst/
+alight	/əˈɫaɪt/
+grimace	/ˈɡɹɪməs/
+wreak havoc on	
+hoard	/ˈhɔɹd/
+improvise	/ˈɪmpɹəˌvaɪz/, /ˌɪmpɹəˈvaɪz/
+forge	/ˈfɔɹdʒ/
+inference	/ˈɪnfɝəns/
+encircle	/ɛnˈsɝkəɫ/
+diversify	/daɪˈvɝsəˌfaɪ/, /dɪˈvɝsəˌfaɪ/
+freak	/ˈfɹik/
+downfall	/ˈdaʊnˌfɔɫ/
+elude	/ɪˈɫud/
+inundate	/ˈɪnənˌdeɪt/
+jeopardise	
+levy	/ˈɫɛvi/, /ˈɫivi/
+delude	/dɪˈɫud/
+paralysis	/pɝˈæɫəsəs/, /pɝˈæɫɪsɪs/
+entice	/ɪnˈtaɪs/
+intimidate	/ˌɪnˈtɪmɪˌdeɪt/
+poise	/ˈpɔɪz/
+loom	/ˈɫum/
+mandate	/ˈmænˌdeɪt/
+chant	/ˈtʃænt/
+churn	/ˈtʃɝn/
+measly	/ˈmizɫi/
+equitable	/ˈɛkwətəbəɫ/, /ˈɛkwɪtəbəɫ/
+converge	/kənˈvɝdʒ/
+credence	/ˈkɹidəns/
+megalithic	
+innermost	/ˈɪnɝˌmoʊst/
+enchanting	/ɛnˈtʃænɪŋ/, /ɛnˈtʃæntɪŋ/
+outrageous	/aʊˈtɹeɪdʒəs/
+overload	/ˈoʊvɝˌɫoʊd/
+paradigm	/ˈpɛɹəˌdaɪm/
+censure	/ˈsɛnʃɝ/
+deftly	/ˈdɛftɫi/
+promulgate	/pɹoʊˈməɫɡeɪt/
+repatriation	/ɹiˌpeɪtɹiˈeɪʃən/
+insatiable	/ˌɪnˈseɪʃəbəɫ/
+restrain	/ɹiˈstɹeɪn/
+apex	/ˈeɪˌpɛks/
+irreversible	/ˌɪɹɪˈvɝsəbəɫ/
+repeal	/ɹiˈpiɫ/, /ɹɪˈpiɫ/
+retrospective	/ˌɹɛtɹəˈspɛktɪv/
+saturate	/ˈsætʃɝˌeɪt/
+mar	/ˈmɑɹ/
+scrutinise	
+serendipity	/ˌsɛɹənˈdɪpɪti/
+uncanny	/ənˈkæni/
+sift	/ˈsɪft/
+concede	/kənˈsid/
+antiquity	/ænˈtɪkwəti/
+repository	/ɹiˈpɑzəˌtɔɹi/
+differentiate	/ˌdɪfɝˈɛnʃiˌeɪt/, /ˌdɪfɝˈɛntʃiˌeɪt/
+laborious	/ɫəˈbɔɹiəs/
+allure	/əˈɫʊɹ/
+sinister	/ˈsɪnɪstɝ/
+resplendent	/ɹisˈpɫɛndənt/
+smoulder	
+perk	/ˈpɝk/
+revere	/ɹɪˈvɪɹ/
+soothing	/ˈsuðɪŋ/
+retard	/ɹiˈtɑɹd/, /ɹɪˈtɑɹd/
+agitate	/ˈædʒəˌteɪt/
+groundbreaking	/ˈɡɹaʊnˌbɹeɪkɪŋ/, /ˈɡɹaʊndˌbɹeɪkɪŋ/
+premature	/ˌpɹiməˈtʃʊɹ/
+lure	/ˈɫʊɹ/
+backlash	/ˈbæˌkɫæʃ/
+glossy	/ˈɡɫɔsi/
+enduring	/ɛnˈdjʊɹɪŋ/, /ɪnˈdʊɹɪŋ/
+projection	/pɹəˈdʒɛkʃən/
+stark	/ˈstɑɹk/
+reticent	/ˈɹɛtɪsənt/
+superfluous	/ˈsupɝfɫˌwəs/
+topple	/ˈtɑpəɫ/
+transcend	/tɹænˈsɛnd/
+skewed	/ˈskjud/
+unload	/ənˈɫoʊd/
+squeaky	/ˈskwiki/
+tweak	/ˈtwik/
+utopian	/juˈtoʊpiən/
+venerate	/ˈvɛnɝˌeɪt/
+sturdy	/ˈstɝdi/
+succumb to	
+villain	/ˈvɪɫən/
+weld	/ˈwɛɫd/
+activate	/ˈæktəˌveɪt/
+virtuous	/ˈvɝtʃuəs/
+splutter	/ˈsplʌtɚ/
+voracious	/vɔˈɹeɪʃəs/
+aggregate	/ˈæɡɹəɡeɪt/, /ˈæɡɹəɡət/, /ˈæɡɹəɡɪt/
+disoriented	/dɪˈsɔɹiˌɛntɪd/
+bustling	/ˈbəsəɫɪŋ/, /ˈbəsɫɪŋ/
+complimentary	/ˌkɑmpɫəˈmɛntɝi/
+diffusion	/dɪfˈjuʒən/
+annotate	/ˈænəˌteɪt/
+briefing	/ˈbɹifɪŋ/
+sarcastic	/sɑɹˈkæstɪk/
+outweigh	/ˈaʊtˌweɪ/
+markedly	/ˈmɑɹkədɫi/, /ˈmɑɹkɪdɫi/
+ascribe	/əsˈkɹaɪb/
+jolt	/ˈdʒoʊɫt/
+cosy	/ˈkoʊzi/
+ardent	/ˈɑɹdənt/
+counteract	/ˈkaʊntɝˌækt/
+reclaim	/ɹiˈkɫeɪm/
+duplicate	/ˈdupɫəˌkeɪt/, /ˈdupɫəkət/
+fixture	/ˈfɪkstʃɝ/
+crumble	/ˈkɹəmbəɫ/
+remit	/ɹiˈmɪt/
+dissolve	/dɪˈzɑɫv/
+forgo	/fɔɹˈɡoʊ/
+glamorous	/ˈɡɫæmɝəs/
+hectic	/ˈhɛktɪk/
+foreseeable	/fɔɹˈsiəbəɫ/
+bump into	
+cutlery	/ˈkətɫɝi/
+frantically	/ˈfɹænəkəɫi/, /ˈfɹænəkɫi/, /ˈfɹæntəkəɫi/, /ˈfɹæntəkɫi/
+interim	/ˈɪnɝəm/, /ˈɪntɝəm/, /ˈɪntɹəm/
+morale	/mɝˈæɫ/
+stale	/ˈsteɪɫ/
+muddle	/ˈmədəɫ/
+defy	/dɪˈfaɪ/
+obsolete	/ˈɑbsəˌɫit/, /ˌɑbsəˈɫit/
+imminent	/ˈɪmənənt/
+opulent	/ˈɑpjəɫənt/
+provocative	/pɹoʊˈvɑkətɪv/
+reciprocal	/ɹɪˈsɪpɹəkəɫ/
+sarcasm	/ˈsɑɹˌkæzəm/
+outset	/ˈaʊtˌsɛt/
+passé	/ˈpæ.seɪ/
+scorching	/ˈskɔɹtʃɪŋ/
+weather	/ˈwɛðɝ/
+be taken aback	
+scrunch	/ˈskɹəntʃ/
+acclimatise	
+standstill	/ˈstændˌstɪɫ/
+verify	/ˈvɛɹəˌfaɪ/
+counterpart	/ˈkaʊntɝˌpɑɹt/
+evacuation	/iˈvækjəˈweɪʃən/, /ɪˌvækjəˈweɪʃən/
+idiosyncratic	/ˌɪdioʊˌsɪnˈkɹætɪk/
+disperse	/dɪˈspɝs/
+suffocate	/ˈsəfəˌkeɪt/
+dotted	/ˈdɑtəd/, /ˈdɑtɪd/
+flimsy	/ˈfɫɪmzi/
+icon	/ˈaɪkɑn/
+rehabilitate	/ˌɹiəˈbɪɫəˌteɪt/, /ˌɹihəˈbɪɫəˌteɪt/
+pressing	/ˈpɹɛsɪŋ/
+empower	/ɪmˈpaʊɝ/
+accountable	/əˈkaʊnəbəɫ/, /əˈkaʊntəbəɫ/
+retrieve	/ɹiˈtɹiv/, /ɹɪˈtɹiv/
+vibe	/ˈvaɪb/
+influx	/ˈɪnˌfɫəks/
+allotment	/əˈɫɑtmənt/
+mishap	/ˈmɪsˌhæp/
+composure	/kəmˈpoʊʒɝ/
+upheaval	/əpˈhivəɫ/
+affinity	/əˈfɪnəti/, /əˈfɪnɪti/
+solidarity	/ˌsɑɫəˈdɛɹəti/
+dire	/ˈdaɪɝ/, /ˈdaɪɹ/
+coveted	/ˈkəvətɪd/
+endorsement	/ɛnˈdɔɹsmənt/
+swoop	/ˈswup/
+dilute	/daɪˈɫut/, /dɪˈɫut/
+convene	/kənˈvin/
+fortify	/ˈfɔɹtɪˌfaɪ/
+commemorate	/kəˈmɛmɝˌeɪt/
+dispel	/dɪˈspɛɫ/
+recharge	/ɹiˈtʃɑɹdʒ/
+ecstatic	/ɛkˈstætɪk/
+pricey	/ˈpɹaɪsi/
+life-threatening	/ˈɫaɪfˌθɹɛtnɪŋ/
+mandatory	/ˈmændəˌtɔɹi/
+futile	/ˈfjutəɫ/
+impending	/ˌɪmˈpɛndɪŋ/
+gregarious	/ɡɹəˈɡɛɹiəs/
+sedentary	/ˈsɛdənˌtɛɹi/
+bountiful	/ˈbaʊnɪfəɫ/, /ˈbaʊntɪfəɫ/
+better off	
+inescapable	/ˌɪnɪˈskeɪpəbəɫ/
+comprehensible	/ˌkɑmpɹiˈhɛnsəbəɫ/
+figurative	/ˈfɪɡjɝətɪv/
+immeasurable	/ˌɪˈmɛʒɝˌæbəɫ/
+crystal clear	
+complacent	/kəmˈpɫeɪsənt/
+provisional	/pɹəˈvɪʒənəɫ/
+venerable	/ˈvɛnɝəbəɫ/
+turbulent	/ˈtɝbjəɫənt/
+far-reaching	
+principled	/ˈpɹɪnsəpəɫd/
+unorthodox	/əˈnɔɹθəˌdɑks/
+admittedly	/ædˈmɪtɪdɫi/
+cardinal	/ˈkɑɹdənəɫ/, /ˈkɑɹdɪnəɫ/
+resourceful	/ɹiˈsɔɹsfəɫ/
+enigmatic	/ˌɛnɪɡˈmætɪk/
+in equal measure	
+rage	/ˈɹeɪdʒ/
+lash	/ˈɫæʃ/
+scoop	/ˈskup/
+candid	/ˈkændəd/, /ˈkændɪd/
+stern	/ˈstɝn/
+utter	/ˈətɝ/
+mindful	/ˈmaɪndfəɫ/
+at the mercy of	
+allude to	
+resort to	
+adversity	/ædˈvɝsɪˌti/, /ədˈvɝsɪti/
+rebuke	/ɹibˈjuk/, /ɹɪbˈjuk/
+stave off	
+keep ~ at bay	
+synthesis	/ˈsɪnθəsəs/
+boon	/ˈbun/
+bear the brunt of	
+gist	/ˈdʒɪst/
+loot	/ˈɫut/
+oust	/ˈaʊst/
+overhaul	/ˈoʊvɝˌhɔɫ/
+grapple with	
+rift	/ˈɹɪft/
+absenteeism	/ˌæbsənˈtiɪzəm/
+vicious circle	
+household name	
+self-discipline	
+tipping point	
+radical	/ˈɹædəkəɫ/, /ˈɹædɪkəɫ/
+outcry	/ˈaʊtˌkɹaɪ/
+stumble upon	
+season	/ˈsizən/
+wilt	/ˈwɪɫt/
+prey on	
+draw on	
+status quo	
+minute	/ˈmɪnət/, /maɪˈnut/, /maɪnˈjut/
+in hindsight	
+a host of	
+in line with	
+fine-tune	
+ventilation	/ˌvɛnəˈɫeɪʃən/, /ˌvɛntəˈɫeɪʃən/
+stem from	
+bedrock	/ˈbɛˌdɹɑk/
+forage	/ˈfɔɹɪdʒ/
+mimetic	/mɪˈmɛtɪk/
+arousal	/ɝˈaʊzəɫ/
+bearing	/ˈbɛɹɪŋ/
+pitfall	/ˈpɪtˌfɔɫ/
+cater to	
+replicate	/ˈɹɛpɫəˌkeɪt/
+salvage	/ˈsæɫvədʒ/, /ˈsæɫvɪdʒ/
+asymmetry	/ˌeɪˈsɪmətɹi/
+mitigate	/ˈmɪtəˌɡeɪt/
+vicinity	/vəˈsɪnəti/, /vɪˈsɪnɪti/
+prodigy	/ˈpɹɑdədʒi/
+rationale	/ˌɹæʃəˈnæɫ/
+subsistence	/səbˈsɪstəns/
+align	/əˈɫaɪn/
+subterranean	/səbtɝˈeɪniən/
+continuum	/kənˈtɪnjuəm/
+susceptible	/səˈsɛptəbəɫ/
+lateral	/ˈɫætɝəɫ/
+optimum	/ˈɑptəməm/
+resilient	/ɹɪˈzɪɫjənt/
+sequester	/sɪˈkwɛstɝ/
+outperform	/ˈaʊtpɝˌfɔɹm/
+prohibitive	/pɹoʊˈhɪbətɪv/
+contingent	/kənˈtɪndʒənt/
+sleek	/ˈsɫik/
+daunting	/ˈdɔntɪŋ/
+fraternal	/fɹəˈtɝnəɫ/
+haphazard	/hæpˈhæzɝd/
+infest	/ˌɪnˈfɛst/
+derelict	/ˈdɛɹəˌɫɪkt/
+pseudonym	/ˈsudəˌnɪm/
+stunned	/ˈstənd/
+ethereal	/ɪˈθɪɹiəɫ/
+lineage	/ˈɫɪniədʒ/
+outstrip	/aʊtˈstɹɪp/
+supersede	/ˌsupɝˈsid/
+upbringing	/ˈəpˌbɹɪŋɪŋ/
+amorphous	/əˈmɔɹfəs/
+resonate with	
+detract	/dɪˈtɹækt/
+appease	/əˈpiz/
+bask	/ˈbæsk/
+respite	/ˈɹɛspɪt/
+prodigious	/pɹəˈdɪdʒəs/
+denote	/dɪˈnoʊt/
+buoyant	/ˈbɔɪənt/
+collateral	/kəˈɫætɝəɫ/
+proliferate	/pɹoʊˈɫɪfɝˌeɪt/
+teeming	/ˈtimɪŋ/
+congregate	/ˈkɑŋɡɹəˌɡeɪt/
+interplay	/ˈɪntɝˌpɫeɪ/
+vibrant	/ˈvaɪbɹənt/
+decipher	/dɪˈsaɪfɝ/
+reprimand	/ˈɹɛpɹəˌmænd/
+disseminate	/dɪˈsɛməˌneɪt/
+emulate	/ˈɛmjəˌɫeɪt/
+protrude	/pɹoʊˈtɹud/
+heyday	/ˈheɪˌdeɪ/
+ingest	/ˌɪnˈdʒɛst/
+provenance	/ˈpɹɑvənəns/
+configuration	/kənˌfɪɡjɝˈeɪʃən/
+entrench	/ɛnˈtɹɛntʃ/
+inscribe	/ˌɪnsˈkɹaɪb/
+niggle	/ˈnɪɡəl/
+outlay	/ˈaʊtˌɫeɪ/
+procure	/pɹoʊkˈjʊɹ/
+quirky	/ˈkwɝki/
+reconfigure	/ˌɹikənˈfɪɡjɝ/
+succinct	/səkˈsɪŋkt/
+ubiquitous	/juˈbɪkwɪtəs/
+vantage point	
+intermittent	/ˌɪntɝˈmɪtənt/
+adjoining	/əˈdʒɔɪnɪŋ/
+itinerary	/aɪˈtɪnɝˌɛɹi/
+quarantine	/ˈkwɔɹənˌtin/
+treacherous	/ˈtɹɛtʃɝəs/
+abject	/ˈæbdʒɛkt/
+capsize	/ˈkæpˌsaɪz/
+tenet	/ˈtɛnət/
+agile	/ˈædʒəɫ/
+tertiary education	
+alleviate	/əˈɫiviˌeɪt/
+exponential	/ˌɛkspoʊˈnɛnʃəɫ/
+ambivalent	/æmˈbɪvəɫənt/
+arduous	/ˈɑɹdʒuəs/
+assortment	/əˈsɔɹtmənt/
+balk	/ˈbɑɫk/, /ˈbɔk/
+cache	/ˈkæʃ/, /kæˈʃeɪ/
+telltale	/ˈtɛɫˌteɪɫ/
+capricious	/kəˈpɹɪʃəs/
+tenuous	/ˈtɛnjəwəs/
+a cascade of	
+chastise	/tʃæˈstaɪz/
+circumscribe	/ˌsɝkəmsˈkɹaɪb/
+collate	/kəˈɫeɪt/
+lust	/ˈɫəst/
+conjure up	
+frenetic	/fɹəˈnɛtɪk/
+equilibrium	/ˌikwəˈɫɪbɹiəm/
+constrict	/kənˈstɹɪkt/
+decimate	/ˈdɛsəˌmeɪt/
+subterfuge	/ˈsəbtɝfˌjudʒ/
+polemic	/pəˈɫɛmɪk/
+derision	/dɝˈɪʒən/
+replenish	/ɹiˈpɫɛnɪʃ/
+expound on	
+altruistic	/ˌɔɫtɹuˈɪstɪk/
+devious	/ˈdiviəs/
+mangle	/ˈmæŋɡəɫ/
+opaque	/oʊˈpeɪk/
+fortuitous	/fɔɹˈtuɪtəs/
+enthralling	
+adamant	/ˈædəmənt/
+revamp	/ɹiˈvæmp/
+envisage	/ɛnˈvɪzɪdʒ/
+grunt	/ˈɡɹənt/
+malleable	/ˈmæɫiəbəɫ/
+exacerbate	/ɪɡˈzæsɝˌbeɪt/
+predisposition	/ˌpɹidɪspəˈzɪʃən/
+impede	/ˌɪmˈpid/
+esoteric	/ˌɛsəˈtɛɹɪk/, /ˌɛsoʊˈtɛɹɪk/
+discrete	/dɪsˈkɹit/
+reflex	/ˈɹifɫɛks/
+extol	/ɪkˈstoʊɫ/
+rickety	/ˈɹɪkəti/
+fallacy	/ˈfæɫəsi/
+reiterate	/ɹiˈɪtɝˌeɪt/
+filthy	/ˈfɪɫθi/
+shun	/ˈʃən/
+taunt	/ˈtɔnt/
+fluster	/ˈfɫəstɝ/
+exuberant	/ɪɡˈzubɝənt/
+grapple	/ˈɡɹæpəɫ/
+frontline	/ˈfɹəntˌɫaɪn/
+glean	/ˈɡɫin/
+extant	/ˈɛkstənt/
+fallible	/ˈfæɫəbəɫ/
+detrimental	/ˌdɛtɹəˈmɛnəɫ/, /ˌdɛtɹəˈmɛntəɫ/
+gullible	/ˈɡəɫəbəɫ/
+hoist	/ˈhɔɪst/
+doodle	/ˈdudəɫ/
+enigma	/ɪˈnɪɡmə/
+connotation	/ˌkɑnəˈteɪʃən/
+exorbitant	/ɪɡˈzɔɹbɪtənt/
+homage	/ˈɑmədʒ/, /ˈhɑmədʒ/
+impart	/ˌɪmˈpɑɹt/
+postulate	/ˈpɑstʃəˌɫeɪt/, /ˈpɑstʃəɫət/
+impenetrable	/ˌɪmˈpɛnətɹəbəɫ/
+counterintuitive	
+hunch	/ˈhəntʃ/
+crumple	/ˈkɹəmpəɫ/
+debilitate	/dəˈbɪɫəˌteɪt/
+impetus	/ˈɪmpətəs/
+ludicrous	/ˈɫudəkɹəs/
+malevolent	/məˈɫɛvəɫənt/
+deviate	/ˈdiviˌeɪt/
+adjunct	/ˈæˌdʒəŋkt/
+miscellaneous	/ˌmɪsəˈɫeɪniəs/
+naysayer	/ˌneɪˈseɪɝ/
+ominous	/ˈɑmənəs/
+porous	/ˈpɔɹəs/
+delve into	
+onslaught	/ˈɔnˌsɫɔt/
+aficionado	/əˌfiʃjəˈnɑˌdoʊ/
+extrovert	/ˈɛkstɹəˌvɝt/
+ostensible	/ɑˈstɛnsəbəɫ/
+pacify	/ˈpæsəˌfaɪ/
+instil	/ɪnˈstɪl/
+painstakingly	/ˈpeɪnˌsteɪkɪŋɫi/
+engender	/ɛnˈdʒɛndɝ/, /ɪnˈdʒɛndɝ/
+pivotal	/ˈpɪvətəɫ/
+poignant	/ˈpɔɪnjənt/
+stagnant	/ˈstæɡnənt/
+peruse	/pɝˈuz/
+elucidate	/ɪˈɫusəˌdeɪt/
+subliminal	/səˈbɫɪmɪnəɫ/
+propound	/pɹəˈpaʊnd/
+interminable	/ˌɪnˈtɝmənəbəɫ/
+lopsided	/ˈɫɑpˈsaɪdɪd/
+proximity	/pɹɑkˈsɪməti/
+quench	/ˈkwɛntʃ/
+recalcitrant	/ɹɪˈkæɫsɪtɹənt/
+preposterous	/pɹɪˈpɑstɝəs/, /pɹɪˈpɑstɹəs/
+redress	/ˈɹidɹɛs/, /ɹɪˈdɹɛs/
+pristine	/ˈpɹɪstin/
+propagate	/ˈpɹɑpəˌɡeɪt/
+sage	/ˈseɪdʒ/
+prowess	/ˈpɹaʊəs/
+salient	/ˈseɪɫiənt/, /ˈseɪɫjənt/
+noxious	/ˈnɑkʃəs/
+obnoxious	/ɑbˈnɑkʃəs/
+supplant	/səˈpɫænt/
+tantalise	
+shrivel	/ˈʃɹɪvəɫ/
+dredge	/ˈdɹɛdʒ/
+tether	/ˈtɛðɝ/
+venomous	/ˈvɛnəməs/
+pamper	/ˈpæmpɝ/
+depletion	/dɪˈpɫiʃən/
+thrifty	/ˈθɹɪfti/
+disband	/dɪsˈbænd/
+vicissitude	/ˌvɪˈsɪsɪtud/
+embroidery	/ɛmˈbɹɔɪdɝi/
+induction	/ˌɪnˈdəkʃən/
+thwart	/ˈθwɔɹt/
+vandalism	/ˈvændəɫɪzəm/
+inquisitive	/ˌɪnˈkwɪzɪtɪv/
+nominal	/ˈnɑmənəɫ/
+outspoken	/ˈaʊtˈspoʊkən/
+trailblazer	/ˈtɹeɪɫˌbɫeɪzɝ/
+pensive	/ˈpɛnsɪv/
+feud	/ˈfjud/
+telling	/ˈtɛɫɪŋ/
+presumably	/pɹəˈzuməbɫi/, /pɹiˈzuməbɫi/, /pɹɪˈzuməbɫi/
+foothold	/ˈfʊtˌhoʊɫd/
+pliable	/ˈpɫaɪəbəɫ/
+trajectory	/tɹəˈdʒɛktɝi/
+plush	/ˈpɫəʃ/
+resurgence	/ɹiˈsɝdʒəns/
+tremor	/ˈtɹɛmɝ/
+overshadow	/ˈoʊvɝˈʃædoʊ/
+retract	/ɹiˈtɹækt/
+stuffy	/ˈstəfi/
+cornerstone	/ˈkɔɹnɝˌstoʊn/
+repercussion	/ˌɹipɝˈkəʃən/, /ˌɹipɹəˈkəʃən/
+transitory	/ˈtɹænzəˌtɔɹi/
+unwind	/ənˈwaɪnd/
+inhospitable	/ˌɪnhɑˈspɪtəbəɫ/, /ɪnˈhɑspətəbəɫ/
+stepping stone	
+acumen	/əkˈjumən/
+rapport	/ɹæˈpɔɹ/
+stumbling block	
+disparity	/dɪˈspɛɹəti/
+predicament	/pɹiˈdɪkəmənt/, /pɹɪˈdɪkəmənt/
+dearth	/ˈdɝθ/
+traction	/ˈtɹækʃən/
+demeanour	/dɪˈminɝ/
+panacea	/ˌpænəˈsiə/
+hoax	/ˈhoʊks/
+capitalise on	
+add to	
+earmark	/ˈiɹˌmɑɹk/, /ˈɪɹˌmɑɹk/
+procrastinate	/pɹəˈkɹæstəˌneɪt/
+reinvigorate	/ˌɹiɪnˈvɪɡɝˌeɪt/
+factor in	
+evict	/ɪˈvɪkt/
+confiscate	/ˈkɑnfəˌskeɪt/
+furlough	/ˈfɝɫoʊ/
+dampen	/ˈdæmpən/
+fathom	/ˈfæðəm/
+pique	/ˈpik/
+abate	/əˈbeɪt/
+inculcate	/ˈɪŋkəɫˌkeɪt/
+forestall	/fɔɹˈstɔɫ/
+exude	/ɪɡˈzud/
+divulge	/daɪˈvəɫdʒ/, /dɪˈvəɫdʒ/
+corroborate	/kɝˈɑbɝˌeɪt/
+irreparable	/ˌɪˈɹɛpɝəbəɫ/
+encapsulate	/ɛnˈkæpsəˌɫeɪt/
+infinitesimal	/ˌɪnfɪnɪˈtɛsɪməɫ/
+rundown	/ˈɹənˌdaʊn/
+diagonal	/daɪˈæɡənəɫ/
+good-natured	/ɡʊdˈneɪtʃəd/
+hilarious	/hɪˈɫɛɹiəs/
+dissipate	/ˈdɪsəˌpeɪt/
+immaculate	/ˌɪˈmækjuɫɪt/
+ad hoc	
+vice versa	
+concerted	/kənˈsɝtəd/, /kənˈsɝtɪd/
+inept	/ˌɪˈnɛpt/
+holistic	/hoʊˈɫɪstɪk/
+apprehensive	/ˌæpɹiˈhɛnsɪv/, /ˌæpɹɪˈhɛnsɪv/
+cumbersome	/ˈkəmbɝsəm/
+unscrupulous	/ənsˈkɹupjəɫəs/
+sporadic	/spɝˈædɪk/
+tantamount	/ˈtæntəˌmaʊnt/
+prolific	/pɹoʊˈɫɪfɪk/
+sizeable	/ˈsaɪzəbəɫ/
+indelible	/ˌɪnˈdɛɫɪbəɫ/
+stringent	/ˈstɹɪndʒənt/
+pernicious	/pɝˈnɪʃəs/
+impoverished	/ˌɪmˈpɑvɹɪʃt/
+rampant	/ˈɹæmpənt/
+mind-boggling	/ˈmaɪndˌbɒɡ(ə)lɪŋ/
+well-rounded	/ˌwɛlˈɹaʊndɪd/
+rife	/ˈɹaɪf/
+makeshift	/ˈmeɪkˌʃɪft/
+inextricably	/ˌɪˈnɛkstɹɪˌkəbɫi/
+fictitious	/fɪkˈtɪʃəs/
+inscrutable	/ˌɪnsˈkɹutəbəɫ/
+breadwinner	/ˈbɹɛdˌwɪnɝ/
+camaraderie	/ˌkɑmɝˈɑdɝi/
+plaudit	/ˈpɫɔdɪt/
+harbinger	/ˈhɑɹbɪndʒɝ/
+inception	/ˌɪnˈsɛpʃən/
+springboard	/ˈspɹɪŋˌbɔɹd/
+bemoan	/bɪˈmoʊn/
+instigate	/ˈɪnstəˌɡeɪt/
+eavesdrop	/ˈivzˌdɹɑp/
+circumvent	/ˌsɝkəmˈvɛnt/
+sidetrack	/ˈsaɪdˌtɹæk/
+relinquish	/ɹiˈɫɪŋkwɪʃ/, /ɹɪˈɫɪŋkwɪʃ/
+dabble in	
+cancel out	
+expedite	/ˈɛkspɪˌdaɪt/
+convoluted	/ˈkɑnvəˌɫutəd/
+germane	/dʒɝˈmeɪn/
+stricken	/ˈstɹɪkən/
+abysmal	/əˈbɪzməɫ/
+vehement	/ˈviəmənt/, /vəˈhimənt/
+gripping	/ˈɡɹɪpɪŋ/
+thought-provoking	
+close-knit	
+raucous	/ˈɹɔkəs/
+tenacious	/təˈneɪʃəs/
+intrepid	/ɪnˈtɹɛpəd/
+sumptuous	/ˈsəmptʃuəs/, /ˈsəmptʃwəs/
+drab	/ˈdɹæb/
+unspoilt	
+upmarket	/ˈəpˌmɑɹkət/
+solitary	/ˈsɑɫəˌtɛɹi/
+omnipresent	/ˌɑmnɪˈpɹɛzənt/
+translucent	/tɹænˈsɫusənt/
+vigilant	/ˈvɪdʒəɫənt/
+garrulous	/ˈɡɛɹəɫəs/
+a barrage of	
+optimise	
+multifaceted	/ˌməɫtiˈfæsətɪd/
+pathfinder	/ˈpæθˌfaɪndɝ/
+homogenous	/həˈmɑdʒənəs/
+overbearing	/ˈoʊvɝˈbɛɹɪŋ/
+ordeal	/ɔɹˈdiɫ/
+boisterous	/ˈbɔɪstɝəs/, /ˈbɔɪstɹəs/
+solace	/ˈsɑɫəs/, /ˈsoʊɫɪs/
+mesmerise	
+quagmire	/ˈkwæɡˌmaɪɝ/
+epitome	/ɪˈpɪtəmi/
+engulf	/ɪnˈɡəɫf/
+reminiscent	/ˌɹɛməˈnɪsənt/
+plethora	/ˈpɫɛθɝə/, /pɫəˈθɔɹə/
+akin	/ˈeɪkɪn/, /əˈkɪn/
+nebulous	/ˈnɛbjəɫəs/
+seminal	/ˈsɛmənəɫ/
+ephemeral	/ɪˈfɛmɝəɫ/
+expend	/ɪkˈspɛnd/
+assuage	/əˈsweɪdʒ/
+annihilate	/əˈnaɪəˌɫeɪt/
+extrapolate	/ɛkˈstɹæpəˌɫeɪt/
+eschew	/ɛsˈtʃu/
+palpable	/ˈpæɫpəbəɫ/
+incongruous	/ˌɪŋˈkɔŋɹuəs/
+predicate	/ˈpɹɛdəˌkeɪt/, /ˈpɹɛdɪkət/
+alienate	/ˈeɪɫjəˌneɪt/
+burrow	/ˈbɝoʊ/
+gape at	
+cordial	/ˈkɔɹdʒəɫ/
+smudge	/ˈsmədʒ/
+lunge	/ˈɫəndʒ/
+gallant	/ˈɡæɫənt/
+legible	/ˈɫɛdʒəbəɫ/
+obliterate	/əˈbɫɪtɝˌeɪt/
+stench	/ˈstɛntʃ/
+baffling	/ˈbæfəɫɪŋ/, /ˈbæfɫɪŋ/
+blunder	/ˈbɫəndɝ/
+taxing	/ˈtæksɪŋ/
+vested	/ˈvɛstɪd/
+accrue	/əˈkɹu/
+perverse	/pɝˈvɝs/
+quibble	/ˈkwɪbəɫ/
+despondent	/dɪˈspɑndənt/
+auspicious	/ɑˈspɪʃəs/
+smother	/ˈsməðɝ/
+sack	/ˈsæk/
+virtuoso	/vɝtʃuˈoʊsoʊ/
+inexorable	/ˌɪˈnɛksɝəbəɫ/
+musty	/ˈməsti/
+deflect	/dɪˈfɫɛkt/
+scuffle	/ˈskəfəɫ/
+swivel	/ˈswɪvəɫ/
+insidious	/ˌɪnˈsɪˌdiəs/
+brittle	/ˈbɹɪtəɫ/
+palatable	/ˈpæɫətəbəɫ/
+tramp	/ˈtɹæmp/
+puberty	/ˈpjubɝti/
+audacious	/ɑˈdeɪʃəs/
+hamper	/ˈhæmpɝ/
+plight	/ˈpɫaɪt/
+eerie	/ˈɪɹi/
+augment	/ɔɡˈmɛnt/
+fend off	
+tenable	/ˈtɛnəbəɫ/
+jostle	/ˈdʒɑsəɫ/
+assimilate	/əˈsɪməˌɫeɪt/
+loathe	/ˈɫoʊð/
+fret	/ˈfɹɛt/
+destitute	/ˈdɛstəˌtut/
+outdated	/ˈaʊtˌdeɪtɪd/
+legacy	/ˈɫɛɡəsi/
+mound	/ˈmaʊnd/
+chronological	/ˌkɹɑnəˈɫɑdʒɪkəɫ/
+landmark	/ˈɫændˌmɑɹk/
+prehistoric	/ˌpɹihɪˈstɔɹɪk/
+relic	/ˈɹɛɫɪk/
+primal	/ˈpɹaɪməɫ/
+basin	/ˈbeɪsən/
+imperial	/ˌɪmˈpɪɹiəɫ/
+ridge	/ˈɹɪdʒ/
+Renaissance	/ˌɹɛnəˈsɑns/
+latitude	/ˈɫætəˌtud/
+tyranny	/ˈtɪɹəni/
+cartography	/kɐː(ɹ)ˈtɔɡɹəfɪi̯/
+treasure trove	
+milestone	/ˈmaɪɫˌstoʊn/
+autocracy	/ɔˈtɑkɹəsi/
+throne	/ˈθɹoʊn/
+hinterland	/ˈhɪntɝˌɫænd/
+enclave	/ˈɑnˌkɫeɪv/, /ˈɛnˌkɫeɪv/
+lagoon	/ɫəˈɡun/
+metropolitan	/ˌmɛtɹəˈpɑɫətən/
+Atlantic	/ətˈɫænɪk/, /ətˈɫæntɪk/
+terrain	/tɝˈeɪn/
+dinosaur	/ˈdaɪnəˌsɔɹ/
+ethnography	/ɛθˈnɒɡɹəfi/
+archipelago	/ˌɑɹkəˈpɛɫəˌɡoʊ/, /ˌɑɹtʃəpəˈɫeɪˌɡoʊ/
+gulf	/ˈɡəɫf/
+hilly	/ˈhɪɫi/
+archaeology	/ˌɑɹkiˈɑɫədʒi/
+unearth	/əˈnɝθ/
+mythology	/məˈθɑɫəˌdʒi/
+topography	/təˈpɑɡɹəfi/
+gorge	/ˈɡɔɹdʒ/
+ashore	/əˈʃɔɹ/
+lord	/ˈɫɔɹd/
+primeval	/pɹaɪˈmivəɫ/
+chronicle	/ˈkɹɑnɪkəɫ/
+empress	/ˈɛmpɹɛs/
+colonise	
+geography	/dʒiˈɑɡɹəfi/
+empire	/ˈɛmpaɪɝ/
+myth	/ˈmɪθ/
+dynasty	/ˈdaɪnəsti/
+kingdom	/ˈkɪŋdəm/
+continent	/ˈkɑntənənt/
+medieval	/miˈdivəɫ/, /mɪˈdivəɫ/, /mɪdˈjivəɫ/
+reign	/ˈɹeɪn/
+degenerative	/dɪˈdʒɛnɝətɪv/
+pumice	/ˈpəməs/
+ferment	/ˈfɝmɛnt/, /fɝˈmɛnt/
+idyllic	/aɪˈdɪɫɪk/
+plough	/ˈpɫaʊ/, /ˈpɫoʊ/
+lush	/ˈɫəʃ/
+blight	/ˈbɫaɪt/
+shrub	/ˈʃɹəb/
+pest	/ˈpɛst/
+catastrophe	/kəˈtæstɹəfi/
+renewable	/ɹiˈnuəbəɫ/
+primate	/ˈpɹaɪˌmeɪt/
+litter	/ˈɫɪtɝ/
+nutrient	/ˈnutɹiənt/
+terrestrial	/tɝˈɛstɹiəɫ/
+cellular	/ˈsɛɫjəɫɝ/
+embryo	/ˈɛmbɹiˌoʊ/
+reptile	/ˈɹɛptaɪɫ/
+wool	/ˈwʊɫ/
+cocoon	/kəˈkun/
+tissue	/ˈtɪsˌju/, /ˈtɪʃu/
+tectonic	/tɛkˈtɑnɪk/
+germ	/ˈdʒɝm/
+dairy product	
+hibernation	/ˌhaɪbɝˈneɪʃən/
+algae	/ˈæɫdʒi/
+amphibian	/æmˈfɪbiən/
+foliage	/ˈfoʊɫiɪdʒ/, /ˈfoʊɫɪdʒ/
+larva	/ˈɫɑɹvə/
+marsupial	/mɑɹˈsupiəɫ/
+metamorphosis	/ˌmɛtəˈmɔɹfəsəs/
+nocturnal	/nɑkˈtɝnəɫ/
+spine	/ˈspaɪn/
+submerge	/səbˈmɝdʒ/
+rodent	/ˈɹoʊdənt/
+nectar	/ˈnɛktɝ/
+perch	/ˈpɝtʃ/
+vertebrate	/ˈvɝtəˌbɹeɪt/
+clay	/ˈkɫeɪ/
+foetus	/ˈfiːtəs/
+fertiliser	
+extraterrestrial	/ˌɛkstɹətɝˈɛstɹiəɫ/
+landfill	/ˈɫændˌfɪɫ/
+symbiotic	/ˌsɪmbiˈɑtɪk/
+torrential	/tɔˈɹɛnʃəɫ/
+meteorology	/ˌmitiɝˈɑɫədʒi/
+invertebrate	/ˌɪnˈvɝtəˌbɹeɪt/, /ˌɪnˈvɝtəbɹət/
+airborne	/ˈɛɹˌbɔɹn/
+bud	/ˈbəd/
+chromosome	/ˈkɹoʊməˌsoʊm/, /ˈkɹoʊməˌzoʊm/
+fungus (複)fungi	
+breed	/ˈbɹid/
+humid	/ˈhjuməd/, /ˈhjumɪd/, /ˈjuməd/, /ˈjumɪd/
+mammal	/ˈmæməɫ/
+moisture	/ˈmɔɪstʃɝ/
+emission	/ɪˈmɪʃən/
+extinct	/ɪkˈstɪŋkt/
+flock	/ˈfɫɑk/
+seed	/ˈsid/
+palm	/ˈpɑɫm/, /ˈpɑm/
+forehead	/ˈfɔɹhɛd/
+trunk	/ˈtɹəŋk/
+insect	/ˈɪnˌsɛkt/
+hatch	/ˈhætʃ/
+worm	/ˈwɝm/
+bark	/ˈbɑɹk/
+feather	/ˈfɛðɝ/
+outback	/ˈaʊtˌbæk/
+bacteria	/bækˈtɪɹiə/
+biology	/baɪˈɑɫədʒi/
+botany	/ˈbɑtəni/
+herd	/ˈhɝd/
+herbicide	/ˈɝbɪˌsaɪd/, /ˈhɝbɪˌsaɪd/
+endangered	/ɛnˈdeɪndʒɝd/, /ɪnˈdeɪndʒɝd/
+sap	/ˈsæp/
+seabed	/ˈsiˌbɛd/
+astronomer	/əˈstɹɑnəmɝ/
+nurture	/ˈnɝtʃɝ/
+astronomical	/ˌæstɹəˈnɑmɪkəɫ/
+glacier	/ˈɡɫeɪʃɝ/
+biodiversity	/ˌbaɪoʊdaɪˈvɝsəti/
+tundra	/ˈtəndɹə/
+haze	/ˈheɪz/
+tidal	/ˈtaɪdəɫ/
+canyon	/ˈkænjən/
+microbial	/maɪˈkɹoʊbiəɫ/
+pollinate	/ˈpɑɫəˌneɪt/
+tropical	/ˈtɹɑpɪkəɫ/
+erosion	/ɪˈɹoʊʒən/
+ash	/ˈæʃ/
+desalination	/diˌseɪɫɪˈneɪʃən/
+indigenous	/ˌɪnˈdɪdʒənəs/
+eclipse	/əˈkɫɪps/, /iˈkɫɪps/, /ɪˈkɫɪps/
+spawn	/ˈspɑn/, /ˈspɔn/
+aquatic	/əˈkwætɪk/, /əˈkwɑtɪk/
+fossilised	
+cosmic	/ˈkɑzmɪk/
+galaxy	/ˈɡæɫəksi/
+geology	/dʒiˈɑɫədʒi/
+volcanic	/vɑɫˈkænɪk/
+zoologist	/zoʊˈɑɫədʒəst/
+constellation	/ˌkɑnstəˈɫeɪʃən/
+fieldwork	/ˈfiɫdˌwɝk/
+scenery	/ˈsinɝi/
+marsh	/ˈmɑɹʃ/
+arid	/ˈæɹəd/, /ˈɛɹəd/
+bloom	/ˈbɫum/
+erode	/ˈiɹoʊd/, /ɪˈɹoʊd/
+flora and fauna	
+fertility	/fɝˈtɪɫəti/, /fɝˈtɪɫɪti/
+lava	/ˈɫɑvə/
+lunar	/ˈɫunɝ/
+spectacle	/ˈspɛktəkəɫ/
+strait	/ˈstɹeɪt/
+stratosphere	/ˈstɹætəsˌfɪɹ/
+wilderness	/ˈwɪɫdɝnəs/
+cape	/ˈkeɪp/
+arable	/ˈæɹəbəɫ/
+barren	/ˈbæɹən/, /ˈbɛɹən/
+sediment	/ˈsɛdəmənt/
+blossom	/ˈbɫɑsəm/
+comet	/ˈkɑmət/
+contamination	/kənˌtæməˈneɪʃən/
+wetland	/ˈwɛtˌɫænd/
+agrarian	/əˈɡɹɛɹiən/
+horticulture	/ˈhɔɹtɪˌkəɫtʃɝ/
+midday	/ˈmɪdˌdeɪ/
+afield	/əˈfiɫd/
+cavern	/ˈkævɝn/
+celestial	/səˈɫɛstʃəɫ/
+estuary	/ˈɛstʃuˌɛɹi/
+forestry	/ˈfɔɹəstɹi/
+iceberg	/ˈaɪsbɝɡ/
+soil	/ˈsɔɪɫ/
+crop	/ˈkɹɑp/
+grain	/ˈɡɹeɪn/
+greenhouse	/ˈɡɹinˌhaʊs/
+resource	/ˈɹisɔɹs/
+satellite	/ˈsætəˌɫaɪt/
+geographical	/ˌdʒiəˈɡɹæfɪkəɫ/
+fertile	/ˈfɝtəɫ/, /fɝˈtaɪɫ/
+orbit	/ˈɔɹbət/
+peak	/ˈpik/
+ecosystem	/ˈikoʊˌsɪstəm/
+eco-friendly	
+coral reef	
+universe	/ˈjunəˌvɝs/
+channel	/ˈtʃænəɫ/
+wildlife	/ˈwaɪɫdˌɫaɪf/
+cliff	/ˈkɫɪf/
+flood	/ˈfɫəd/
+nest	/ˈnɛst/
+fog	/ˈfɑɡ/, /ˈfɔɡ/
+lightning	/ˈɫaɪtnɪŋ/
+decompose	/ˌdikəmˈpoʊz/
+microbe	/ˈmaɪˌkɹoʊb/
+temperate	/ˈtɛmpɝət/, /ˈtɛmpɹət/
+muggy	/ˈməɡi/
+drizzle	/ˈdɹɪzəɫ/
+gust	/ˈɡəst/
+permeate	/ˈpɝmiˌeɪt/
+sulphur	/ˈsəɫfɝ/
+aquifer	/ˈækwəfɝ/
+dormant	/ˈdɔɹmənt/
+boulder	/ˈboʊɫdɝ/
+gravel	/ˈɡɹævəɫ/
+sludge	/ˈsɫədʒ/
+microplastics	
+ooze	/ˈuz/
+uproot	/əˈpɹut/
+superiority	/ˌsupɪɹiˈɔɹɪti/
+excrete	/ɪksˈkɹit/
+twig	/ˈtwɪɡ/
+spore	/ˈspɔɹ/
+germinate	/ˈdʒɝməˌneɪt/
+vine	/ˈvaɪn/
+phenomenon	/fəˈnɑməˌnɑn/
+silt	/ˈsɪɫt/
+crevice	/ˈkɹɛvəs/
+compost	/ˈkɑmpoʊst/
+incineration	/ˌɪnˈsɪnɝˌeɪʃən/
+fallow	/ˈfæˌɫoʊ/
+insulation	/ˌɪnsəˈɫeɪʃən/
+cactus	/ˈkæktəs/
+carnivorous	/kɑɹˈnɪvɝəs/
+crustacean	/kɹəˈsteɪʃən/
+desertification	
+equinox	/ˈikwəˌnɑks/
+herbivorous	/ɝˈbɪvɝəs/, /hɝˈbɪvɝəs/
+silkworm	/ˈsɪɫkwɝm/
+habitat	/ˈhæbəˌtæt/
+pasture	/ˈpæstʃɝ/
+swamp	/ˈswɑmp/, /ˈswɔmp/
+seep	/ˈsip/
+incubate	/ˈɪnkjəˌbeɪt/
+secrete	/sɪˈkɹit/
+wobble	/ˈwɑbəɫ/
+stash	/ˈstæʃ/
+wag	/ˈwæɡ/
+canopy	/ˈkænəpi/
+rouse	/ˈɹaʊs/, /ˈɹaʊz/
+thorn	/ˈθɔɹn/
+asteroid	/ˈæstɝˌɔɪd/
+ultraviolet rays	
+curator	/ˈkjʊɹətɝ/, /kjʊˈɹeɪtɝ/
+egalitarian	/ɪˌɡæɫəˈtɛɹiən/
+patriotism	/ˈpeɪtɹiəˌtɪzəm/
+sacred	/ˈseɪkɹəd/, /ˈseɪkɹɪd/
+policymaker	/ˈpɑɫəsiˌmeɪkɝ/
+textile	/ˈtɛkˌstaɪɫ/
+councillor	
+ambition	/æmˈbɪʃən/
+autocratic	/ˌɔtəˈkɹætɪk/
+democracy	/dɪˈmɑkɹəsi/
+monk	/ˈməŋk/
+initiative	/ˌɪˈnɪʃətɪv/, /ˌɪˈnɪʃjətɪv/
+referendum	/ˌɹɛfɝˈɛndəm/
+priest	/ˈpɹist/
+authoritarian	/əˌθɔɹəˈtɛɹiən/
+disembodied	/dɪsɪˈbɑdid/
+superstition	/ˌsupɝˈstɪʃən/
+mission	/ˈmɪʃən/
+humanitarian	/ˌhjuˌmænəˈtɛɹiən/, /ˌjuˌmænəˈtɛɹiən/
+conventional	/kənˈvɛnʃənəɫ/
+exile	/ˈɛɡˌzaɪɫ/, /ˈɛkˌsaɪɫ/
+sin	/ˈsɪn/
+faith	/ˈfeɪθ/
+folklore	/ˈfoʊˌkɫɔɹ/
+worship	/ˈwɝʃəp/, /ˈwɝʃɪp/
+bless	/ˈbɫɛs/
+ritual	/ˈɹɪtʃuəɫ/
+pottery	/ˈpɑtɝi/
+tribe	/ˈtɹaɪb/
+congress	/ˈkɑŋɡɹəs/
+parliament	/ˈpɑɹɫəmənt/
+Biblical	/ˈbɪbɫəkəɫ/, /ˈbɪbɫɪkəɫ/
+nomadic	/noʊˈmædɪk/
+republic	/ɹiˈpəbɫək/, /ɹiˈpəbɫɪk/
+minister	/ˈmɪnəstɝ/, /ˈmɪnɪstɝ/
+governor	/ˈɡəvɝnɝ/
+govern	/ˈɡəvɝn/
+district	/ˈdɪstɹɪkt/
+territory	/ˈtɛɹɪˌtɔɹi/
+council	/ˈkaʊnsəɫ/
+dialect	/ˈdaɪəˌɫɛkt/
+tongue	/ˈtəŋ/
+dispute	/dɪˈspjut/
+cultivated	/ˈkəɫtəˌveɪtɪd/
+biography	/baɪˈɑɡɹəfi/
+hazardous	/ˈhæzɝdəs/
+porcelain	/ˈpɔɹsəɫən/
+appliance	/əˈpɫaɪəns/
+blackout	/ˈbɫæˌkaʊt/
+connoisseur	/ˌkɑnəˈsɝ/
+bureaucratic	/ˌbjʊɹəˈkɹætɪk/
+diplomacy	/dɪˈpɫoʊməsi/
+regime	/ɹeɪˈʒim/, /ɹəˈʒim/
+subsidy	/ˈsəbsɪdi/
+rebel	/ˈɹɛbəɫ/, /ɹɪˈbɛɫ/
+casualty	/ˈkæʒəɫti/, /ˈkæʒəwəɫti/, /ˈkæʒwəɫti/
+riot	/ˈɹaɪət/
+contention	/kənˈtɛnʃən/
+suffrage	/ˈsəfɹɪdʒ/
+lyric	/ˈɫɪɹɪk/
+euphemism	/ˈjufəˌmɪzəm/
+adage	/ˈædədʒ/, /ˈædɪdʒ/
+vernacular	/vɝˈnækjəɫɝ/
+captive	/ˈkæptɪv/
+secular	/ˈsɛkjəɫɝ/
+earthenware	/ˈɝθənˌwɛɹ/
+tabloid	/ˈtæbɫɔɪd/
+pagoda	/pəˈɡoʊdə/
+revolt	/ɹiˈvoʊɫt/, /ɹɪˈvoʊɫt/
+cathedral	/kəˈθidɹəɫ/
+immortal	/ˌɪˈmɔɹtəɫ/
+boundary	/ˈbaʊndɝi/, /ˈbaʊndɹi/
+ethical	/ˈɛθɪkəɫ/
+vote	/ˈvoʊt/
+assembly	/əˈsɛmbɫi/
+ministry	/ˈmɪnəstɹi/, /ˈmɪnɪstɹi/
+representative	/ˌɹɛpɹəˈzɛnətɪv/, /ˌɹɛpɹəˈzɛntətɪv/, /ˌɹɛpɹɪˈzɛnətɪv/, /ˌɹɛpɹɪˈzɛntətɪv/
+panel	/ˈpænəɫ/
+press conference	
+fundraising	/ˈfənˌdɹeɪsɪŋ/
+ambassador	/æmˈbæsədɝ/
+hunger	/ˈhəŋɡɝ/
+mayor	/ˈmeɪɝ/
+crusade	/kɹuˈseɪd/
+garment	/ˈɡɑɹmənt/
+swarm	/ˈswɔɹm/
+fling	/ˈfɫɪŋ/
+embassy	/ˈɛmbəsi/
+rite	/ˈɹaɪt/
+stall	/ˈstɔɫ/
+cartoon	/kɑɹˈtun/
+premiere	/pɹɛˈmɪɹ/
+racial discrimination	
+immigrant	/ˈɪməɡɹənt/
+refugee	/ˈɹɛfjudʒi/
+bias	/ˈbaɪəs/
+convention	/kənˈvɛnʃən/
+sociable	/ˈsoʊʃəbəɫ/
+poll	/ˈpoʊɫ/
+census	/ˈsɛnsəs/
+fertility rate	
+vogue	/ˈvoʊɡ/
+ageing population	
+rural depopulation	
+ambience	/ˈæmbiəns/
+exodus	/ˈɛksədəs/
+vulgar	/ˈvəɫɡɝ/
+meek	/ˈmik/
+introspective	/ˌɪntɹəˈspɛktɪv/, /ˌɪntɹoʊˈspɛktɪv/
+caricature	/ˈkɛɹəkətʃɝ/
+corporation	/ˌkɔɹpɝˈeɪʃən/
+per capita	
+colleague	/ˈkɑɫiɡ/
+gross	/ˈɡɹoʊs/
+practitioner	/pɹækˈtɪʃənɝ/, /pɹækˈtɪʃnɝ/
+entrepreneur	/ˌɑntɹəpɹəˈnɝ/, /ˌɑntɹəpɹəˈnʊɹ/
+accounting	/əˈkaʊnɪŋ/, /əˈkaʊntɪŋ/
+fluctuate	/ˈfɫəktʃəˌweɪt/
+streamline	/ˈstɹimˌɫaɪn/
+guild	/ˈɡɪɫd/
+turnover	/ˈtɝˌnoʊvɝ/
+capitalism	/ˈkæpɪtəˌɫɪzəm/
+tariff	/ˈtɛɹəf/
+cargo	/ˈkɑɹˌɡoʊ/
+refund	/ˈɹiˌfənd/, /ɹɪˈfənd/
+probationary	/pɹoʊˈbeɪʃəˌnɛˌɹi/
+workload	/ˈwɝˌkɫoʊd/
+burgeoning	/ˈbɝdʒənɪŋ/
+merger	/ˈmɝdʒɝ/
+subcontract	/səbˈkɑnˌtɹækt/
+cutback	/ˈkətˌbæk/
+sector	/ˈsɛktɝ/
+depression	/dɪˈpɹɛʃən/
+commodity	/kəˈmɑdəti/
+recession	/ˌɹiˈsɛʃən/, /ɹɪˈsɛʃən/
+tout	/ˈtaʊt/
+understaffed	/ˈəndɝˌstæft/
+interaction	/ˌɪnɝˈækʃən/, /ˌɪntɝˈækʃən/
+executive	/ɪɡˈzɛkjətɪv/
+commerce	/ˈkɑmɝs/
+fiscal	/ˈfɪskəɫ/
+merchant	/ˈmɝtʃənt/
+verbal	/ˈvɝbəɫ/
+sluggish	/ˈsɫəɡɪʃ/
+clerical	/ˈkɫɛɹəkəɫ/, /ˈkɫɛɹɪkəɫ/
+outsource	/ˌaʊtˈsɔɹs/
+shelf life	
+pay rise	
+labour shortage	
+job satisfaction	
+career advancement	
+lucrative	/ˈɫukɹətɪv/
+inventory	/ˌɪnvənˈtɔɹi/
+squander	/ˈskwɑndɝ/
+unveil	/ənˈveɪɫ/
+prerequisite	/pɹiˈɹɛkwəzət/
+clientele	/ˌkɫaɪənˈtɛɫ/
+dividend	/ˈdɪvɪˌdɛnd/
+blemish	/ˈbɫɛmɪʃ/
+taper off	
+outlook	/ˈaʊtˌɫʊk/
+plummet	/ˈpɫəmət/
+misconception	/mɪskənˈsɛpʃən/
+glass ceiling	
+telegraph	/ˈtɛɫəˌɡɹæf/
+calibre	/ˈkæl.ɪ.bə(ɹ)/
+wholesale	/ˈhoʊɫˌseɪɫ/
+instalment	
+surcharge	/ˈsɝˌtʃɑɹdʒ/, /sɝˈtʃɑɹdʒ/
+proprietor	/pɹəˈpɹaɪətɝ/
+diagnose	/ˌdaɪəɡˈnoʊs/
+sensory	/ˈsɛnsɝi/
+genetically	/dʒəˈnɛtɪkɫi/
+prescribe	/pɹəsˈkɹaɪb/, /pɹisˈkɹaɪb/
+transplant	/tɹænsˈpɫænt/
+anaesthetic	/ˌænəsˈθɛtɪk/
+regimen	/ˈɹɛdʒəmən/
+anatomy	/əˈnætəmi/
+revive	/ɹiˈvaɪv/, /ɹɪˈvaɪv/
+contagious	/kənˈteɪdʒəs/
+surgeon	/ˈsɝdʒən/, /ˈsɝdʒɪn/
+physician	/fəˈzɪʃən/
+plague	/ˈpɫeɪɡ/
+lung	/ˈɫəŋ/
+curative	/ˈkjʊɹətɪv/
+organ	/ˈɔɹɡən/
+therapy	/ˈθɛɹəpi/
+immune	/ˌɪmˈjun/
+hemisphere	/ˈhɛmɪsˌfɪɹ/
+pharmaceutical	/ˌfɑɹməˈsutɪkəɫ/
+metabolic	/ˌmɛtəˈbɑɫɪk/
+irrigation	/ˌɪɹəˈɡeɪʃən/
+locomotive	/ˌɫoʊkəˈmoʊtɪv/
+cortex	/ˈkɔɹtɛks/
+neural	/ˈnjʊɹəɫ/, /ˈnʊɹəɫ/
+physiology	/ˌfɪziˈɑɫədʒi/
+autism	/ˈɔˌtɪzəm/
+pathogen	/ˈpæθədʒən/
+prescription	/pɹəsˈkɹɪpʃən/
+dissect	/daɪˈsɛkt/
+psychiatrist	/səˈkaɪətɹəst/
+tuberculosis	/təˌbɝkjəˈɫoʊsɪs/, /tuˌbɝkjəˈɫoʊsəs/, /tuˌbɝkjuˈɫoʊsəs/
+vein	/ˈveɪn/
+syndrome	/ˈsɪnˌdɹoʊm/
+pulse	/ˈpəɫs/
+ailment	/ˈeɪɫmənt/
+vaccination	/væksəˈneɪʃən/
+acupuncture	/ˈækjuˌpəŋktʃɝ/
+bowel	/ˈbaʊəɫ/
+bronchitis	/bɹɑŋˈkaɪtəs/
+lethargic	/ɫəˈθɑɹdʒɪk/
+respiratory	/ˈɹɛspɝəˌtɔɹi/
+cardiovascular	/ˌkɑɹdioʊˈvæskjəɫɝ/
+arthritis	/ɑɹˈθɹaɪtəs/, /ɑɹˈθɹaɪtɪs/
+tumour	
+veterinary surgeon	
+dispensary	/ˈdɪspɛnˌsɛɹi/, /dɪˈspɛnsɝi/
+nutrition	/nuˈtɹɪʃən/
+vascular	/ˈvæskjəɫɝ/
+phobia	/ˈfoʊbiə/
+neurological	/ˌnʊɹəˈɫɑdʒɪkəɫ/
+pale	/ˈpeɪɫ/
+mutation	/mjuˈteɪʃən/
+sneeze	/ˈsniz/
+chill	/ˈtʃɪɫ/
+infection	/ˌɪnˈfɛkʃən/
+supplement	/ˈsəpɫəmənt/, /ˌsəpɫəˈmɛnt/
+cough	/ˈkɑf/, /ˈkɔf/
+nutritious	/nuˈtɹɪʃəs/
+nerve-wracking	
+obesity	/əˈbisəti/, /oʊˈbisəti/
+surgery	/ˈsɝdʒɝi/
+antibiotics	/ˌæntaɪbaɪˈɑtɪks/, /ˌæntibaɪˈɑtɪks/
+diagnosis	/ˌdaɪəɡˈnoʊsəs/
+diabetes	/ˌdaɪəˈbitiz/
+pneumonia	/nəˈmoʊnjə/, /nuˈmoʊnjə/
+dementia	/dɪˈmɛnʃiə/
+chronic	/ˈkɹɑnɪk/
+epidemic	/ˌɛpəˈdɛmɪk/, /ˌɛpɪˈdɛmɪk/
+asthma	/ˈæzmə/
+infrastructure	/ˌɪnfɹəˈstɹəktʃɝ/
+browse	/ˈbɹaʊz/
+hack	/ˈhæk/
+breast	/ˈbɹɛst/
+stroke	/ˈstɹoʊk/
+perspiration	/ˌpɝspɝˈeɪʃən/
+hydroelectricity	
+sleep deprivation	
+life expectancy	
+hypnosis	/hɪpˈnoʊsəs/
+efficacy	/ˈɛfɪˌkæsi/
+sterilise	
+dehydrate	/dɪˈhaɪdɹeɪt/
+pendulum	/ˈpɛndʒəɫəm/
+cutting-edge	/ˈkətɪˌŋɛdʒ/
+usher in	
+succumb	/səˈkəm/
+relapse	/ɹiˈɫæps/
+endemic	/ɛnˈdɛmɪk/
+glucose	/ˈɡɫuˌkoʊs/
+biodegradable	/ˌbaɪoʊdəˈɡɹeɪdəbəɫ/
+bruise	/ˈbɹuz/
+wean	/ˈwin/
+clot	/ˈkɫɑt/
+optic	/ˈɑptɪk/
+inhale	/ˌɪnˈheɪɫ/
+exhale	/ɛksˈheɪɫ/
+antidote	/ˈænɪˌdoʊt/, /ˈæntɪˌdoʊt/
+antiseptic	/ˌæntəˈsɛptɪk/
+placebo	/pɫəˈsiboʊ/
+malpractice	/mæɫˈpɹæktəs/, /mæɫˈpɹæktɪs/
+pandemic	/pænˈdɛmɪk/
+rash	/ˈɹæʃ/
+medication	/ˌmɛdəˈkeɪʃən/
+complication	/ˌkɑmpɫəˈkeɪʃən/
+dormitory	/ˈdɔɹməˌtɔɹi/
+bullying	/ˈbʊɫiɪŋ/
+scholarly	/ˈskɑɫɝɫi/
+mentor	/ˈmɛnˌtɔɹ/, /ˈmɛntɝ/
+linguist	/ˈɫɪŋɡwɪst/
+terminology	/ˌtɝmɪˈnɑɫədʒi/
+canteen	/kænˈtin/
+auditorium	/ˌɔdəˈtɔɹiəm/
+scholarship	/ˈskɑɫɝˌʃɪp/
+bachelor	/ˈbætʃəɫɝ/, /ˈbætʃɫɝ/
+warden	/ˈwɔɹdən/
+diploma	/dɪˈpɫoʊmɑ/
+tuition	/tjuˈɪʃən/
+doctorate	/ˈdɑktɝət/
+anthropology	/ˌænθɹəˈpɑɫədʒi/
+liberal	/ˈɫɪˌbɝəɫ/
+attendant	/əˈtɛndənt/
+linguistic	/ɫɪŋˈɡwɪstɪk/
+extracurricular activity	
+rote learning	
+truancy	/ˈtɹuənsi/
+role model	
+pedagogical	/ˌpɛdəˈɡɑdʒɪkəɫ/
+interdisciplinary	/ˌɪntɝˈdɪsəpɫəˌnɛɹi/
+dissertation	/ˌdɪsɝˈteɪʃən/
+admonish	/ædˈmɑnɪʃ/
+infuse	/ˌɪnˈfjuz/
+bibliography	/ˌbɪbɫiˈɑɡɹəfi/
+academic	/ˌækəˈdɛmɪk/
+laboratory	/ˈɫæbɹəˌtɔɹi/
+alumni	/əˈɫəmˌnaɪ/
+outing	/ˈaʊtɪŋ/
+maxim	/ˈmæksəm/
+theorem	/ˈθɪɹəm/
+anomaly	/əˈnɑməɫi/
+taxonomy	/ˌtækˈsɔnəˌmi/
+erudite	/ˈɛɹəˌdaɪt/
+tenement	/ˈtɛnəmənt/
+threshold	/ˈθɹɛˌʃoʊɫd/
+lease	/ˈɫis/
+labyrinth	/ˈɫæbɝˌɪnθ/
+embellish	/ɪmˈbɛɫɪʃ/
+art gallery	
+artefact	
+grand	/ˈɡɹænd/
+aesthetic	/ɛsˈθɛtɪk/
+foyer	/ˈfɔɪɝ/
+conservatory	/kənˈsɝvətɔɹi/
+harbour	/ˈhɑɹbɝ/
+carpenter	/ˈkɑɹpəntɝ/
+palace	/ˈpæɫəs/
+demolish	/dɪˈmɑɫɪʃ/
+refurbished	/ɹiˈfɝbɪʃt/
+tomb	/ˈtum/
+playwright	/ˈpɫeɪˌɹaɪt/
+sculptor	/ˈskəɫptɝ/
+artwork	/ˈɑɹtˌwɝk/
+fountain	/ˈfaʊntən/
+residence	/ˈɹɛzɪdəns/
+pavilion	/pəˈvɪɫjən/
+symphony	/ˈsɪmfəni/
+waterway	/ˈwɔtɝˌweɪ/
+plagiarism	/ˈpɫeɪdʒɝˌɪzəm/
+facade	/fəˈsɑd/
+facet	/ˈfæsət/
+aquarium	/əˈkwɛɹiəm/
+craftsperson	/ˈkɹɑːftspɜːsən/
+portrait	/ˈpɔɹtɹət/
+sculpture	/ˈskəɫptʃɝ/
+masterpiece	/ˈmæstɝˌpis/
+classical	/ˈkɫæsɪkəɫ/
+tune	/ˈtun/
+perimeter	/pɝˈɪmətɝ/
+chord	/ˈkɔɹd/
+wind turbine	
+scaffold	/ˈskæfəɫd/
+fireplace	/ˈfaɪɝˌpɫeɪs/
+sewerage	/ˈsuɝɪdʒ/
+lighthouse	/ˈɫaɪtˌhaʊs/
+glaze	/ˈɡɫeɪz/
+pigment	/ˈpɪɡmənt/
+hue	/ˈhju/
+windmill	/ˈwɪndˌmɪɫ/
+pier	/ˈpɪɹ/
+thatch	/ˈθætʃ/
+chapel	/ˈtʃæpəɫ/
+chamber	/ˈtʃeɪmbɝ/
+vault	/ˈvɔɫt/
+beam	/ˈbim/
+exterior	/ɪkˈstɪɹiɝ/
+calligraphy	/kəˈɫɪɡɹəfi/
+sublime	/səˈbɫaɪm/
+rhyme	/ˈɹaɪm/
+verse	/ˈvɝs/
+satire	/ˈsæˌtaɪɝ/
+fable	/ˈfeɪbəɫ/
+liken	/ˈɫaɪkən/
+navigate	/ˈnævəˌɡeɪt/
+bypass	/ˈbaɪˌpæs/
+raft	/ˈɹæft/
+anchor	/ˈæŋkɝ/
+automotive	/ˌɔtəˈmoʊtɪv/
+aviation	/ˌeɪviˈeɪʃən/
+submarine	/ˈsəbmɝˌin/, /ˌsəbmɝˈin/
+detour	/ˈditʊɹ/, /dɪˈtʊɹ/
+hull	/ˈhəɫ/
+carriage	/ˈkæɹɪdʒ/, /ˈkɛɹədʒ/
+transit	/ˈtɹænzɪt/
+pedestrian crossing	
+carpool	/ˈkɑɹˌpuɫ/
+steering wheel	
+windscreen	/ˈwɪn(d)skɹiːn/
+recline	/ɹɪˈkɫaɪn/
+jet lag	
+motion sickness	
+binary	/ˈbaɪnɝi/
+synthetic	/sɪnˈθɛtɪk/
+formulate	/ˈfɔɹmjəˌɫeɪt/
+demographic	/ˌdɛməˈɡɹæfɪk/
+numerical	/nuˈmɛɹəkəɫ/, /nuˈmɛɹɪkəɫ/
+thermal	/ˈθɝməɫ/
+spectrum	/ˈspɛktɹəm/
+fusion	/ˈfjuʒən/
+inflammable	/ɪnˈfɫæməbəɫ/
+quadruple	/kwɑˈdɹupəɫ/
+meltdown	/ˈmɛɫtˌdaʊn/
+solution	/səˈɫuʃən/
+radiation	/ˌɹeɪdiˈeɪʃən/
+catalyst	/ˈkætəɫəst/, /ˈkætəɫɪst/
+hydraulic	/haɪˈdɹɔɫɪk/
+formula	/ˈfɔɹmjəɫə/
+physicist	/ˈfɪzɪsɪst/
+physically	/ˈfɪzɪkəɫi/, /ˈfɪzɪkɫi/
+copper	/ˈkɑpɝ/
+detergent	/dɪˈtɝdʒənt/
+diameter	/daɪˈæmətɝ/
+evaporate	/ɪˈvæpɝˌeɪt/
+genome	/ˈdʒiˌnoʊm/
+distil	/dɪˈstɪɫ/
+electron	/ˌɪˈɫɛktɹɑn/
+geometry	/dʒiˈɑmətɹi/
+numeracy	
+precipitation	/pɹɪˌsɪpɪˈteɪʃən/
+evenly	/ˈivənɫi/
+geometric	/ˌdʒiəˈmɛtɹɪk/
+infinite	/ˈɪnfənət/
+magnetic	/mæɡˈnɛtɪk/
+purify	/ˈpjʊɹəˌfaɪ/
+testament	/ˈtɛstəmənt/
+carbohydrate	/ˌkɑɹboʊˈhaɪˌdɹeɪt/, /ˌkɑɹboʊˈhaɪdɹət/
+solstice	/ˈsɔɫstɪs/
+algebra	/ˈæɫdʒəbɹə/
+parabola	/pɝˈæbəɫə/
+quantum	/ˈkwɑntəm/
+thaw	/ˈθɔ/
+momentum	/moʊˈmɛntəm/
+wavelength	/ˈweɪvˌɫɛŋθ/
+melt	/ˈmɛɫt/
+oxygen	/ˈɑksədʒən/, /ˈɑksɪdʒən/
+thermometer	/θɝˈmɑmətɝ/
+thunder	/ˈθəndɝ/
+hydrogen	/ˈhaɪdɹədʒən/
+sphere	/ˈsfɪɹ/
+microscope	/ˈmaɪkɹəˌskoʊp/
+chloride	/ˈkɫɔɹaɪd/
+acid	/ˈæsəd/
+compound	/ˈkɑmpaʊnd/, /kəmˈpaʊnd/
+multiply	/ˈməɫtəˌpɫaɪ/
+chemistry	/ˈkɛməstɹi/, /ˈkɛmɪstɹi/
+solid	/ˈsɑɫəd/
+liquid	/ˈɫɪkwəd/, /ˈɫɪkwɪd/
+gravity	/ˈɡɹævəti/, /ˈɡɹævɪti/
+molecule	/ˈmɑɫəkˌjuɫ/
+particle	/ˈpɑɹtəkəɫ/, /ˈpɑɹtɪkəɫ/
+motion	/ˈmoʊʃən/
+ray	/ˈɹeɪ/
+physics	/ˈfɪzɪks/
+atomic	/əˈtɑmɪk/
+vapour	
+eject	/ɪˈdʒɛkt/
+furnace	/ˈfɝnəs/
+velocity	/vəˈɫɑsəti/
+amplifier	/ˈæmpɫəˌfaɪɝ/
+convection	/kənˈvɛkʃən/
+saline	/səˈɫin/
+viscous	/ˈvɪskəs/
+inert	/ˌɪˈnɝt/
+alloy	/ˈæˌɫɔɪ/
+methane	/ˈmɛˌθeɪn/
+brass	/ˈbɹæs/
+oval	/ˈoʊvəɫ/
+myriad	/ˈmɪɹiəd/
+adhesive	/ædˈhisɪv/, /ədˈhisɪv/
+fugitive	/ˈfjudʒətɪv/, /ˈfjudʒɪtɪv/
+pillage	/ˈpɪɫɪdʒ/
+codify	/ˈkoʊdəˌfaɪ/
+impinge	/ˌɪmˈpɪndʒ/
+encroach	/ɪnˈkɹoʊtʃ/
+infringe	/ˌɪnˈfɹɪndʒ/
+underpaid	/ˈəndɝˈpeɪd/
+liability	/ˌɫaɪəˈbɪɫɪti/
+smuggle	/ˈsməɡəɫ/
+fraud	/ˈfɹɔd/
+poach	/ˈpoʊtʃ/
+bylaw	/ˈbaɪˌɫɔ/
+illicit	/ˌɪˈɫɪsət/
+provision	/pɹəˈvɪʒən/
+captivity	/kæpˈtɪvəti/
+deploy	/dɪˈpɫɔɪ/
+fortress	/ˈfɔɹtɹəs/
+jurisdiction	/ˌdʒʊɹəsˈdɪkʃən/, /ˌdʒʊɹɪsˈdɪkʃən/
+verdict	/ˈvɝdɪkt/
+culprit	/ˈkəɫpɹɪt/
+convict	/ˈkɑnvɪkt/, /kənˈvɪkt/
+testimony	/ˈtɛstəˌmoʊni/
+arms	/ˈɑɹmz/
+fort	/ˈfɔɹt/
+allegation	/ˌæɫəˈɡeɪʃən/
+burglary	/ˈbɝɡɫɝi/
+jury	/ˈdʒʊɹi/
+prosecute	/ˈpɹɑsəkˌjut/
+vow	/ˈvaʊ/
+amend	/əˈmɛnd/
+decree	/dɪˈkɹi/
+statutory	/ˈstætʃəˌtɔɹi/
+confess	/kənˈfɛs/
+constitution	/ˌkɑnstəˈtuʃən/
+treaty	/ˈtɹiti/
+legitimate	/ɫəˈdʒɪtəmət/
+copyright	/ˈkɑpiˌɹaɪt/
+enforce	/ɛnˈfɔɹs/
+interrogate	/ˌɪnˈtɛɹəˌɡeɪt/
+piracy	/ˈpaɪɹəsi/
+corruption	/kɝˈəpʃən/
+bribe	/ˈbɹaɪb/
+sanction	/ˈsæŋkʃən/
+warfare	/ˈwɔɹˌfɛɹ/
+scheme	/ˈskim/
+justice	/ˈdʒəstəs/, /ˈdʒəstɪs/
+murder	/ˈmɝdɝ/
+criminal	/ˈkɹɪmənəɫ/
+judgement	/ˈdʒədʒmənt/
+innocent	/ˈɪnəsənt/
+witness	/ˈwɪtnəs/
+arrest	/ɝˈɛst/
+soldier	/ˈsoʊɫdʒɝ/
+jail	/ˈdʒeɪɫ/
+defence	/dɪˈfɛns/
+law enforcement	
+legal recourse	
+tax evasion	
+child abuse	
+law-abiding	
+imprison	/ˌɪmˈpɹɪzən/
+sovereignty	/ˈsɑvɹənti/
+nullify	/ˈnəɫəˌfaɪ/
+denigration	
+pact	/ˈpækt/
+deregulation	/diˌɹɛɡjəˈɫeɪʃən/
+revoke	/ɹiˈvoʊk/, /ɹɪˈvoʊk/
+loophole	/ˈɫupˌhoʊɫ/
+treason	/ˈtɹizən/
+parole	/pɝˈoʊɫ/
+collude	/kəˈɫud/
+mistrust	/mɪˈstɹəst/
+turmoil	/ˈtɝˌmɔɪɫ/
+regulation	/ˌɹɛɡjəˈɫeɪʃən/
+shoplift	/ˈʃɑˌpɫɪft/
+violation	/vaɪəˈɫeɪʃən/
+plaintiff	/ˈpɫeɪnəf/, /ˈpɫeɪntəf/
+probation	/pɹoʊˈbeɪʃən/
+defendant	/dɪˈfɛndənt/

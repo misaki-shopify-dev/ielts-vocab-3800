@@ -535,6 +535,13 @@ async function updatePhonetic(word, localPhonetic) {
     console.error('Failed to fetch phonetic', e);
   }
 }
+function parseSynonyms(synonymStr) {
+  if (!synonymStr) return [];
+  // Strip "類:" or "類：" or "類: " prefix if it exists
+  let cleanStr = synonymStr.replace(/^(類[:：]|類)\s*/, '');
+  // Split by comma (handles half-width and full-width commas)
+  return cleanStr.split(/[,，]\s*/).map(s => s.trim()).filter(Boolean);
+}
 
 function displayCurrentWord() {
   if (filteredWords.length === 0) {
@@ -552,8 +559,37 @@ function displayCurrentWord() {
   
   // Synonym mapping
   if (wordData.Synonym) {
-    cardSynonym.textContent = wordData.Synonym;
-    cardSynonymContainer.style.display = 'flex';
+    const parsedSyns = parseSynonyms(wordData.Synonym);
+    if (parsedSyns.length > 0) {
+      cardSynonym.innerHTML = '';
+      parsedSyns.forEach(syn => {
+        const badge = document.createElement('span');
+        badge.className = 'synonym-badge';
+        badge.textContent = syn;
+        
+        // Find if this synonym exists in allWords
+        const matchingWord = allWords.find(w => w.Word.toLowerCase() === syn.toLowerCase());
+        if (matchingWord) {
+          badge.classList.add('has-match');
+          badge.title = `No.${matchingWord.No} - ${matchingWord.Word} へジャンプ`;
+          badge.addEventListener('click', (e) => {
+            e.stopPropagation(); // Prevent card flip
+            jumpToWord(matchingWord);
+          });
+        } else {
+          // If not in the database, click it to search
+          badge.addEventListener('click', (e) => {
+            e.stopPropagation(); // Prevent card flip
+            searchInput.value = syn;
+            applyFilters();
+          });
+        }
+        cardSynonym.appendChild(badge);
+      });
+      cardSynonymContainer.style.display = 'flex';
+    } else {
+      cardSynonymContainer.style.display = 'none';
+    }
   } else {
     cardSynonymContainer.style.display = 'none';
   }
