@@ -841,11 +841,20 @@ async function forceUpdateApp() {
   updateBtnText.textContent = 'アップデート中...';
   
   try {
-    // 1. Clear caches
+    // 1. Clear LocalStorage caches
     localStorage.removeItem('ielts_cached_words');
     localStorage.removeItem('ielts_phonetics_cache');
     
-    // 2. Load fresh words data
+    // 2. Clear Service Worker Cache Storage
+    if ('caches' in window) {
+      const cacheKeys = await caches.keys();
+      for (const key of cacheKeys) {
+        await caches.delete(key);
+      }
+      console.log('Cache Storage cleared');
+    }
+    
+    // 3. Load fresh words data from network
     await loadWordsFromSources();
     applyFilters();
     
