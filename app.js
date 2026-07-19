@@ -59,6 +59,8 @@ const syncStatusDot = document.getElementById('sync-status-dot');
 const syncStatusText = document.getElementById('sync-status-text');
 const ttsVoiceSelect = document.getElementById('tts-voice-select');
 const saveSettingsBtn = document.getElementById('save-settings-btn');
+const forceUpdateBtn = document.getElementById('force-update-btn');
+const updateBtnText = document.getElementById('update-btn-text');
 
 // Release Notes Elements
 const releaseNotesToggleBtn = document.getElementById('release-notes-toggle-btn');
@@ -311,6 +313,9 @@ function setupEventListeners() {
     if (e.target === settingsModal) closeSettings();
   });
   saveSettingsBtn.addEventListener('click', saveSettings);
+  if (forceUpdateBtn) {
+    forceUpdateBtn.addEventListener('click', forceUpdateApp);
+  }
 
   // Release Notes Actions
   if (releaseNotesToggleBtn) {
@@ -827,6 +832,51 @@ function saveSettings() {
   localStorage.setItem('ielts_selected_voice', selectedVoice);
   
   closeSettings();
+}
+
+async function forceUpdateApp() {
+  if (!forceUpdateBtn || !updateBtnText) return;
+  
+  forceUpdateBtn.disabled = true;
+  updateBtnText.textContent = 'アップデート中...';
+  
+  try {
+    // 1. Clear caches
+    localStorage.removeItem('ielts_cached_words');
+    localStorage.removeItem('ielts_phonetics_cache');
+    
+    // 2. Load fresh words data
+    await loadWordsFromSources();
+    applyFilters();
+    
+    // 3. Sync weak words if GAS URL exists
+    if (gasUrl) {
+      await syncWithSpreadsheet();
+    }
+    
+    // 4. Update service worker to check for new assets
+    if ('serviceWorker' in navigator) {
+      const registrations = await navigator.serviceWorker.getRegistrations();
+      for (let registration of registrations) {
+        await registration.update();
+      }
+    }
+    
+    updateBtnText.textContent = 'アップデート完了！';
+    
+    setTimeout(() => {
+      window.location.reload();
+    }, 1200);
+    
+  } catch (error) {
+    console.error('Failed to force update:', error);
+    updateBtnText.textContent = 'エラーが発生しました';
+    
+    setTimeout(() => {
+      forceUpdateBtn.disabled = false;
+      updateBtnText.textContent = '最新の状態にアップデート';
+    }, 3000);
+  }
 }
 
 // Search Suggestions & Direct Jump logic
