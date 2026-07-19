@@ -10,6 +10,8 @@ let currentAudio = null;
 
 // Settings & Synchronization State
 let gasUrl = localStorage.getItem('ielts_gas_url') || '';
+let geminiApiKey = localStorage.getItem('ielts_gemini_api_key') || '';
+let chatHistory = [];
 let localWeakWordsKey = 'ielts_weak_words';
 let selectedVoiceName = localStorage.getItem('ielts_selected_voice') || 'default';
 let phoneticsCache = JSON.parse(localStorage.getItem('ielts_phonetics_cache') || '{}');
@@ -72,6 +74,19 @@ const lockScreen = document.getElementById('lock-screen');
 const lockInput = document.getElementById('lock-input');
 const lockSubmitBtn = document.getElementById('lock-submit-btn');
 const lockErrorMsg = document.getElementById('lock-error-msg');
+
+// Gemini AI Explanation Elements
+const settingsGeminiKeyInput = document.getElementById('settings-gemini-key-input');
+const aiExplainBtn = document.getElementById('ai-explain-btn');
+const aiChatModal = document.getElementById('ai-chat-modal');
+const aiChatCloseBtn = document.getElementById('ai-chat-close-btn');
+const aiApikeySetup = document.getElementById('ai-apikey-setup');
+const aiApiKeyInput = document.getElementById('ai-api-key-input');
+const aiSaveApiKeyBtn = document.getElementById('ai-save-api-key-btn');
+const aiChatBox = document.getElementById('ai-chat-box');
+const aiChatMessages = document.getElementById('ai-chat-messages');
+const aiChatInput = document.getElementById('ai-chat-input');
+const aiChatSendBtn = document.getElementById('ai-chat-send-btn');
 
 // Load words master data from Google Sheet, LocalStorage Cache, or local JSON file
 async function loadWordsFromSources() {
@@ -338,8 +353,8 @@ function setupEventListeners() {
 
   // Keyboard navigation support
   document.addEventListener('keydown', (e) => {
-    if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT') {
-      return; // Skip when typing in search or input fields
+    if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'SELECT' || document.activeElement.tagName === 'TEXTAREA') {
+      return; // Skip when typing in search, input, or textarea fields
     }
     
     if (e.code === 'ArrowRight' || e.code === 'KeyD') {
@@ -357,6 +372,51 @@ function setupEventListeners() {
       toggleWeakWord();
     }
   });
+
+  // Gemini AI Explanation Actions
+  if (aiExplainBtn) {
+    aiExplainBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      openAiExplanation();
+    });
+  }
+  if (aiChatCloseBtn) {
+    aiChatCloseBtn.addEventListener('click', () => {
+      aiChatModal.classList.add('hidden');
+    });
+  }
+  if (aiChatModal) {
+    aiChatModal.addEventListener('click', (e) => {
+      if (e.target === aiChatModal) {
+        aiChatModal.classList.add('hidden');
+      }
+    });
+  }
+  if (aiSaveApiKeyBtn) {
+    aiSaveApiKeyBtn.addEventListener('click', () => {
+      const keyVal = aiApiKeyInput.value.trim();
+      if (keyVal) {
+        geminiApiKey = keyVal;
+        localStorage.setItem('ielts_gemini_api_key', geminiApiKey);
+        openAiExplanation();
+      }
+    });
+  }
+  if (aiChatSendBtn) {
+    aiChatSendBtn.addEventListener('click', sendUserMessage);
+  }
+  if (aiChatInput) {
+    aiChatInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        sendUserMessage();
+      }
+    });
+    aiChatInput.addEventListener('input', () => {
+      aiChatInput.style.height = 'auto';
+      aiChatInput.style.height = (aiChatInput.scrollHeight) + 'px';
+    });
+  }
 
   // Mobile Swipe gestures
   flashcard.addEventListener('touchstart', (e) => {
@@ -838,6 +898,9 @@ function populateVoicesList() {
 // Settings Modal Controls
 function openSettings() {
   gasUrlInput.value = gasUrl;
+  if (settingsGeminiKeyInput) {
+    settingsGeminiKeyInput.value = geminiApiKey;
+  }
   settingsModal.classList.remove('hidden');
 }
 
@@ -848,6 +911,14 @@ function closeSettings() {
 function saveSettings() {
   const newUrl = gasUrlInput.value.trim();
   const selectedVoice = ttsVoiceSelect.value;
+  
+  if (settingsGeminiKeyInput) {
+    const newGeminiKey = settingsGeminiKeyInput.value.trim();
+    if (newGeminiKey !== geminiApiKey) {
+      geminiApiKey = newGeminiKey;
+      localStorage.setItem('ielts_gemini_api_key', geminiApiKey);
+    }
+  }
   
   // Save URL
   if (newUrl !== gasUrl) {
@@ -1035,4 +1106,193 @@ function populateWordSelect(wordsToShow = allWords) {
   if (currentVal && wordsToShow.some(w => w.No.toString() === currentVal.toString())) {
     wordSelect.value = currentVal;
   }
+}
+
+// Gemini AI Explanation Logic
+function openAiExplanation() {
+  if (filteredWords.length === 0) return;
+  const wordData = filteredWords[currentIndex];
+  
+  if (!aiChatModal) return;
+  
+  aiChatModal.classList.remove('hidden');
+  
+  // Reset textarea height
+  if (aiChatInput) {
+    aiChatInput.value = '';
+    aiChatInput.style.height = 'auto';
+  }
+  
+  // Check if API Key is set
+  if (!geminiApiKey) {
+    if (aiApikeySetup) aiApikeySetup.classList.remove('hidden');
+    if (aiChatBox) aiChatBox.classList.add('hidden');
+    return;
+  }
+  
+  if (aiApikeySetup) aiApikeySetup.classList.add('hidden');
+  if (aiChatBox) aiChatBox.classList.remove('hidden');
+  
+  // Clear previous chat messages & history
+  if (aiChatMessages) aiChatMessages.innerHTML = '';
+  chatHistory = [];
+  
+  const word = wordData.Word;
+  const meaning = wordData.Meaning;
+  const exampleEn = wordData.Example_EN || '';
+  const exampleJa = wordData.Example_JA || '';
+  
+  const systemPrompt = `あなたは優秀な英語講師です。IELTS学習者向けに、提供された単語のコアイメージ（ニュアンスや語源、使われる場面）と、例文の文法解説（文構造、品詞、用法など）をわかりやすく解説してください。`;
+  
+  const initialUserPrompt = `単語: 「${word}」
+意味: 「${meaning}」
+例文: 「${exampleEn}」
+例文和訳: 「${exampleJa}」
+
+この単語のコアイメージと、この例文の文法解説を分かりやすく教えてください。`;
+
+  appendMessage('assistant', `単語「${word}」の解説を準備中...`);
+  
+  callGeminiAPI(systemPrompt, initialUserPrompt);
+}
+
+async function callGeminiAPI(systemPrompt, userPrompt) {
+  // Remove starting message if it exists
+  if (aiChatMessages && aiChatMessages.lastChild && aiChatMessages.lastChild.textContent.includes('準備中...')) {
+    aiChatMessages.removeChild(aiChatMessages.lastChild);
+  }
+  
+  // Add user prompt to history
+  chatHistory.push({ role: 'user', parts: [{ text: userPrompt }] });
+  
+  // Create and show loading bubble
+  const loadingBubble = document.createElement('div');
+  loadingBubble.className = 'chat-message loading-bubble';
+  loadingBubble.innerHTML = `
+    <div class="ai-loading-dots">
+      <span></span><span></span><span></span>
+    </div>
+  `;
+  if (aiChatMessages) {
+    aiChatMessages.appendChild(loadingBubble);
+    aiChatMessages.scrollTop = aiChatMessages.scrollHeight;
+  }
+  
+  try {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${geminiApiKey}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        contents: chatHistory,
+        systemInstruction: {
+          parts: [{ text: systemPrompt }]
+        }
+      })
+    });
+    
+    if (loadingBubble.parentNode) {
+      loadingBubble.parentNode.removeChild(loadingBubble);
+    }
+    
+    if (!response.ok) {
+      const errData = await response.json().catch(() => ({}));
+      const errMsg = errData.error?.message || `HTTP error! status: ${response.status}`;
+      throw new Error(errMsg);
+    }
+    
+    const data = await response.json();
+    const replyText = data.candidates?.[0]?.content?.parts?.[0]?.text || '解説を取得できませんでした。';
+    
+    // Add model response to history
+    chatHistory.push({ role: 'model', parts: [{ text: replyText }] });
+    
+    // Render assistant message
+    appendMessage('assistant', replyText);
+    
+  } catch (error) {
+    console.error('Gemini API Error:', error);
+    if (loadingBubble.parentNode) {
+      loadingBubble.parentNode.removeChild(loadingBubble);
+    }
+    appendMessage('system-error', `エラーが発生しました: ${error.message}\nAPIキー設定が正しいか確認してください。`);
+  }
+}
+
+function sendUserMessage() {
+  if (!aiChatInput) return;
+  const text = aiChatInput.value.trim();
+  if (!text) return;
+  
+  appendMessage('user', text);
+  aiChatInput.value = '';
+  aiChatInput.style.height = 'auto';
+  
+  const systemPrompt = `あなたは優秀な英語講師です。IELTS学習者向けに、提供された単語のコアイメージ（ニュアンスや語源、使われる場面）と、例文の文法解説（文構造、品詞、用法など）をわかりやすく解説してください。`;
+  
+  callGeminiAPI(systemPrompt, text);
+}
+
+function appendMessage(sender, text) {
+  if (!aiChatMessages) return;
+  
+  const msgEl = document.createElement('div');
+  msgEl.className = `chat-message ${sender}`;
+  
+  if (sender === 'assistant') {
+    msgEl.innerHTML = formatMarkdown(text);
+  } else {
+    msgEl.textContent = text;
+  }
+  
+  aiChatMessages.appendChild(msgEl);
+  aiChatMessages.scrollTop = aiChatMessages.scrollHeight;
+}
+
+function formatMarkdown(text) {
+  if (!text) return '';
+  // Basic HTML escape for security
+  let html = text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+  
+  // Bold formatting **text**
+  html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  
+  // Inline code `code`
+  html = html.replace(/`(.*?)`/g, '<code>$1</code>');
+  
+  // List items transformation
+  html = html.replace(/^\s*[\-\*]\s+(.*)$/gm, '<li>$1</li>');
+  
+  // Group lines into paragraphs and lists
+  const lines = html.split('\n');
+  let inList = false;
+  const processedLines = [];
+  
+  for (let line of lines) {
+    if (line.trim().startsWith('<li>')) {
+      if (!inList) {
+        processedLines.push('<ul style="margin: 6px 0 6px 18px; list-style-type: disc;">');
+        inList = true;
+      }
+      processedLines.push(line);
+    } else {
+      if (inList) {
+        processedLines.push('</ul>');
+        inList = false;
+      }
+      if (line.trim() === '') {
+        processedLines.push('<br>');
+      } else {
+        processedLines.push(`<p style="margin-bottom: 8px;">${line}</p>`);
+      }
+    }
+  }
+  if (inList) {
+    processedLines.push('</ul>');
+  }
+  return processedLines.join('\n');
 }

@@ -127,7 +127,7 @@
               <div class="meaning-display" id="card-meaning">読み込み中...</div>
               
               <div class="synonym-section" id="card-synonym-container">
-                <div class="synonym-label">SYNONYM</div>
+                <div class="synonym-label">類義語</div>
                 <div class="synonym-text" id="card-synonym">---</div>
               </div>
               
@@ -135,6 +135,11 @@
                 <div class="example-label">JAPANESE</div>
                 <div class="example-text" id="card-example-ja">データを準備しています。</div>
               </div>
+              
+              <button id="ai-explain-btn" class="ai-explain-btn" aria-label="AI解説を起動">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sparkle-icon"><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path><path d="M12 8a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4Z"></path></svg>
+                <span>AI解説を起動 (Gemini)</span>
+              </button>
             </div>
             
             <div class="card-hint">
@@ -185,6 +190,12 @@
           <label for="gas-url-input">Google Apps Script Web App URL</label>
           <input type="url" id="gas-url-input" placeholder="https://script.google.com/macros/s/.../exec" autocomplete="off">
           <p class="settings-help">Googleスプレッドシート上のGASをデプロイしたWebアプリのURLを入力してください。苦手単語がリアルタイムで同期されます。</p>
+        </div>
+        
+        <div class="settings-group">
+          <label for="settings-gemini-key-input">Gemini API Key</label>
+          <input type="password" id="settings-gemini-key-input" placeholder="AIZAaSy..." autocomplete="off">
+          <p class="settings-help">AI解説（コアイメージ・例文解説）機能で使用するGemini APIキーを入力してください。<a href="https://aistudio.google.com/" target="_blank" rel="noopener noreferrer" style="color: var(--secondary); text-decoration: underline;">Google AI Studio</a> から無料で取得できます。</p>
         </div>
         
         <div class="settings-group">
@@ -281,6 +292,48 @@
             <li>苦手単語のフィルタリング機能。</li>
             <li>シャッフル学習モード。</li>
           </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gemini AI Chat Side Panel/Modal -->
+  <div id="ai-chat-modal" class="modal-overlay hidden">
+    <div class="modal-card ai-chat-card">
+      <div class="modal-header">
+        <div class="ai-header-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sparkles-logo" style="width: 22px; height: 22px;"><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path><path d="M12 8a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4Z"></path></svg>
+          <h2 style="font-size: 18px;">Gemini AI解説</h2>
+        </div>
+        <button id="ai-chat-close-btn" class="close-btn" aria-label="AI解説を閉じる">&times;</button>
+      </div>
+      <div class="modal-body ai-chat-body-content">
+        <!-- API Key Setup (Shown only if API key is not set) -->
+        <div id="ai-apikey-setup" class="ai-apikey-setup hidden">
+          <div class="setup-message" style="margin-bottom: 16px; font-size: 14px; color: var(--text-muted); line-height: 1.5;">
+            <p>AI解説を利用するには、Gemini APIキーが必要です。</p>
+            <p style="font-size: 12px; margin-top: 6px;">※APIキーはブラウザに安全に保存され、直接GoogleのGemini APIサーバーとの通信に使用されます。</p>
+          </div>
+          <div class="settings-group" style="margin-bottom: 16px;">
+            <input type="password" id="ai-api-key-input" placeholder="AIZAaSy... (Gemini API Key)" autocomplete="off" style="width: 100%; padding: 12px 16px; background: var(--bg-input); border: 1px solid var(--bg-card-border); border-radius: 12px; color: var(--text-main); font-size: 14px; margin-bottom: 12px;">
+            <button id="ai-save-api-key-btn" class="primary-btn" style="width: 100%;">APIキーを保存して開始</button>
+          </div>
+          <p class="settings-help">APIキーは <a href="https://aistudio.google.com/" target="_blank" rel="noopener noreferrer" style="color: var(--secondary); text-decoration: underline;">Google AI Studio</a> から無料で取得できます。</p>
+        </div>
+
+        <!-- Chat Box Area -->
+        <div id="ai-chat-box" class="ai-chat-box">
+          <div id="ai-chat-messages" class="ai-chat-messages">
+            <!-- Messages will be dynamically rendered here -->
+          </div>
+          
+          <!-- Input area -->
+          <div class="ai-chat-input-area">
+            <textarea id="ai-chat-input" placeholder="質問を入力... (Shift+Enterで改行)" rows="1"></textarea>
+            <button id="ai-chat-send-btn" class="icon-btn send-btn" aria-label="送信">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 18px; height: 18px;"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+          </div>
         </div>
       </div>
     </div>
