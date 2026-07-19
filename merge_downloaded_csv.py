@@ -3,10 +3,28 @@ import json
 import os
 import glob
 
+def load_existing_phonetics(csv_path):
+    phonetics = {}
+    if os.path.exists(csv_path):
+        try:
+            with open(csv_path, mode='r', encoding='utf-8-sig') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    word = row.get("Word")
+                    phonetic = row.get("Phonetic")
+                    if word and phonetic:
+                        phonetics[word.strip().lower()] = phonetic.strip()
+        except Exception as e:
+            print(f"Warning: Could not load existing phonetics from {csv_path}: {e}")
+    return phonetics
+
 def main():
     downloads_dir = "/Users/mamtsunodanmisaki/Downloads"
     output_dir = "/Users/mamtsunodanmisaki/.gemini/antigravity/scratch/ielts-wordbook"
     os.makedirs(output_dir, exist_ok=True)
+    
+    master_csv_path = "/Users/mamtsunodanmisaki/Desktop/ielts-wordbook/master_vocabulary.csv"
+    existing_phonetics = load_existing_phonetics(master_csv_path)
     
     # Configuration matching the exact downloaded file names and their level label
     files_config = [
@@ -76,6 +94,7 @@ def main():
                     "Category": category,
                     "Word": word,
                     "POS": pos,
+                    "Phonetic": existing_phonetics.get(word.lower(), cleaned_row.get("Phonetic", "")),
                     "Meaning": meaning,
                     "Synonym": synonym,
                     "Example_EN": example_en,
@@ -95,7 +114,7 @@ def main():
     
     # Save as CSV with UTF-8 BOM
     csv_output_path = os.path.join(output_dir, "master_vocabulary.csv")
-    csv_fields = ["No", "Category", "Word", "POS", "Meaning", "Synonym", "Example_EN", "Example_JA", "Level"]
+    csv_fields = ["No", "Category", "Word", "POS", "Phonetic", "Meaning", "Synonym", "Example_EN", "Example_JA", "Level"]
     
     with open(csv_output_path, mode='w', encoding='utf-8-sig', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=csv_fields)

@@ -12,6 +12,7 @@ let currentAudio = null;
 let gasUrl = localStorage.getItem('ielts_gas_url') || '';
 let localWeakWordsKey = 'ielts_weak_words';
 let selectedVoiceName = localStorage.getItem('ielts_selected_voice') || 'default';
+let phoneticsCache = JSON.parse(localStorage.getItem('ielts_phonetics_cache') || '{}');
 
 // Swipe/Touch gesture detection
 let touchStartX = 0;
@@ -29,6 +30,7 @@ const progressTotal = document.getElementById('total-count');
 const progressBar = document.getElementById('progress-bar');
 
 const cardWord = document.getElementById('card-word');
+const cardPhonetic = document.getElementById('card-phonetic');
 const cardPos = document.getElementById('card-pos');
 const cardExampleEn = document.getElementById('card-example-en');
 const cardMeaning = document.getElementById('card-meaning');
@@ -491,6 +493,44 @@ function changeIndex(direction) {
   displayCurrentWord();
 }
 
+async function updatePhonetic(word, localPhonetic) {
+  if (localPhonetic) {
+    cardPhonetic.textContent = localPhonetic;
+    cardPhonetic.style.display = 'block';
+    return;
+  }
+
+  if (phoneticsCache[word] !== undefined) {
+    cardPhonetic.textContent = phoneticsCache[word];
+    cardPhonetic.style.display = phoneticsCache[word] ? 'block' : 'none';
+    return;
+  }
+  
+  cardPhonetic.textContent = '';
+  cardPhonetic.style.display = 'none';
+  
+  try {
+    const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`);
+    if (res.ok) {
+      const data = await res.json();
+      const phoneticText = data[0]?.phonetic || data[0]?.phonetics?.find(p => p.text)?.text || '';
+      phoneticsCache[word] = phoneticText;
+      localStorage.setItem('ielts_phonetics_cache', JSON.stringify(phoneticsCache));
+      
+      // Only update if the user hasn't navigate away from the word
+      if (filteredWords[currentIndex] && filteredWords[currentIndex].Word === word) {
+        cardPhonetic.textContent = phoneticText;
+        cardPhonetic.style.display = phoneticText ? 'block' : 'none';
+      }
+    } else {
+      phoneticsCache[word] = '';
+      localStorage.setItem('ielts_phonetics_cache', JSON.stringify(phoneticsCache));
+    }
+  } catch (e) {
+    console.error('Failed to fetch phonetic', e);
+  }
+}
+
 function displayCurrentWord() {
   if (filteredWords.length === 0) {
     renderEmptyState();
@@ -501,6 +541,7 @@ function displayCurrentWord() {
   
   // Load Card text
   cardWord.textContent = wordData.Word;
+  updatePhonetic(wordData.Word, wordData.Phonetic);
   cardPos.textContent = wordData.POS;
   cardMeaning.textContent = wordData.Meaning;
   
@@ -541,6 +582,8 @@ function displayCurrentWord() {
 
 function renderEmptyState() {
   cardWord.textContent = "該当なし";
+  cardPhonetic.textContent = "";
+  cardPhonetic.style.display = "none";
   cardPos.textContent = "";
   cardMeaning.textContent = "フィルターに該当する単語がありません。";
   cardSynonymContainer.style.display = 'none';
