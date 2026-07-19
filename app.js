@@ -114,7 +114,7 @@ async function loadWordsFromSources() {
 
   if (!wordsLoaded) {
     try {
-      const response = await fetch('./words.json');
+      const response = await fetch('./words.json?t=' + Date.now());
       allWords = await response.json();
       console.log(`Loaded ${allWords.length} words from local words.json.`);
       wordsLoaded = true;
@@ -910,7 +910,8 @@ async function forceUpdateApp() {
     updateBtnText.textContent = 'アップデート完了！';
     
     setTimeout(() => {
-      window.location.reload();
+      // Force reload by appending a query parameter to bypass browser index.html cache
+      window.location.href = window.location.origin + window.location.pathname + '?t=' + Date.now();
     }, 1200);
     
   } catch (error) {
