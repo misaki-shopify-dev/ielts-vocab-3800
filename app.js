@@ -10,9 +10,9 @@ let currentAudio = null;
 
 // Auto Listen State
 let isAutoListening = false;
-let autoListenRate = parseFloat(localStorage.getItem('ielts_auto_listen_rate')) || 1.0;
-let autoListenDelay = parseInt(localStorage.getItem('ielts_auto_listen_delay')) || 3;
-let autoListenFlipDelay = parseFloat(localStorage.getItem('ielts_auto_listen_flip_delay')) || 0.0;
+let autoListenRate = localStorage.getItem('ielts_auto_listen_rate') !== null ? parseFloat(localStorage.getItem('ielts_auto_listen_rate')) : 1.0;
+let autoListenDelay = localStorage.getItem('ielts_auto_listen_delay') !== null ? parseInt(localStorage.getItem('ielts_auto_listen_delay')) : 3;
+let autoListenFlipDelay = localStorage.getItem('ielts_auto_listen_flip_delay') !== null ? parseFloat(localStorage.getItem('ielts_auto_listen_flip_delay')) : 0.0;
 let autoListenTimer = null;
 
 // Settings & Synchronization State
@@ -959,14 +959,18 @@ function openSettings() {
   stopAutoListening();
   gasUrlInput.value = gasUrl;
   
-  if (autoListenRateSelect) {
-    autoListenRateSelect.value = autoListenRate.toFixed(1);
+  const rateSelect = document.getElementById('auto-listen-rate-select');
+  const flipDelaySelect = document.getElementById('auto-listen-flip-delay-select');
+  const delaySelect = document.getElementById('auto-listen-delay-select');
+
+  if (rateSelect) {
+    rateSelect.value = autoListenRate.toFixed(1);
   }
-  if (autoListenFlipDelaySelect) {
-    autoListenFlipDelaySelect.value = autoListenFlipDelay;
+  if (flipDelaySelect) {
+    flipDelaySelect.value = autoListenFlipDelay;
   }
-  if (autoListenDelaySelect) {
-    autoListenDelaySelect.value = autoListenDelay;
+  if (delaySelect) {
+    delaySelect.value = autoListenDelay;
   }
 
   settingsModal.classList.remove('hidden');
@@ -980,17 +984,21 @@ function saveSettings() {
   const newUrl = gasUrlInput.value.trim();
   const selectedVoice = ttsVoiceSelect.value;
   
+  const rateSelect = document.getElementById('auto-listen-rate-select');
+  const flipDelaySelect = document.getElementById('auto-listen-flip-delay-select');
+  const delaySelect = document.getElementById('auto-listen-delay-select');
+
   // Save Auto Listen preferences
-  if (autoListenRateSelect) {
-    autoListenRate = parseFloat(autoListenRateSelect.value);
+  if (rateSelect) {
+    autoListenRate = parseFloat(rateSelect.value);
     localStorage.setItem('ielts_auto_listen_rate', autoListenRate);
   }
-  if (autoListenFlipDelaySelect) {
-    autoListenFlipDelay = parseFloat(autoListenFlipDelaySelect.value);
+  if (flipDelaySelect) {
+    autoListenFlipDelay = parseFloat(flipDelaySelect.value);
     localStorage.setItem('ielts_auto_listen_flip_delay', autoListenFlipDelay);
   }
-  if (autoListenDelaySelect) {
-    autoListenDelay = parseInt(autoListenDelaySelect.value);
+  if (delaySelect) {
+    autoListenDelay = parseInt(delaySelect.value);
     localStorage.setItem('ielts_auto_listen_delay', autoListenDelay);
   }
 
