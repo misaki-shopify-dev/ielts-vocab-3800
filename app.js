@@ -8,6 +8,12 @@ let shuffleOrder = [];
 let weakWords = new Set();
 let currentAudio = null;
 
+// Auto Listen State
+let isAutoListening = false;
+let autoListenRate = parseFloat(localStorage.getItem('ielts_auto_listen_rate')) || 1.0;
+let autoListenDelay = parseInt(localStorage.getItem('ielts_auto_listen_delay')) || 3;
+let autoListenTimer = null;
+
 // Settings & Synchronization State
 let gasUrl = localStorage.getItem('ielts_gas_url') || '';
 
@@ -29,6 +35,7 @@ const weakFilterBtn = document.getElementById('weak-filter-btn');
 const progressIndex = document.getElementById('current-index');
 const progressTotal = document.getElementById('total-count');
 const progressBar = document.getElementById('progress-bar');
+const autoListenBtn = document.getElementById('auto-listen-btn');
 
 const cardWord = document.getElementById('card-word');
 const cardPhonetic = document.getElementById('card-phonetic');
@@ -59,6 +66,8 @@ const gasUrlInput = document.getElementById('gas-url-input');
 const syncStatusDot = document.getElementById('sync-status-dot');
 const syncStatusText = document.getElementById('sync-status-text');
 const ttsVoiceSelect = document.getElementById('tts-voice-select');
+const autoListenRateSelect = document.getElementById('auto-listen-rate-select');
+const autoListenDelaySelect = document.getElementById('auto-listen-delay-select');
 const saveSettingsBtn = document.getElementById('save-settings-btn');
 const forceUpdateBtn = document.getElementById('force-update-btn');
 const updateBtnText = document.getElementById('update-btn-text');
@@ -246,7 +255,7 @@ async function sha256(message) {
 // Event Listeners Configuration
 function setupEventListeners() {
   // Card Flip on Click
-  flashcard.addEventListener('click', toggleCardFlip);
+  flashcard.addEventListener('click', () => toggleCardFlip(false));
   
   // Navigation
   prevBtn.addEventListener('click', (e) => {
@@ -261,33 +270,47 @@ function setupEventListeners() {
   // TTS & Play
   ttsBtn.addEventListener('click', (e) => {
     e.stopPropagation();
-    speakWord();
+    speakWord(false);
   });
+  
+  // Auto Listen Toggle
+  if (autoListenBtn) {
+    autoListenBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleAutoListening();
+    });
+  }
   
   // Weak Word toggle
   weakToggleBtn.addEventListener('click', (e) => {
     e.stopPropagation();
+    stopAutoListening();
     toggleWeakWord();
   });
   
   // Shuffle
   shuffleBtn.addEventListener('click', (e) => {
     e.stopPropagation();
+    stopAutoListening();
     toggleShuffle();
   });
 
   // Filters inputs
   searchInput.addEventListener('input', () => {
+    stopAutoListening();
     applyFilters();
     updateSuggestions();
   });
   searchInput.addEventListener('focus', () => {
+    stopAutoListening();
     updateSuggestions();
   });
   levelFilter.addEventListener('change', () => {
+    stopAutoListening();
     applyFilters();
   });
   wordSelect.addEventListener('change', () => {
+    stopAutoListening();
     const val = wordSelect.value;
     if (val) {
       const targetWord = allWords.find(w => w.No.toString() === val.toString());
@@ -297,6 +320,7 @@ function setupEventListeners() {
     }
   });
   weakFilterBtn.addEventListener('click', () => {
+    stopAutoListening();
     const isPressed = weakFilterBtn.getAttribute('aria-pressed') === 'true';
     weakFilterBtn.setAttribute('aria-pressed', !isPressed ? 'true' : 'false');
     applyFilters();
@@ -317,7 +341,10 @@ function setupEventListeners() {
   });
   saveSettingsBtn.addEventListener('click', saveSettings);
   if (forceUpdateBtn) {
-    forceUpdateBtn.addEventListener('click', forceUpdateApp);
+    forceUpdateBtn.addEventListener('click', () => {
+      stopAutoListening();
+      forceUpdateApp();
+    });
   }
 
   // Release Notes Actions
@@ -351,12 +378,13 @@ function setupEventListeners() {
       navigate(-1);
     } else if (e.code === 'Space') {
       e.preventDefault();
-      toggleCardFlip();
+      toggleCardFlip(false);
     } else if (e.code === 'ArrowUp' || e.code === 'KeyW') {
       e.preventDefault();
-      speakWord();
+      speakWord(false);
     } else if (e.code === 'ArrowDown' || e.code === 'KeyS') {
       e.preventDefault();
+      stopAutoListening();
       toggleWeakWord();
     }
   });
@@ -466,7 +494,10 @@ function updateSyncStatus(status, text) {
 }
 
 // Navigation & Presentation
-function toggleCardFlip() {
+function toggleCardFlip(isAuto = false) {
+  if (!isAuto) {
+    stopAutoListening();
+  }
   isFlipped = !isFlipped;
   if (isFlipped) {
     flashcard.classList.add('flipped');
@@ -475,12 +506,16 @@ function toggleCardFlip() {
   }
 }
 
-function navigate(direction) {
+function navigate(direction, isAuto = false) {
   if (filteredWords.length === 0) return;
+  
+  if (!isAuto) {
+    stopAutoListening();
+  }
   
   // Make sure we unflip the card first
   if (isFlipped) {
-    toggleCardFlip();
+    toggleCardFlip(isAuto);
     // Wait for unflip transition to complete before updating content
     setTimeout(() => {
       changeIndex(direction);
@@ -751,14 +786,21 @@ function shuffleArray(array) {
 }
 
 // Web Speech Synthesis (TTS Audio)
-function speakWord() {
+function speakWord(isAutoMode = false) {
   if (filteredWords.length === 0) return;
+  
+  if (!isAutoMode) {
+    stopAutoListening();
+  }
+
   const wordData = filteredWords[currentIndex];
   const word = wordData.Word;
   const example = wordData.Example_EN;
   
   if (!window.speechSynthesis) {
-    alert("Speech Synthesis is not supported in this browser.");
+    if (!isAutoMode) {
+      alert("Speech Synthesis is not supported in this browser.");
+    }
     return;
   }
 
@@ -767,6 +809,10 @@ function speakWord() {
   
   const wordUtterance = new SpeechSynthesisUtterance(word);
   wordUtterance.lang = 'en-US';
+  
+  // Apply auto listen rate if auto mode
+  const currentRate = isAutoMode ? autoListenRate : 1.0;
+  wordUtterance.rate = currentRate;
   
   // Load selected custom voice if configured
   let selectedVoice = null;
@@ -781,41 +827,99 @@ function speakWord() {
     ttsWave.classList.add('active');
     ttsBtn.classList.add('speaking');
   };
+
+  const handleTTSFinished = () => {
+    ttsWave.classList.remove('active');
+    ttsBtn.classList.remove('speaking');
+    
+    if (isAutoMode && isAutoListening) {
+      // 1. Flip card to show back face (Japanese)
+      if (!isFlipped) {
+        toggleCardFlip(true);
+      }
+      
+      // 2. Wait specified delay and go to next word
+      autoListenTimer = setTimeout(() => {
+        if (isAutoListening) {
+          navigate(1, true);
+          
+          // Small pause after navigation before speaking again
+          autoListenTimer = setTimeout(() => {
+            if (isAutoListening) {
+              speakWord(true);
+            }
+          }, 800);
+        }
+      }, autoListenDelay * 1000);
+    }
+  };
   
   if (example && example !== 'No English example sentence available.' && example !== 'Please wait while the vocabulary loads.') {
     wordUtterance.onend = () => {
       // Small pause before speaking the example
-      setTimeout(() => {
+      const pauseDuration = 700 / currentRate;
+      autoListenTimer = setTimeout(() => {
+        if (isAutoMode && !isAutoListening) return;
+        
         const exampleUtterance = new SpeechSynthesisUtterance(example);
         exampleUtterance.lang = 'en-US';
+        exampleUtterance.rate = currentRate;
         if (selectedVoice) exampleUtterance.voice = selectedVoice;
         
         exampleUtterance.onend = () => {
-          ttsWave.classList.remove('active');
-          ttsBtn.classList.remove('speaking');
+          handleTTSFinished();
         };
         
         exampleUtterance.onerror = () => {
-          ttsWave.classList.remove('active');
-          ttsBtn.classList.remove('speaking');
+          handleTTSFinished();
         };
         
         window.speechSynthesis.speak(exampleUtterance);
-      }, 700);
+      }, pauseDuration);
     };
   } else {
     wordUtterance.onend = () => {
-      ttsWave.classList.remove('active');
-      ttsBtn.classList.remove('speaking');
+      handleTTSFinished();
     };
   }
 
   wordUtterance.onerror = () => {
-    ttsWave.classList.remove('active');
-    ttsBtn.classList.remove('speaking');
+    handleTTSFinished();
   };
 
   window.speechSynthesis.speak(wordUtterance);
+}
+
+// Auto Listening Functions
+function toggleAutoListening() {
+  isAutoListening = !isAutoListening;
+  if (isAutoListening) {
+    autoListenBtn.classList.add('active');
+    autoListenBtn.setAttribute('aria-label', '自動リスニングを停止');
+    
+    if (isFlipped) {
+      toggleCardFlip(true);
+      setTimeout(() => {
+        speakWord(true);
+      }, 300);
+    } else {
+      speakWord(true);
+    }
+  } else {
+    stopAutoListening();
+  }
+}
+
+function stopAutoListening() {
+  if (!isAutoListening) return;
+  isAutoListening = false;
+  autoListenBtn.classList.remove('active');
+  autoListenBtn.setAttribute('aria-label', '自動リスニングを開始');
+  clearTimeout(autoListenTimer);
+  window.speechSynthesis.cancel();
+  
+  ttsWave.classList.remove('active');
+  ttsBtn.classList.remove('speaking');
 }
 
 // Audio Voices Loading
@@ -843,6 +947,13 @@ function populateVoicesList() {
 // Settings Modal Controls
 function openSettings() {
   gasUrlInput.value = gasUrl;
+  
+  if (autoListenRateSelect) {
+    autoListenRateSelect.value = autoListenRate.toFixed(1);
+  }
+  if (autoListenDelaySelect) {
+    autoListenDelaySelect.value = autoListenDelay;
+  }
 
   settingsModal.classList.remove('hidden');
 }
@@ -855,8 +966,16 @@ function saveSettings() {
   const newUrl = gasUrlInput.value.trim();
   const selectedVoice = ttsVoiceSelect.value;
   
+  // Save Auto Listen preferences
+  if (autoListenRateSelect) {
+    autoListenRate = parseFloat(autoListenRateSelect.value);
+    localStorage.setItem('ielts_auto_listen_rate', autoListenRate);
+  }
+  if (autoListenDelaySelect) {
+    autoListenDelay = parseInt(autoListenDelaySelect.value);
+    localStorage.setItem('ielts_auto_listen_delay', autoListenDelay);
+  }
 
-  
   // Save URL
   if (newUrl !== gasUrl) {
     gasUrl = newUrl;

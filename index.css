@@ -1172,5 +1172,33 @@ select {
   background: var(--secondary);
 }
 
+/* Auto Listen Mode Button styling */
+#auto-listen-btn.active {
+  background: rgba(20, 184, 166, 0.2);
+  border-color: var(--secondary);
+  color: var(--secondary);
+  box-shadow: 0 0 12px var(--secondary-glow);
+  animation: listenPulse 2s infinite alternate;
+}
+
+#auto-listen-btn.active .play-icon {
+  display: none;
+}
+
+#auto-listen-btn.active .pause-icon {
+  display: block !important;
+}
+
+@keyframes listenPulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 8px var(--secondary-glow);
+  }
+  100% {
+    transform: scale(1.05);
+    box-shadow: 0 0 16px rgba(20, 184, 166, 0.6);
+  }
+}
+
 
 

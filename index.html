@@ -37,9 +37,15 @@
     <header class="app-header">
       <div class="header-main">
         <h1>IELTS <span class="text-gradient">Vocab 3800</span></h1>
-        <button id="settings-toggle-btn" class="icon-btn" aria-label="設定を開く">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
-        </button>
+        <div class="header-actions" style="display: flex; gap: 8px;">
+          <button id="auto-listen-btn" class="icon-btn" aria-label="自動リスニングを開始" title="自動リスニング">
+            <svg class="play-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 20px; height: 20px;"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            <svg class="pause-icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 20px; height: 20px;"><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>
+          </button>
+          <button id="settings-toggle-btn" class="icon-btn" aria-label="設定を開く">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+          </button>
+        </div>
       </div>
       
       <!-- Filters bar -->
@@ -212,6 +218,48 @@
           <div class="select-wrapper">
             <select id="tts-voice-select" aria-label="音声選択">
               <option value="default">ブラウザ標準音声</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="settings-group">
+          <label for="auto-listen-rate-select">自動リスニング 読み上げ速度</label>
+          <div class="select-wrapper">
+            <select id="auto-listen-rate-select" aria-label="自動リスニング 読み上げ速度">
+              <option value="0.5">0.5 倍速</option>
+              <option value="0.6">0.6 倍速</option>
+              <option value="0.7">0.7 倍速</option>
+              <option value="0.8">0.8 倍速</option>
+              <option value="0.9">0.9 倍速</option>
+              <option value="1.0" selected>1.0 倍速 (標準)</option>
+              <option value="1.1">1.1 倍速</option>
+              <option value="1.2">1.2 倍速</option>
+              <option value="1.3">1.3 倍速</option>
+              <option value="1.4">1.4 倍速</option>
+              <option value="1.5">1.5 倍速</option>
+              <option value="1.6">1.6 倍速</option>
+              <option value="1.7">1.7 倍速</option>
+              <option value="1.8">1.8 倍速</option>
+              <option value="1.9">1.9 倍速</option>
+              <option value="2.0">2.0 倍速</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="settings-group">
+          <label for="auto-listen-delay-select">次の単語へ進むまでの待機秒数</label>
+          <div class="select-wrapper">
+            <select id="auto-listen-delay-select" aria-label="次の単語へ進むまでの待機秒数">
+              <option value="1">1 秒</option>
+              <option value="2">2 秒</option>
+              <option value="3" selected>3 秒 (標準)</option>
+              <option value="4">4 秒</option>
+              <option value="5">5 秒</option>
+              <option value="6">6 秒</option>
+              <option value="7">7 秒</option>
+              <option value="8">8 秒</option>
+              <option value="9">9 秒</option>
+              <option value="10">10 秒</option>
             </select>
           </div>
         </div>
