@@ -247,6 +247,21 @@
         </div>
 
         <div class="settings-group">
+          <label for="auto-listen-flip-delay-select">日本語表示までの待機秒数</label>
+          <div class="select-wrapper">
+            <select id="auto-listen-flip-delay-select" aria-label="日本語表示までの待機秒数">
+              <option value="0" selected>0 秒 (即時)</option>
+              <option value="0.5">0.5 秒</option>
+              <option value="1">1 秒</option>
+              <option value="2">2 秒</option>
+              <option value="3">3 秒</option>
+              <option value="4">4 秒</option>
+              <option value="5">5 秒</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="settings-group">
           <label for="auto-listen-delay-select">次の単語へ進むまでの待機秒数</label>
           <div class="select-wrapper">
             <select id="auto-listen-delay-select" aria-label="次の単語へ進むまでの待機秒数">
@@ -297,7 +312,7 @@
           </div>
           <ul class="release-details">
             <li>自動リスニングモードを追加しました。英単語と例文の読み上げ、日本語訳の表示、次の単語への遷移が自動で進行します。</li>
-            <li>自動リスニング時の読み上げ速度（0.5〜2.0倍速、0.1刻み）および次の単語へ進むまでの待機秒数を設定画面からカスタマイズできるようにしました。</li>
+            <li>自動リスニング時の読み上げ速度（0.5〜2.0倍速、0.1刻み）、読み上げ終了から日本語表示（裏返し）までの待機秒数（0〜5秒）、次の単語へ進むまでの待機秒数をそれぞれ設定画面からカスタマイズできるようにしました。</li>
           </ul>
         </div>
         <div class="release-item">

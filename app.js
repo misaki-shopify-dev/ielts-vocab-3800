@@ -12,6 +12,7 @@ let currentAudio = null;
 let isAutoListening = false;
 let autoListenRate = parseFloat(localStorage.getItem('ielts_auto_listen_rate')) || 1.0;
 let autoListenDelay = parseInt(localStorage.getItem('ielts_auto_listen_delay')) || 3;
+let autoListenFlipDelay = parseFloat(localStorage.getItem('ielts_auto_listen_flip_delay')) || 0.0;
 let autoListenTimer = null;
 
 // Settings & Synchronization State
@@ -67,6 +68,7 @@ const syncStatusDot = document.getElementById('sync-status-dot');
 const syncStatusText = document.getElementById('sync-status-text');
 const ttsVoiceSelect = document.getElementById('tts-voice-select');
 const autoListenRateSelect = document.getElementById('auto-listen-rate-select');
+const autoListenFlipDelaySelect = document.getElementById('auto-listen-flip-delay-select');
 const autoListenDelaySelect = document.getElementById('auto-listen-delay-select');
 const saveSettingsBtn = document.getElementById('save-settings-btn');
 const forceUpdateBtn = document.getElementById('force-update-btn');
@@ -833,24 +835,29 @@ function speakWord(isAutoMode = false) {
     ttsBtn.classList.remove('speaking');
     
     if (isAutoMode && isAutoListening) {
-      // 1. Flip card to show back face (Japanese)
-      if (!isFlipped) {
-        toggleCardFlip(true);
-      }
-      
-      // 2. Wait specified delay and go to next word
+      // 1. Wait specified delay before flipping the card to show back face (Japanese)
       autoListenTimer = setTimeout(() => {
-        if (isAutoListening) {
-          navigate(1, true);
-          
-          // Small pause after navigation before speaking again
-          autoListenTimer = setTimeout(() => {
-            if (isAutoListening) {
-              speakWord(true);
-            }
-          }, 800);
+        if (!isAutoListening) return;
+        
+        if (!isFlipped) {
+          toggleCardFlip(true);
         }
-      }, autoListenDelay * 1000);
+        
+        // 2. Wait specified delay and go to next word
+        autoListenTimer = setTimeout(() => {
+          if (isAutoListening) {
+            navigate(1, true);
+            
+            // Small pause after navigation before speaking again
+            autoListenTimer = setTimeout(() => {
+              if (isAutoListening) {
+                speakWord(true);
+              }
+            }, 800);
+          }
+        }, autoListenDelay * 1000);
+        
+      }, autoListenFlipDelay * 1000);
     }
   };
   
@@ -951,6 +958,9 @@ function openSettings() {
   if (autoListenRateSelect) {
     autoListenRateSelect.value = autoListenRate.toFixed(1);
   }
+  if (autoListenFlipDelaySelect) {
+    autoListenFlipDelaySelect.value = autoListenFlipDelay;
+  }
   if (autoListenDelaySelect) {
     autoListenDelaySelect.value = autoListenDelay;
   }
@@ -970,6 +980,10 @@ function saveSettings() {
   if (autoListenRateSelect) {
     autoListenRate = parseFloat(autoListenRateSelect.value);
     localStorage.setItem('ielts_auto_listen_rate', autoListenRate);
+  }
+  if (autoListenFlipDelaySelect) {
+    autoListenFlipDelay = parseFloat(autoListenFlipDelaySelect.value);
+    localStorage.setItem('ielts_auto_listen_flip_delay', autoListenFlipDelay);
   }
   if (autoListenDelaySelect) {
     autoListenDelay = parseInt(autoListenDelaySelect.value);
