@@ -835,6 +835,9 @@ function speakWord(isAutoMode = false) {
     ttsBtn.classList.remove('speaking');
     
     if (isAutoMode && isAutoListening) {
+      const flipDelay = isNaN(autoListenFlipDelay) ? 0 : autoListenFlipDelay;
+      const nextDelay = isNaN(autoListenDelay) ? 3 : autoListenDelay;
+
       // 1. Wait specified delay before flipping the card to show back face (Japanese)
       autoListenTimer = setTimeout(() => {
         if (!isAutoListening) return;
@@ -855,9 +858,9 @@ function speakWord(isAutoMode = false) {
               }
             }, 800);
           }
-        }, autoListenDelay * 1000);
+        }, nextDelay * 1000);
         
-      }, autoListenFlipDelay * 1000);
+      }, flipDelay * 1000);
     }
   };
   
@@ -953,6 +956,7 @@ function populateVoicesList() {
 
 // Settings Modal Controls
 function openSettings() {
+  stopAutoListening();
   gasUrlInput.value = gasUrl;
   
   if (autoListenRateSelect) {
